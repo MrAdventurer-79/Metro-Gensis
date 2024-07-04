@@ -55,7 +55,7 @@
   MODIFIER_BASE_FUEL_GAIN_FACTOR: "Прирост энергии"
   MODIFIER_BASE_FUEL_GAIN_ADD: "Прирост энергии"
   MODIFIER_FUEL_COST: "Стоимость энергии"
-  RESOURCE_DETAILS_FUEL:2 "У нас есть  $TOTAL|H$ единиц $RESOURCE|H$ для использования.\n\nТекущее потребление: $ACTIVE_FUEL|H$\Максимальное потребление: $POTENTIAL_FUEL|H$"
+  RESOURCE_DETAILS_FUEL:2 "У нас есть  $TOTAL|H$ единиц $RESOURCE|H$ для использования.\n\nТекущее потребление: $ACTIVE_FUEL|H$\nМаксимальное потребление: $POTENTIAL_FUEL|H$"
   OOS_50:1 "Запасы энергии в стране"
   TRIGGER_FUEL_RATIO: "Коэффициент энергопотребления: "
   FLEET_HAS_FUEL_INEFFICIENT_SHIP_FOR_MISSION: "£mapicon_unit_invalid_orders  Этот парк содержит оперативные группы, работающие с неоптимальной энергоэффективностью"
