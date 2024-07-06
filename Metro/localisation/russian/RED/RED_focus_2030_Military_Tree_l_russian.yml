@@ -8,7 +8,7 @@
  RED_general_standardisation:0 "Общая стандартизация"
  RED_general_standardisation_desc:0 ""
 
- RED_new_generals: "В командный состав добавлены 2 новых генерала"
+ RED_new_generals: "В командный состав добавлены 2 новых генерала."
  RED_vinogradov_nf:0 "Наследие Силы"
  RED_vinogradov_nf_desc:0 ""
 
@@ -63,7 +63,7 @@
  RED_equipment_standardisation_option_3:0 "Выкурить ИХ"
  RED_equipment_standardisation_option_3_desc:0 ""
 
- RED_equipment_standardisation_exploit_kuznetsky_most:0 "Эксплуатация Кузнецкого моста"
+ RED_equipment_standardisation_exploit_kuznetsky_most:0 "Эксплуатация Кузнецкогоы Моста"
  RED_equipment_standardisation_exploit_kuznetsky_most_desc:0 ""
 
  RED_equipment_standardisation_scorched_earth:0 "Сжигая Мосты"
