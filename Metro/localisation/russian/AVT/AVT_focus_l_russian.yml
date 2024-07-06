@@ -1,6 +1,6 @@
 ﻿l_russian:
   AVT_introduction:0 "Первая интернациональная бригада имени Че Гевары"
-  AVT_introduction_desc:0 "Под командованием комиссара Русакова бригада раскатывает почти по всему метро, ведя подрывную деятельность и приближая войну прямо к парадному входу в рейх."
+  AVT_introduction_desc:0 "Под командованием комиссара Русакова бригада раскатывает почти по всему метро, ведя подрывную деятельность и приближая войну прямо к парадному входу в Рейх."
   
   AVT_collectivization:0 "Коллективизация"
   AVT_collectivization_desc:0 "Необходимо добиться больших успехов в надлежащей организации и управлении нашей станцией. Как мы будем бороться с властями предержащими, если не сможем эффективно сотрудничать между всеми слоями нашего общества?"
@@ -192,7 +192,7 @@
   AVT_expanding_the_depot:0 "Ремонт экипажей"
   AVT_expanding_the_depot_desc:0 ""
 
-  AVT_first_interstational_brigade:0 "Первая  механизированная интернациональная бригада"
+  AVT_first_interstational_brigade:0 "Первая механизированная интернациональная бригада"
   AVT_first_interstational_brigade_desc:0 ""
 
   AVT_inner_sphere_1:0 "Реформировать внутреннюю сферу"
@@ -256,7 +256,7 @@
   politics_thorn_in_their_side:0 "Заноза в их боку"
   politics_thorn_in_their_side_desc:0 ""
 
-  politics_join_the_red_line:0 "Присоединяйтесь к Красной линии"
+  politics_join_the_red_line:0 "Присоединяйтесь к Красной Линии"
   politics_join_the_red_line_desc:0 ""
 
   politics_death_to_fascists:0 "Смерть фашистам!"
