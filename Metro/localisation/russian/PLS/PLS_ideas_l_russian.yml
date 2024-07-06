@@ -9,3 +9,21 @@
  polis_council_desc:0 "Главным органом власти в Полисе является комитет, который управляет 4 отдельными станциями. В состав комитета входят ведущие деятели, которые когда-то были авторитетными фигурами в российском обществе. В число этих членов входят сотрудники Министерства обороны и ученые.\n\n Хотя они заботятся о выживании и сохранении человечества, они не так обеспокоены тривиальными и в остальном незначительными спорами, которые происходят в системе метро в целом, что не может способствовать достижению целей Полиса."
 
  PLS_ignorance: "Последний бастион цивилизации"
+ 
+ 
+ ####
+ polis_scavenging_gas_mask: "§YРазработка противогаза§!: [?polis_scavenging_gas_mask_modifier|.1%%+]"
+ polis_scavenging_clothing_kits: "§YРазработка комплектов одежды§!: [?polis_scavenging_clothing_kits_modifier|.1%%+]"
+ polis_scavenging_entrench_kits: "§YТехнология обучения и укрепления позиций§!: [?polis_scavenging_entrench_kits_modifier|.1%%+]"
+ polis_scavenging_infantry_tech: "§YРазработка вооружения§!: [?ppolis_scavenging_infantry_tech_modifier|.1%%+]"
+ polis_scavenging_support_tech: "§YРазработка роты орудийной поддержки§!: [?polis_scavenging_support_tech_modifier|.1%%+]"
+ polis_scavenging_tooling: "§YРазработка инструментов§!: [?polis_scavenging_tooling_modifier|.1%%+]"
+ polis_scavenging_construction: "§YСтроительтельные разработки§!: [?polis_scavenging_construction_modifier|.1%%+]"
+ polis_scavenging_casting: "§YТехнология литья§!: [?polis_scavenging_casting_modifier|.1%%+]"
+ polis_scavenging_farming: "§YСельскохозяйственные технологии§!: [?polis_scavenging_farming_modifier|.1%%+]"
+ polis_scavenging_smithing: "YИсследования по ковке§!: [?polis_scavenging_smithing_modifier|.1%%+]"
+ polis_scavenging_health: "§YСанитарные исследования§!: [?polis_scavenging_health_modifier|.1%%+]"
+ polis_scavenging_refinery: "§YИсследование нефтепереработки§!: [?polis_scavenging_refinery_modifier|.1%%+]"
+ polis_scavenging_recycling: "§YИсследование переработки сырья§!: [?polis_scavenging_recycling_modifier|.1%%+]"
+ polis_scavenging_punch_pressing: "§YИсследования штамповки§!: [?polis_scavenging_punch_pressing_modifier|.1%%+]"
+ polis_scavenging_energy: "§Исследования производства электроэнергии§!: [?polis_scavenging_energy_modifier|.1%%+]"
