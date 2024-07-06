@@ -257,10 +257,10 @@
   MDR_contact_kal_desc: ""
   MDR_government_frown_tt: "Наше ближайшее окружение будет §Rразочаровано§! установлением контакта"
 
-  MDR_contact_redline: "Поддерживайте мир с помощью Красной линии"
+  MDR_contact_redline: "Поддерживайте мир с помощью Красной Линии"
   MDR_contact_redline_desc: ""
 
-  MDR_contact_hansa: "Свяжитесь с Ганзейским союзом"
+  MDR_contact_hansa: "Свяжитесь с Ганзейским Союзом"
   MDR_contact_hansa_desc: ""
 
   MDR_politics_oligarch: "Победа олигарха"
@@ -319,13 +319,4 @@
 
   MDR_politics_council_3: "Перековать республику заново"
   MDR_politics_council_3_desc: ""
-
-
-
-
-
-
-
-
-
 
