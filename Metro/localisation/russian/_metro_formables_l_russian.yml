@@ -3,7 +3,7 @@
 
   arbat_stalker_authority: "Власть Сталкеров Арбата"
   
-  arbat_stalker_authority_formable_tooltip:0 "\n§gМы будем претендовать на все станции и тоннели, которые когда-то принадлежали§! §YЕвропе§! §gили§! §YЧервепоклонникам§!"
+  arbat_stalker_authority_formable_tooltip:0 "\n§gМы будем претендовать на все станции и тоннели, которые когда-то принадлежали§! §YЕвропе§! §gили§! §YЧервепоклонникам!§!"
   
   domain_of_hell: "§RАд на Земле§!"
 
@@ -59,7 +59,7 @@
   HUL_voikov_commonwealth_ADJ: "Анархистов"
   voikov_commonwealth: "Войковсое Содружество"
 
-  own_all_states_on_mother_line: "Мы оккупировали §YВСЕ территории§! на §Yлинии§!, где располагается наша столица §Y[ROOT.Capital.GetName]!§!."
+  own_all_states_on_mother_line: "Мы оккупировали §YВСЕ территории§! на §Yлинии§!, где располагается наша столица §Y[ROOT.Capital.GetName]!§!"
   no_already_formation: "Ни одна другая конкурирующая держава не пыталась сформировать эту линию."
 
   form_zamoskvoretskaya_line: "Сформировать §YЗамоскворецкую линию§!"
@@ -93,6 +93,4 @@
   form_lyublinsko_dmitrovskaya_line: "Сформировать §YЛюблинско-Дмитровскую линию§!"
   11_strat_name: "Люблинско-Дмитровская"
   11_strat_name_DEF: "Люблинско-Дмитровская линия"
-
-
 
