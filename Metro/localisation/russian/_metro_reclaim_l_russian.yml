@@ -3,7 +3,6 @@
 
  reclaim_metro_category: "Заселение заброшенных станций"
  reclaim_metro: "Заселение Метро"
- reclaim_this_state: "Заселение территории"
 
  reclaimation_underway: "Ведется попытка заселения"
  state_being_colonised: "В настоящее время проводится колонизация"
@@ -12,7 +11,7 @@
  reclaim_metro_category_desc: "Мы можем исследовать некоторые туннели и станции, с которыми мы граничим, и заселить их нашими поселенцами."
 
  reclaim_timed_decision: "Таймер заселения региона"
- reclaim_timed_decision_desc: "Сейчас мы занимаем регион, но нам нужно будет сделать больше, чтобы расширить наше влияние.\n\n  Текущее усилие: [?reclaim_cost|H0]\n  Необходимое усилие:  [?Root.reclaim_cost_requirement|H0]"
+ reclaim_timed_decision_desc: "Сейчас мы занимаем регион, но нам нужно будет сделать больше, чтобы расширить наше влияние.\n\n  Текущий уровень заселения: [?reclaim_cost|H0]\n  Необходимый уровень заселения:  [?Root.reclaim_cost_requirement|H0]"
 
  reclaim_cost_text: "£icon_manpower"
  reclaim_cost_text_blocked: "§R[?reclaim_cost|0R]§!"
@@ -20,8 +19,8 @@
  reclaim_manpower_10:0 "£manpower_texticon  §Y10§!"
  reclaim_manpower_10_blocked:0 "£manpower_texticon  §R10§!"
 
- reclaim_cost_10: "§YЗаселение§! увеличено на §Y10§!."
- reclaim_cost_15: "§YЗаселение§! увеличено на §Y15§!."
+ reclaim_cost_10: "§YПрогресс заселения§! увеличен на §Y10§!."
+ reclaim_cost_15: "§YПрогресс заселения§! увеличен на §Y15§!."
 
  reclaim_cost_text: "§Y[?reclaim_cost|H0]§!"
  reclaim_cost_text_blocked: "§R[?reclaim_cost|0R]§!"
@@ -34,7 +33,7 @@
 
  reclaim_relocate_citizens: "Переселить граждан"
  
- reclaim_remove_tunnel_blockers: "Убрать блокиратор туннелей"
+ reclaim_remove_tunnel_blockers: "Расчистить заваленные тунели"
  reclaim_remove_tunnel_blockers_desc: ""
 
  reclaim_state_remove_isolationism: "Расширять границы"
@@ -44,13 +43,13 @@
  execute_scavenge_mission_free: "Выполнить миссию по уборке мусора"
 
  reclaimation_event.2.t: "Территория отвоевана"
- reclaimation_event.2.d: "Команда колонизаторов, которую мы отправили в Метро, вернулась с победой, успешно захватив  часть Метро, способствуя нашему прогрессу и общему делу".
- reclaimation_event.2.a: "Установите периметр! Я хочу, чтобы это место было защищено"
+ reclaimation_event.2.d: "Команда колонизаторов, которую мы отправили в Метро, вернулась с победой, успешно захватив  часть Метро, способствуя нашему прогрессу и общему делу."
+ reclaimation_event.2.a: "Установите периметр! Я хочу, чтобы это место было защищено."
  reclaimation_event.2_tt: "Территория переходит под наш контроль, но мы должны еще больше обезопасить государство, чтобы интегрировать его в нашу сферу. Будет активирована §Yвременная миссия§!, и мы должны выполнить определенные условия, чтобы полностью заселить регион. Если мы этого не сделаем, §Yрегион будет потерян§!."
  
  reclaimation_event.mutants.t: "Атаки мутантов"
  reclaimation_event.mutants.d: "Команда по колонизации, которую мы отправили в Метро, подверглась жестокому нападению диких мутантов. Большая часть команды была убита, те немногие, кому удалось спастись, получили ранения или остались в шрамах на всю жизнь. Эта потеря не будет напрасной!"
- reclaimation_event.mutants.a: "Печальный день"
+ reclaimation_event.mutants.a: "Печальный день."
  
  reclaimation_event.3.t: "Потеря в Метро"
  reclaimation_event.3.d: "Мы ничего не слышали о команде колонизации с тех пор, как они отправились в туннели. Прошло уже несколько дней, и мы должны предположить, что команда потеряна."
