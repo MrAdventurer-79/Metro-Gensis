@@ -26,12 +26,19 @@
 
  ## CIVICS ##
 
- civics_work_ethics_cost_factor:0 "Фактор затрат на трудовую этику"
- civics_child_labour_cost_factor:0 "Фактор затрат на соблюдение этики детского труда"
- civics_support_cost_factor:0 "Фактор затрат на поддержку населения"
- civics_property_cost_factor:0 "Фактор затрат на содержание личной собственности"
- civics_border_cost_factor:0 "Фактор затрат этики на обеспечение безопасности границ"
- civics_education_cost_factor:0 "Фактор затрат на образование"
+ civics_work_ethics_cost_factor: "Фактор затрат на трудовую этику"
+ civics_child_labour_cost_factor: "Фактор затрат на соблюдение этики детского труда"
+ civics_support_cost_factor: "Фактор затрат на поддержку населения"
+ civics_property_cost_factor: "Фактор затрат на содержание личной собственности"
+ civics_border_cost_factor: "Фактор затрат этики на обеспечение безопасности границ"
+ civics_education_cost_factor: "Фактор затрат на образование"
+ 
+ civics_work_ethics: "Трудовая этика"
+ civics_child_labour: "Этика детского труда"
+ civics_support: "Поддержка населения"
+ civics_property: "Содержание личной собственности"
+ civics_border: "Обеспечение безопасности границ"
+ civics_education: "Образование"
  
  civics: "Политика и этика"
 
