@@ -67,7 +67,7 @@ savage_ranged_equipment_5_tech_desc: "Крепление мундштука к �
 
 ## PAG ##
 
-PAG_savage_ranged_equipment_2_tech: "Бородатый топор"
+PAG_savage_ranged_equipment_2_tech: "Топор седоборода"
 PAG_savage_ranged_equipment_2_tech_desc: ""
 
 PAG_savage_ranged_equipment_3_tech: "Точильный камень"
@@ -111,19 +111,3 @@ GWC_unique_tech_3:0 "Перепрофилированные инструмент
 GWC_unique_tech_3_desc:0 ""
 GWC_unique_tech_4:0 "В центре внимания"
 GWC_unique_tech_4_desc:0 ""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
