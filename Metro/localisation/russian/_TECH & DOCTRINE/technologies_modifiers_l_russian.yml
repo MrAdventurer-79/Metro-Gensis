@@ -71,19 +71,19 @@
   
   basic_flamethrower_tech: "Базовая технология огнемета"
 
-  savage_research: "§YТехнология дикарей§!"
-  savage: "§YТехнология дикарей§!"
-  savage_weapons_research: "§YТехнология оружия дикарей§!"
+  savage_research: "§YТехнологии дикарей§!"
+  savage: "§YТехнологии дикарей§!"
+  savage_weapons_research: "§YРазработка оружия дикарей§!"
   savage_weapons: "§YОружие дикарей§!"
-  savage_society_research: "§YТехнология дикарского общества§!"
+  savage_society_research: "§YТехнологии дикарского общества§!"
   savage_society: "§YДикарское общество§!"
-  savage_military_research: "§YSavage Military Tech§!"
-  savage_military: "§YSavage Military§!"
-  savage_spec_ops_research: "§YSavage Elites Tech§!"
-  savage_spec_ops: "§YSavage Elites§!"
-  savage_support_research: "§YSavage Support Tech§!"
-  savage_support: "§YSavage Support§!"
-  savage_equipment_research: "§YSavage Weapons Tech§!"
+  savage_military_research: "§YТехнологии военных дикарей§!"
+  savage_military: "§YВоенные дикарей§!"
+  savage_spec_ops_research: "§YРазработка спецназа дикарей§!"
+  savage_spec_ops: "§YСпецназ дикарей§!"
+  savage_support_research: "§YРазработка рот поддержки дикарей§!"
+  savage_support: "§YПоддержка дикарей§!"
+  savage_equipment_research: "§YРазработка оружия дикарей§!"
    
 
 
