@@ -735,9 +735,10 @@ guiTypes = {
 			font = "hoi_18mbs"
 			borderSize = {x = 5 y = 0}
 			text = "Description"
-			maxWidth = 485
-			maxHeight = 70
+			maxWidth = 470
+			maxHeight = 110
 			format = center
+			scrollbartype = "standardtext_slider"
 		}
 
 		iconType = {
@@ -753,9 +754,10 @@ guiTypes = {
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "FOCUS_REWARD"
-			maxWidth = 485
-			maxHeight = 70
+			maxWidth = 470
+			maxHeight = 110
 			format = center
+			scrollbartype = "standardtext_slider"
 		}
 		
 		instantTextboxType = {
