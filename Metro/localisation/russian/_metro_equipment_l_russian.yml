@@ -232,9 +232,9 @@
   special_forces_equipment_spetnaz_desc: "Снаряжение Сил Специальных Операций"
   special_forces_equipment_spetnaz_short: "Снар. ССО"
 
-  special_forces_equipment_riot: "Снаряжение ОМОН"
-  special_forces_equipment_riot_desc: "Снаряжение Отряда Милиции Особого Назначения "
-  special_forces_equipment_riot_short: "Снар. ОМОН"
+  riot_shield_equipment_1: "Снаряжение ОМОН"
+  riot_shield_equipment_1_desc: "Снаряжение Отряда Милиции Особого Назначения "
+  riot_shield_equipment_1_short: "Снар. ОМОН"
 
 
   ## Unique Equipment Variants 
