@@ -1,8 +1,4 @@
 ﻿l_russian:
- BULLETS_TOOLTIP_BASE:0 "[?bullet]"
- BULLETS_MAIN:0 "[?bullet]"
- BULLETS_TOOLTIP:0 "Еженедельный доход §G[?net_income]§! Ящики с боеприпасами.\n\nВаловой доход §G[?gross_income]§!\nЕженедельная прибыль от сборов за станцию §G[?num_controlled_stations]§!\nЕженедельная прибыль от налогов мастерских §G[?количество доступных гражданских заводов]§!\n\nЕженедельные расходы на зарплату в армии  §R[?num_of_available_civilian_factories]§! \n\n Пули образуют валюту в метро. Пули можно получить за счет §Yналога со станции§! и §Yпромышленного комплекса§! дочерних компаний. Они также могут быть использованы в событиях и решениях."
- ##[Root.GetBulletsTooltip]## для будущей ссылки
 
  metro_ruins:0 "Руины метро"
  metro_ruins_desc:0 "Неисчислимые километры следов, бесчисленное множество извилистых и плетеных переходов, проникающих в темные уголки земли и тьма, забытая и полная беспокойных душ. Теперь это твой дом."
@@ -19,16 +15,6 @@
  tech_punch_press_3: "Хорошая штамповка деталей" 
  
  tech_punch_press_4: "Усовершенствованная штамповка деталей"
-
- metro_rat_infestation: "Крысиное нашествие"
-
- metro_caravan_ambush: "Засада на караван"
-
- metro_fallow_crops: "Неурожай"
-
- metro_the_good_stuff: "Хорошие находки"
- 
- metro_swords_to_ploughs: "От меча к плугу"
 
  ## Scavenging Rewards ## 
 
@@ -64,24 +50,34 @@
  scav_reward_resource_scrap_timed_idea:0 "Тайник лома"
  scav_reward_resource_scrap_timed_idea_desc:0 ""
 
- scav_reward_resource_electronics_timed_idea:0 "Тайник сплавов"
- scav_reward_resource_electronics_timed_idea_desc:0 ""
+ scav_reward_resource_alloys_timed_idea:0 "Тайник сплавов"
+ scav_reward_resource_alloys_timed_idea_desc:0 ""
 
- country_resource_electronics:0 "Электроника"
- country_resource_electronics_desc:0 ""
+ scav_reward_resource_electronics_timed_idea:0 "Электроника"
+ scav_reward_resource_electronics_timed_idea_desc:0 ""
 
  scav_reward_resource_components_timed_idea:0 "Сундук с компонентами"
- scav_reward_resource_electronics_timed_idea_desc:0 ""
+ scav_reward_resource_components_timed_idea_desc:0 ""
 
  scav_reward_resource_chemicals_timed_idea:0 "Химический тайник"
  scav_reward_resource_chemicals_timed_idea_desc:0 ""
  
- scav_reward_resource_scrap_timed_idea: "Тайник лома"
+ ## Система запрета использования огнеметов ##
 
- scav_reward_resource_alloys_timed_idea: "Тайник сплавов"
+ flamethrower_restriction_ban:0 "Введены ограничения на использование огнеметов"
+ flamethrower_restriction_ban_desc:0 "Несмотря на то, что использование §Yогнеметов§! само по себе не запрещено, на использование их против других людей-комбатантов смотрят крайне свысока.\n Учитывая интенсивное использование §Yогнеметов§! во время §CВойны между Ганзой и Красной линии§! с обеих сторон, мирный договор в §Y[361.getName]§! запретил использование огнеметов в качестве средства ведения боевых действий в любом крупномасштабном масштабе."
 
- scav_reward_resource_electronics_timed_idea: "Тайник электроники"
+ flamethrower_ban: "\nПоскольку мы являемся участниками этого соглашения, скорость наших исследований §Yогнеметов§! §Rограничена!§!\n"
+ lifting_flamethrower_restriction_ban: "\nСтраны будут §Rнегативно§! реагировать на отмену ограничений!\n\n"
+ 
+ GENERIC_inexperienced_military_4: "Неопытные инженеры"
+ GENERIC_inexperienced_military_4_desc: "Благодаря относительной безопасности станций, расположенных на восточной линии метро, они предназначены для гражданского производства и производства продуктов питания, а не для использования в военных целях. Что негативно сказывается на востребованности квалифицированных инженеров и оружейников на Востоке."
 
- scav_reward_resource_components_timed_idea: "Тайник компонентов"
+ GENERIC_inexperienced_military_3: "Нехватка технического персонала".
+ GENERIC_inexperienced_military_3_desc: ""
 
- scav_reward_resource_chemicals_timed_idea: "Тайник химикатов"
+ GENERIC_inexperienced_military_2: "Незначительные технические навыки"
+ GENERIC_inexperienced_military_2_desc: ""
+
+ GENERIC_inexperienced_military_1: "Начинающие инженеры"
+ GENERIC_inexperienced_military_1_desc: ""
