@@ -1,5 +1,5 @@
 ﻿l_russian:
- EFFECT_CREATE_UNIT_LOCATION: "Создать $OWNER|H$ боевую единицу в регионе $STATE|H$\n"
+ EFFECT_CREATE_UNIT_LOCATION: "Создать боевую единицу $OWNER|H$ в регионе $STATE|H$\n"
  EFFECT_CREATE_UNIT_WITH_COUNT: "Создать боевую единицу $OWNER|H$ ($COUNT|H$)"
  EFFECT_CREATE_UNIT_LOCATION_WITH_COUNT: "Создать боевую единицу $OWNER|H$ ($COUNT|H$) в регионе $STATE|H$\n"
  EFFECT_CREATE_RAILWAY_GUN: "Создать железнодорожное орудие ($OWNER|H$)"
