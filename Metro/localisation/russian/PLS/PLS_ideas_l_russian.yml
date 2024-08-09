@@ -80,11 +80,16 @@
  PLS_safekeepers_of_humanity_3: "Мы поднимаемся из Тьмы"
  PLS_safekeepers_of_knowledge: "Хранители знаний"
  PLS_rid_mutants: "Избавление от мутантов"
- PLS_rid_bandits: "Очищать бандитов"
+ PLS_rid_bandits: "Зачистка головорезов"
  PLS_rid_authoritarians: "Бросить вызов авторитариям"
  PLS_tool_procurement: "Закупка инструментов"
  PLS_efficient_tools: "Эффективные инструменты"
  PLS_conscription: "Призыв на военную службу низших каст"
+ PLS_rage_against_the_dying_light: "Гнев против угасания света"
+ PLS_council_pass_new_legislation_economic_laws: "Принятие экономического закона"
+ PLS_council_pass_new_legislation_military_laws: "Принятие военного закона"
+ PLS_brahmin_unimpeded_research: "Беспрепятственное исследование"
+ PLS_council_spec_ops: "Ультрасовременная переделка"
  
  ####
  polis_scavenging_gas_mask: "§YРазработка противогаза§!: [?polis_scavenging_gas_mask_modifier|.1%%+]"
