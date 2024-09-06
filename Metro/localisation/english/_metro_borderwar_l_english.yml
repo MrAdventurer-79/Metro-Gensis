@@ -44,7 +44,7 @@
  borderwar_introduction.0.d: "Reports from the frontline indicate the enemy are mobilising strength and plan to attack."
  borderwar_introduction.0.a: "Scatter the enemy! All units mobilize!"
 
- RED_RCH_borderwar_mechanic:0 "The §Y[RED.GetFlag][RED.GetName]§! and §Y[RCH.GetFlag][RCH.GetName]§! are pitted in an eternal war against one another. Both sides have the ability to conduct §YBorder Raids§! on the tunnel systems between §Y[306.GetID]§! and §Y[330.GetID]§! through §YDecisions§!. Accomplishing successful border wars will result in the tunnels control being flipped. If a border-conflict is fought on a station, and the defenders lose then the conflict will escalate into §RWar§!" 
+ RED_RCH_borderwar_mechanic: "The §Y[RED.GetFlag][RED.GetName]§! and §Y[RCH.GetFlag][RCH.GetName]§! are pitted in an eternal war against one another. Both sides have the ability to conduct §YBorder Raids§! on the tunnel systems between §Y[306.GetName]§! and §Y[330.GetName]§! through §YDecisions§!. Accomplishing successful border wars will result in the tunnels control being flipped. If a border-conflict is fought on a station, and the defenders lose then the conflict will escalate into §RWar§!!" 
 
  border_conflict_won_attacker.1.t: "Border conflict resolved in victory"
  border_conflict_won_attacker.1.desc: ""
@@ -68,19 +68,17 @@
 
  border_conflict_canceled_defender.1.t: "Attackers wittled down"
  border_conflict_canceled_defender.1.desc: ""
- border_conflict_canceled_defender.1.a: "Good"
+ border_conflict_canceled_defender.1.a: "Good."
 
  border_incident_defender_warning.1.t: "Enemies at the Gate"
  border_incident_defender_warning.1.desc: ""
- border_incident_defender_warning.1.a: "Okay"
+ border_incident_defender_warning.1.a: "Okay."
 
  border_conflict_escalation.1.t: "Escalating Border Conflict"
  border_conflict_escalation.1.desc: "we"
- border_conflict_escalation.1.a: "Okay"
+ border_conflict_escalation.1.a: "Okay."
 
  border_conflict_escalate_to_war.1.t: "Escalation to War"
  border_conflict_escalate_to_war.1.desc: ""
- border_conflict_escalate_to_war.1.a: "Okay"
+ border_conflict_escalate_to_war.1.a: "Okay."
  
-
-

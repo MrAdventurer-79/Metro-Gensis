@@ -44,7 +44,7 @@
  borderwar_introduction.0.d: "Сообщения с передовой указывают на то, что враг собирает силы и планирует атаку".
  borderwar_introduction.0.a: "Рассеять врага! Всем подразделениям мобилизоваться!"
 
- RED_RCH_borderwar_mechanic:0 "§Y[RED.GetFlag][RED.GetName]§! и §Y[RCH.GetFlag][RCH.GetName]§!находятся в состоянии вечной войны друг с другом. Обе стороны имеют возможность вести §YПограничные рейды§! в системах туннелей между §Y[306.GetID]§! и §Y[330.GetID]§! через §Yрешения§!. Успешное ведение пограничных войн приведет к потере контроля над туннелями. Если на станции произойдет пограничный конфликт и защитники проиграют, то конфликт перерастет в §RВойну§!" 
+ RED_RCH_borderwar_mechanic: "§Y[RED.GetFlag][RED.GetName]§! и §Y[RCH.GetFlag][RCH.GetName]§!находятся в состоянии вечной войны друг с другом. Обе стороны имеют возможность вести §YПограничные рейды§! в системах туннелей между станциями §Y[306.GetName]§! и §Y[330.GetName]§! через §Yрешения§!. Успешное ведение пограничных войн приведет к потере контроля над туннелями. Если на станции произойдет пограничный конфликт и защитники проиграют, то конфликт перерастет в §RВойну§!!" 
 
  border_conflict_won_attacker.1.t: "Пограничный конфликт разрешен победой"
  border_conflict_won_attacker.1.desc: ""
@@ -68,19 +68,17 @@
 
  border_conflict_canceled_defender.1.t: "Нападавшие отступили"
  border_conflict_canceled_defender.1.desc: ""
- border_conflict_canceled_defender.1.a: "Хорошо"
+ border_conflict_canceled_defender.1.a: "Хорошо."
 
  border_incident_defender_warning.1.t: "Враги у ворот"
  border_incident_defender_warning.1.desc: ""
- border_incident_defender_warning.1.a: "Хорошо"
+ border_incident_defender_warning.1.a: "Хорошо."
 
  border_conflict_escalation.1.t: "Эскалация пограничного конфликта"
  border_conflict_escalation.1.desc: ""
- border_conflict_escalation.1.a: "Хорошо"
+ border_conflict_escalation.1.a: "Хорошо."
 
  border_conflict_escalate_to_war.1.t: "Эскалация до войны"
  border_conflict_escalate_to_war.1.desc: ""
- border_conflict_escalate_to_war.1.a: "Хорошо"
+ border_conflict_escalate_to_war.1.a: "Хорошо."
  
-
-
