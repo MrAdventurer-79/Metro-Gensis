@@ -28,6 +28,7 @@ ideas = {
 				mobilization_laws_cost_factor = 0.4
 				economy_cost_factor = 0.6
 				civics_work_ethics_cost_factor = 0.6
+				custom_modifier_tooltip = RCH_reclusive_state_tt
 	        }
 		}
 
@@ -132,9 +133,188 @@ ideas = {
 			on_remove = { clr_country_flag = disable_reclaimation_mechanic }
 
 			modifier = {	
-				party_popularity_stability_factor = -0.2
-				political_power_gain = -0.2
+				party_popularity_stability_factor = -0.25
+				political_power_gain = -0.25
 				custom_modifier_tooltip = disable_reclaimation_mechanic
+	        }
+		}
+
+		ULI_rising_tension = {
+		picture = ULI_polezhaevsky_incident
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				political_power_gain = -0.15
+				stability_weekly  = -0.005
+			}
+		}
+
+		ULI_1905_women_soldiers = {
+			picture = ULI_education
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				weekly_manpower = 2
+				war_support_weekly = 0.004
+				monthly_population = -0.1
+				conscription = -0.02
+	        }
+		}
+
+		ULI_1905_revaunchism = {
+			picture = ULI_education
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				war_support_weekly = 0.004
+				justify_war_goal_time = -0.1
+				mobilization_laws_cost_factor = -0.2
+				economy_cost_factor = -0.2
+	        }
+		}
+
+		ULI_rage_rage_rage = {
+			picture = ULI_education
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				war_support_weekly = 0.004
+				stability_weekly  = 0.004
+	        }
+		}
+
+		ULI_stalkers = {
+			picture = ULI_education
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				production_lack_of_resource_penalty_factor = -0.1 
+				country_resource_scrap = 10
+				country_resource_chemicals = 10
+				country_resource_electronics = 10
+				country_resource_components = 10
+				country_resource_alloys = 10
+	        }
+		}
+
+		ULI_rebuild_relief_fund = {
+			picture = ULI_education
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				tax_efficiency_modifier = 0.1
+				consumer_goods_factor = -0.1
+	        }
+		}
+
+		ULI_rebuild_seek_external = {
+			picture = ULI_education
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				production_speed_buildings_factor = 0.1
+				bullet_income_factor_from_exports = 0.2
+				consumer_goods_income_factor = 0.2
+				free_factories_income_factor = 0.2
+				bullet_expense_factor_from_imports = -0.2
+	        }
+		}
+
+		ULI_trade_west = {
+			picture = ULI_education
+
+			allowed = {
+				NOT = { has_completed_focus = satellite_kick_out_foreign_merchants }
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				bullet_income_from_ideas = 25
+				production_speed_industrial_complex_factor = 0.05
+	        }
+		}
+
+		ULI_conscription_rounds = {
+			picture = ULI_education
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				conscription = 0.02
+	        }
+		}
+
+		ULI_fuel_sell = {
+			picture = ULI_education
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				bullet_income_from_ideas = 25
+				stability_factor = -0.05
+	        }
+		}
+
+		ULI_fuel_forfeit = {
+			picture = ULI_education
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				max_fuel_factor = 0.5
+				base_fuel_gain = 72
+				stability_factor = -0.1
+	        }
+		}
+
+		ULI_building = {
+			picture = ULI_education
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				production_speed_buildings_factor = 0.1
 	        }
 		}
 	}

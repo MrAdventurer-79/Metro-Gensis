@@ -16,6 +16,7 @@ reclaim_metro = {
 					has_idea = ARB_devastation
 					has_idea = bump_in_the_night
 					has_idea = PLS_ignorance
+					has_idea = ULI_1905_station_factionalism
 					has_country_flag = disable_reclaimation_mechanic
 				}
 				original_tag = GWC
@@ -296,8 +297,20 @@ reclaim_metro = {
 				factor = 0.05
 			}
 			modifier = {
+				add = -10
 				num_of_controlled_states < 3
-				factor = 0.01
+			}
+			modifier = {
+				add = 5
+				original_tag = GWC
+			}
+			modifier = {
+				add = 5
+				original_tag = SEV
+			}
+			modifier = {
+				add = 5
+				original_tag = STB
 			}
 		}
     }
@@ -597,9 +610,7 @@ reclaim_metro = {
 
 	reclaim_timed_decision = {
 		activation = { always = no }
-		available = { 
-			hidden_trigger = { always = no } 
-		}
+		available = { }
 		is_good = no
 		days_mission_timeout = 45
 		selectable_mission = yes
@@ -626,10 +637,11 @@ reclaim_metro = {
 						compare = greater_than_or_equals  
 					}
 				}
-			}
-			ELSE = {
 				RUI = { transfer_state = ROOT.state_colonised_id }
 			}
+		}
+		complete_effect = {
+			ROOT = { clr_country_flag = reclaimation_underway clr_country_flag = reclaim_mission_activated }
 		}
 	}
 
@@ -1227,7 +1239,7 @@ hunt_for_D6 = {
 				has_country_flag = is_bandit_nation
 			}
 			modifier = {
-				factor = 1.5
+				factor = 2.5
 				original_tag = RCH
 				original_tag = RED
 				original_tag = HNZ
