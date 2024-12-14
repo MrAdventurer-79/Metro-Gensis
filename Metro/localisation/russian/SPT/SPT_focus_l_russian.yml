@@ -15,40 +15,29 @@
 
  SPT_the_sensible_plan: "Маленький город на севере"
  SPT_the_sensible_plan_desc: ""
-
  SPT_run_circles_around_spartak: "Трубопровод, ведущий на поверхность"
  SPT_run_circles_around_spartak_desc: ""
-
  SPT_trade_on_the_down_low: "Торгуйте на минимуме"
  SPT_trade_on_the_down_low_desc: ""
-
  SPT_a_slice_of_our_home_in_tushino: "Кусочек дома в Тушино"
  SPT_a_slice_of_our_home_in_tushino_desc: ""
-
  SPT_joint_planning: "Совместное планирование"
  SPT_joint_planning_desc: ""
-
  SPT_give_the_order: "Отдать приказ"
  SPT_give_the_order_desc: ""
-
  SPT_tushinos_safety_secured: "Безопасность Тушино обеспечена"
  SPT_tushinos_safety_secured_desc: ""
- 
  SPT_set_up_shop_in_the_south: "Открыть магазин на юге"
  SPT_set_up_shop_in_the_south_desc: ""
-
  SPT_deploy_the_pagan_killers: "Праздник для парней"
  SPT_deploy_the_pagan_killers_desc: ""
  
  SPT_the_mayday_gamble: "Первомайская авантюра"
  SPT_the_mayday_gamble_desc: ""
- 
  SPT_purchase_their_arms: "Купить их оружие"
  SPT_purchase_their_arms_desc: ""
-
  SPT_send_off_the_recruits: "Отправьте им наших новобранцев"
  SPT_send_off_the_recruits_desc: ""
- 
  SPT_trouble_at_the_gate: "Неприятности на Первомайской"
  SPT_trouble_at_the_gate_desc: ""
  
@@ -225,6 +214,8 @@
  SPT_armory_8_desc: ""
  SPT_armory_9: "Рейнджеры прокладывают путь"
  SPT_armory_9_desc: ""
+ SPT_armory_9a: "Старые Ворчуны"
+ SPT_armory_9a_desc: ""
  SPT_armory_10: "Обширная подготовка"
  SPT_armory_10_desc: ""
  SPT_armory_12: "Обширная мудрость"
@@ -234,13 +225,25 @@
  SPT_armory_13: "Идеализированная меритократия"
  SPT_armory_13_desc: ""
  
- SPT_fire_and_fury: "Огонь и ярость"
- SPT_fire_and_fury_desc: ""
- SPT_peacekeeping_on_the_sokol: "Миротворчество на Соколе"
- SPT_peacekeeping_on_the_sokol_desc: ""
- SPT_every_man_some_gauze: "Каждому человеку немного марли"
- SPT_every_man_some_gauze_desc: ""
- SPT_anti_tank_training: "Противотанковая подготовка"
- SPT_anti_tank_training_desc: ""
- SPT_downfall_once_more: "Опять падение"
- SPT_downfall_once_more_desc: ""
+ SPT_yasenevskaya_help: "Режим Калужского радиуса (Юга Калужско-Рижской линии)"
+ SPT_yasenevskaya_help_desc: "Далеко на юге находится изолированная Ясеневская община. Окутанная мифами и слухами, где посетителей строго ограждают. Отчеты указывают на то, что они существуют со времен ядерного холокоста. В последние годы они отбивались от набегов бандитов. Но что сейчас? Кажется, что война между ними обязательно разразится."
+ SPT_yasenevskaya_1: "Переговоры о напряженности"
+ SPT_yasenevskaya_1_desc: ""
+ SPT_yasenev_heal_mob: "Мы попытаемся наладить отношения между государствами §Y[MOB.GetFlag][MOB.GetName]§! и §Y[YAS.GetFlag][YAS.GetName]§!."
+ SPT_yasenevskaya_2: "Освободить Северные пути"
+ SPT_yasenevskaya_2_desc: ""
+ SPT_yasenev_war_mob: "Мы поможем государству §Y[YAS.GetFlag][YAS.GetName]§! устранить угрозу §Y[MOB.GetFlag][MOB.GetAjective]§!, преследующую север Калужского радиуса."
+ SPT_yasenevskaya_3: "Совместное финансирование вооружений"
+ SPT_yasenevskaya_3_desc: ""
+ SPT_yasenevskaya_4: "Поделитесь техническими секретами"
+ SPT_yasenevskaya_4_desc: ""
+ SPT_yasenevskaya_5: "Местная торговля карри"
+ SPT_yasenevskaya_5_desc: ""
+ SPT_yasenevskaya_6: "Разжигание конфликта"
+ SPT_yasenevskaya_6_desc: ""
+ SPT_yasenevskaya_7: "Продажа старого оружия"
+ SPT_yasenevskaya_7_desc: ""
+ SPT_yasenevskaya_8: "Дозор освобождения"
+ SPT_yasenevskaya_8_desc: "Поскольку бандиты Калужского радиуса больше не представляют существенной угрозы, теперь необходимо восстановление. Мы будем наблюдать за коллективными усилиями по восстановлению мира на этом радиусе, гарантируя, что передача власти пройдет гладко и без кровопролития."
+ SPT_yasenevskaya_9: "Мир на Калужском радиусе"
+ SPT_yasenevskaya_9_desc: ""
