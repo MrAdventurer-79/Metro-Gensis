@@ -1,0 +1,113 @@
+communist_rename_decisions = {
+	communist_rename_teatralnaya = {
+		icon = eng_propaganda_campaigns
+
+		visible = {
+       		OR = {
+				original_tag = AVT
+				original_tag = ULI
+				original_tag = KUZ
+				original_tag = BRL
+				has_cosmetic_tag = EUR_oligarch_DDR
+				AND = { 
+					original_tag = RED
+					has_completed_focus = RED_2030
+				}
+			}
+		}
+
+		available = {
+			330 = { is_owned_by = ROOT }
+			330 = { NOT = { has_state_flag = state_was_renamed } }
+		}
+
+		complete_effect = {
+			FROM = {
+				country_event = communist_rename_event.1
+			}
+		}
+
+		ai_will_do = { base = 250 }
+	}
+	communist_rename_aleksandrovsky_sad = {
+		icon = eng_propaganda_campaigns
+		
+		available = {
+			244 = { is_owned_by = ROOT }
+			244 = { NOT = { has_state_flag = state_was_renamed } }
+		}
+
+		visible = {
+       		OR = {
+				original_tag = AVT
+				original_tag = ULI
+				original_tag = KUZ
+				original_tag = BRL
+				has_cosmetic_tag = EUR_oligarch_DDR
+				AND = { 
+					original_tag = RED
+					has_completed_focus = RED_2030
+				}
+			}
+		}
+
+		complete_effect = {
+			FROM = {
+				country_event = communist_rename_event.2
+			}
+		}
+
+		ai_will_do = { base = 250 }
+	}
+}
+
+generic_rename_decisions = {
+	generic_rename_teatralnaya = {
+		icon = eng_propaganda_campaigns
+
+		visible = { 
+			NOT = { original_tag = AVT } 
+			NOT = { original_tag = ULI }
+			NOT = { original_tag = KUZ }
+			NOT = { has_country_flag = is_communist_nation }
+			NOT = { has_country_flag = EUR_oligarch_DDR }
+		}
+
+		available = {
+			330 = { is_owned_by = ROOT }
+			330 = { has_state_flag = state_was_renamed }
+		}
+
+		complete_effect = {
+			FROM = {
+				country_event = generic_rename_event.1
+			}
+		}
+
+		ai_will_do = { base = 250 }
+	}
+	generic_rename_aleksandrovsky_sad = {
+		icon = eng_propaganda_campaigns
+
+		visible = { 
+			NOT = { original_tag = AVT } 
+			NOT = { original_tag = ULI }
+			NOT = { original_tag = KUZ }
+			NOT = { has_country_flag = is_communist_nation }
+			NOT = { has_country_flag = EUR_oligarch_DDR }
+		}
+
+		available = {
+			244 = { is_owned_by = ROOT }
+			244 = { has_state_flag = state_was_renamed }
+		}
+		
+		complete_effect = {
+			FROM = {
+				country_event = generic_rename_event.2
+			}
+		}
+
+		ai_will_do = { base = 250 }
+	}
+}

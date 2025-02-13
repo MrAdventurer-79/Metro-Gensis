@@ -1,0 +1,41 @@
+﻿l_english:
+### Generic ###
+  state_was_renamed: "The state was renamed"
+
+ #Decisions#
+  generic_rename_decisions: "Rebuilding"
+
+  generic_rename_teatralnaya: "Rename station: §O[330.GetName]§!"
+  generic_rename_aleksandrovsky_sad: "Rename station: §O[244.GetName]§!"
+
+ #Events#
+
+  generic_rename_event.1.t: "Rename station: [330.GetName]"
+  generic_rename_event.1.d: "As a result of the peace treaty, we got the Theatre. The rights are no longer the same Theatre as we knew before Sovietization: these propaganda leaflets, the praise of socialism, Lenin and who knows who else... TO HELL WITH THESE RED FLAGS! It's time to do a general cleaning."
+  generic_rename_event.1.a: "Get to work!"
+
+### Communists ###
+
+ #Decisions#
+  communist_rename_decisions: "Sovietization"
+
+  RED_rebuild_line_264:0 "Rename §OPreobrazhenskaya Ploshchad'§!"
+  RED_rebuild_line_329:0 "Rename §OSokol'niki§!"
+  RED_rebuild_line_245:0 "Rename §OChistye Prudy§!"
+  RED_rebuild_line_362:0 "Rename §OOkhotny Ryad§!"
+  RED_rebuild_line_250:0 "Rename §OSportivnaya§!"
+
+  communist_rename_teatralnaya: "Rename station: §O[330.GetName]§!"
+  communist_rename_aleksandrovsky_sad: "Rename station: §O[244.GetName]§!"
+
+ #Events#
+ 
+  communist_rename_event.1.t: "Rename station: [330.GetName]"
+  communist_rename_event.1.d: "We have finally driven the last counter-revolutionary elements out of the Theatre. It is time to decide the future of the remains of the Bolshoi Theatre by popular vote... /nWhat will be the name of the station?"
+  communist_rename_event.1.a: "Leninskaya"
+  communist_rename_event.1.b: "Ploshchad' Sverdlova"
+
+  communist_rename_event.2.t: "Rename station: [244.GetName]"
+  communist_rename_event.2.d: "After so many years, one of the stations of the cradle of humanity, Polis, was illuminated by the torch of socialism... No! Was illuminated by the torch of the §RNew Red World!§! /nIn honor of this significant event, we will bring one of the first stations of the Moscow Metro named after Vladimir Ilyich Lenin into full order."
+  communist_rename_event.2.a: "Ulitsa Kominterna"
+  communist_rename_event.2.b: "Kalininskaya"

@@ -1,5 +1,209 @@
 activate_name = {
+	apply_communist_name = yes
 	apply_red_name = yes
 	apply_rch_name = yes
 	apply_mob_name = yes
 }
+
+apply_red_name = {
+	if = { 
+		limit = { state = 228 } 
+		set_state_name = RED_228
+		228 = { set_state_flag = state_was_renamed }
+	}
+	if = { 
+		limit = { state = 329 } 
+		set_state_name = RED_329
+		329 = { set_state_flag = state_was_renamed }
+	}
+}
+
+apply_communist_name = {
+	if = { 
+		limit = { state = 264 } 
+		set_state_name = communist_264 
+		264 = { set_state_flag = state_was_renamed }
+	}
+	if = { 
+		limit = { state = 245 } 
+		set_state_name = communist_245
+		245 = { set_state_flag = state_was_renamed } 
+	}
+	if = { 
+		limit = { state = 362 } 
+		set_state_name = communist_362
+		362 = { set_state_flag = state_was_renamed } 
+	}
+	if = { 
+		limit = { state = 250 } 
+		set_state_name = communist_250
+		250 = { set_state_flag = state_was_renamed } 
+	}
+}
+
+#RED_state_name_should_change = { ## This needs fixing too
+#	OR = {
+#		AND = { 
+#			ROOT = { original_tag = RED }
+#			NOT = { FROM = { original_tag = RED } } #Not civil wars
+#		}
+#		AND = {
+#			FROM = { original_tag = RED }
+#			NOT = { ROOT = { original_tag = RED } } #Not civil wars
+#		}
+#	}
+#	OR = {
+#		FROM.FROM = { state = 228 }
+#		FROM.FROM = { state = 264 }
+#		FROM.FROM = { state = 329 }
+#		FROM.FROM = { state = 245 }
+#		FROM.FROM = { state = 362 }
+#		FROM.FROM = { state = 250 }
+#	}
+#}
+
+#on_state_control_changed = { ## literally all this causes CTD
+#	effect = {
+#		IF = {
+#			limit = {
+#				RED_state_name_should_change = yes
+#			}
+#			RED_change_name_of_state = yes
+#		}
+#	}
+#}
+
+#RED_change_name_of_state = {
+#	if = {
+#		limit = {
+#			FROM.FROM = {
+#				state = 228
+#			}
+#		}
+#		if = {
+#			limit = {
+#				ROOT = { original_tag = RED }
+#			}
+#			FROM.FROM = { set_state_name = RED_228 }
+#		}
+#		else_if = {
+#			limit = {
+#				FROM = { original_tag = RED }
+#			}
+#			FROM.FROM = { reset_state_name = yes }
+#		}
+#	}
+#	else_if = {
+#		limit = {
+#			FROM.FROM = {
+#				state = 264
+#			}
+#		}
+#		if = {
+#			limit = {
+#				ROOT = { original_tag = RED }
+#			}
+#			FROM.FROM = { set_state_name = RED_264 }
+#		}
+#		else_if = {
+#			limit = {
+#				FROM = { original_tag = RED }
+#			}
+#			FROM.FROM = { reset_state_name = yes }
+#		}
+#	}
+#	else_if = {
+#		limit = {
+#			FROM.FROM = {
+#				state = 329
+#			}
+#		}
+#		if = {
+#			limit = {
+#				ROOT = { original_tag = RED }
+#			}
+#			FROM.FROM = { set_state_name = RED_329 }
+#		}
+#		else_if = {
+#			limit = {
+#				FROM = { original_tag = RED }
+#			}
+#			FROM.FROM = { reset_state_name = yes }
+#		}
+#	}
+#	else_if = {
+#		limit = {
+#			FROM.FROM = {
+#				state = 245
+#			}
+#		}
+#		if = {
+#			limit = {
+#				ROOT = { original_tag = RED }
+#			}
+#			FROM.FROM = { set_state_name = RED_245 }
+#		}
+#		else_if = {
+#			limit = {
+#				FROM = { original_tag = RED }
+#			}
+#			FROM.FROM = { reset_state_name = yes }
+#		}
+#	}
+#	else_if = {
+#		limit = {
+#			FROM.FROM = {
+#				state = 330
+#			}
+#		}
+#		if = {
+#			limit = {
+#				ROOT = { original_tag = RED }
+#			}
+#			FROM.FROM = { set_state_name = RED_330 }
+#		}
+#		else_if = {
+#			limit = {
+#				FROM = { original_tag = RED }
+#			}
+#			FROM.FROM = { reset_state_name = yes }
+#		}
+#	}
+#	else_if = {
+#		limit = {
+#			FROM.FROM = {
+#				state = 362
+#			}
+#		}
+#		if = {
+#			limit = {
+#				ROOT = { original_tag = RED }
+#			}
+#			FROM.FROM = { set_state_name = RED_362 }
+#		}
+#		else_if = {
+#			limit = {
+#				FROM = { original_tag = RED }
+#			}
+#			FROM.FROM = { reset_state_name = yes }
+#		}	}
+#	else_if = {
+#		limit = {
+#			FROM.FROM = {
+#				state = 250
+#			}
+#		}
+#		if = {
+#			limit = {
+#				ROOT = { original_tag = RED }
+#			}
+#			FROM.FROM = { set_state_name = RED_250 }
+#		}
+#		else_if = {
+#			limit = {
+#				FROM = { original_tag = RED }
+#			}
+#			FROM.FROM = { reset_state_name = yes }
+#		}
+#	}
+#}

@@ -1,0 +1,33 @@
+communist_rename_decisions = {
+	icon = idolize
+
+	priority = { base = 250 }
+
+	allowed = { 
+       	OR = {
+			original_tag = AVT
+			original_tag = ULI
+			original_tag = KUZ
+			original_tag = BRL
+			has_cosmetic_tag = EUR_oligarch_DDR
+			AND = { 
+				original_tag = RED
+				RED = { has_completed_focus = RED_2030 }
+			}
+		}
+	}
+}
+
+generic_rename_decisions = {
+	icon = sancity_of_life
+
+	priority = { base = 250 }
+
+	allowed = {
+        NOT = { original_tag = AVT } 
+		NOT = { original_tag = ULI }
+		NOT = { original_tag = KUZ }
+		NOT = { has_country_flag = is_communist_nation }
+		NOT = { has_country_flag = EUR_oligarch_DDR }
+    }
+}

@@ -1,0 +1,83 @@
+add_namespace = communist_rename_event
+
+country_event = {
+    id = communist_rename_event.1
+    title = communist_rename_event.1.t
+    desc = communist_rename_event.1.d
+    picture = "GFX_event (69)"
+    is_triggered_only = yes
+
+	option = {
+		name = communist_rename_event.1.a
+		add_political_power = 20
+		add_stability = 0.01
+		330 = { set_state_name = communist_330A }
+		hidden_trigger = { 330 = { set_state_flag = state_was_renamed } }
+	}
+
+	option = {
+		name = communist_rename_event.1.b
+		add_political_power = 20
+		add_stability = 0.01
+		330 = { set_state_name = communist_330B }
+		hidden_trigger = { 330 = { set_state_flag = state_was_renamed } }
+	}
+}
+
+country_event = {
+    id = communist_rename_event.2
+    title = communist_rename_event.2.t
+    desc = communist_rename_event.2.d
+    picture = "GFX_event (69)"
+    is_triggered_only = yes
+	
+	option = {
+		name = communist_rename_event.2.a
+		add_political_power = 20
+		add_stability = 0.01
+		244 = { set_state_name = communist_244A }
+		hidden_trigger = { 244 = { set_state_flag = state_was_renamed } }
+	}
+
+	option = {
+		name = communist_rename_event.2.b
+		add_political_power = 20
+		add_stability = 0.01
+		244 = { set_state_name = communist_244B }
+		hidden_trigger = { 244 = { set_state_flag = state_was_renamed } }
+	}
+}
+
+add_namespace = generic_rename_event
+
+country_event = {
+    id = generic_rename_event.1
+    title = generic_rename_event.1.t
+    desc = generic_rename_event.1.d
+    picture = "GFX_event (52)"
+    is_triggered_only = yes
+
+	option = {
+		name = generic_rename_event.1.a
+		add_political_power = 20
+		add_stability = 0.01
+		330 = { reset_state_name = yes }
+		hidden_trigger = { 330 = { clr_state_flag = state_was_renamed } }
+	}
+}
+
+country_event = {
+    id = generic_rename_event.2
+    title = generic_rename_event.2.t
+    desc = generic_rename_event.2.d
+    picture = "GFX_event (52)"
+    is_triggered_only = yes
+
+	option = {
+		name = generic_rename_event.2.a
+		add_political_power = 20
+		add_stability = 0.01
+		244 = { reset_state_name = yes }
+		hidden_trigger = { 244 = { clr_state_flag = state_was_renamed } }
+	}
+}
