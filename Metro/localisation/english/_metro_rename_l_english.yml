@@ -1,0 +1,65 @@
+﻿l_english:
+### Generic ###
+  state_was_renamed_communist: "The station was renamed the Communists"
+  state_was_renamed_berilag: "The station was assigned a special camp..."
+  state_was_renamed_trotskyist: "The station was renamed the Trotskyists"
+  state_was_renamed_stalinist: "The station was renamed the Stalinists"
+  preserved_soviet_legacy: "Preserved the Soviet legacy"
+  conducted_desovietization: "Conducted de-Sovietization"
+  state_was_renamed_fascist: "The station was renamed the Fascists"
+  state_was_renamed_bandit: "The station was renamed the Bandits"
+  state_was_renamed_monarchist: "The station was renamed the Monarchists"
+
+ #Decisions#
+  generic_rename_decisions: "Rebuilding"
+
+  generic_rename_teatralnaya: "Rename station: §O[330.GetName]§!"
+  generic_rename_aleksandrovsky_sad: "Rename station: §O[244.GetName]§!"
+  generic_rename_state_228: "Rename station: §O[228.GetName]§!"
+
+ #Events#
+
+  generic_rename_event.1.t: "Rename station: [330.GetName]"
+  generic_rename_event.1.d: "As a result of the peace treaty, we got the Theatre. The rights are no longer the same Theatre as we knew before Sovietization: these propaganda leaflets, the praise of socialism, Lenin and who knows who else... TO HELL WITH THESE RED FLAGS! It's time to do a general cleaning."
+  generic_rename_event.1.a: "Get to work!"
+
+  generic_rename_event.2.t: "Rename station: [244.GetName]"
+  generic_rename_event.2.d: "We have recaptured one of the pearls of humanity from the socialists. However, we have a lot of restoration work ahead of us. Let the Aleksandrovsky Sad station be illuminated by light again!"
+  generic_rename_event.2.a: "URRAA!"
+
+  generic_rename_event.3.t: "Rename station: [228.GetName]"
+  generic_rename_event.3_berilag: "Oh my God! What have those Reds turned the station into... A death camp, and now... To hell with it all. We need to bury the poor guys and rebuild the station."
+  generic_rename_event.3_desc: "Communists. Ehh... Whom they don't praise, but they forgot about the true heroes. For example, those who fought for the Motherland in the Great Patriotic War!"
+  generic_rename_event.3_kill_soviet: "Now this station with the remnants of the past is under our control. The new history of this piece of land will begin with..."
+  generic_rename_event.3.a: "In memory of Marshal Rokossovsky"
+  generic_rename_event.3.b: "Destruction of everything Soviet"
+
+### Communists ###
+
+ #Decisions#
+  communist_rename_decisions: "Sovietization"
+
+  communist_rename_teatralnaya: "Rename station: §O[330.GetName]§!"
+  communist_rename_aleksandrovsky_sad: "Rename station: §O[244.GetName]§!"
+  communist_rename_state_228: "Rename station: §O[228.GetName]§!"
+
+ #Events#
+ 
+  communist_rename_event.1.t: "Rename station: [330.GetName]"
+  communist_rename_event.1.d: "We have finally driven the last counter-revolutionary elements out of the Theatre. It is time to decide the future of the remains of the Bolshoi Theatre by popular vote... \nWhat will be the name of the station?"
+  communist_rename_event.1.a: "Leninskaya"
+  communist_rename_event.1.b: "Ploshchad' Sverdlova"
+
+  communist_rename_event.2.t: "Rename station: [244.GetName]"
+  communist_rename_event.2.d: "After so many years, one of the stations of the cradle of humanity, Polis, was illuminated by the torch of socialism... No! Was illuminated by the torch of the §RNew Red World!§! \nIn honor of this significant event, we will bring one of the first stations of the Moscow Metro named after Vladimir Ilyich Lenin into full order."
+  communist_rename_event.2.a: "Long live the station Komintern!"
+  communist_rename_event.2.b: "Long live the station Kalininskaya!"
+
+  communist_rename_event.3.t: "Rename station: [228.GetName]"
+  communist_rename_event.3_berilag: "WHAT IS THIS?! A CAMP WITH CORPSES?! SHAME ON US, THE DEFENDERS OF SOCIALISM. SHAME ON US, WHO DEFEND THE PROLETARIAT. IT'S TIME TO ATON FOR OUR SINS."
+  communist_rename_event.3_trotskyist: "We drove out these bandits who believed in Trotsky's lies. Hmm... And now what are we supposed to do with these ruins?"
+  communist_rename_event.3_desc: "We took the station back from the enemies of the people. Now we have to spend a long time sorting through these rubble."
+  communist_rename_event.3.a: "It's time to restore Berilag."
+  communist_rename_event.3.b: "Let's cleanse the station of Stalin's filth."
+  communist_rename_event.3.c: "Let's restore it and return its old name."
+  communist_rename_event.3.d: "Let's restore it and name it in honor of Marshal Rokossovsky."

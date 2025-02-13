@@ -1,0 +1,224 @@
+communist_rename_decisions = {
+	communist_rename_teatralnaya = {
+		icon = eng_propaganda_campaigns
+
+		visible = {
+       		OR = {
+				tag = AVT
+				tag = ULI
+				tag = KUZ
+				tag = BRL
+				AND = { 
+					tag = EUR
+					has_completed_focus = EUR_lessons_from_the_reds
+				}
+				AND = { 
+					tag = RED
+					has_completed_focus = RED_2030
+				}
+			}
+		}
+
+		available = {
+			330 = { is_owned_by = ROOT }
+			330 = { NOT = { has_state_flag = state_was_renamed_communist } }
+		}
+
+		complete_effect = {
+			FROM = {
+				country_event = communist_rename_event.1
+			}
+		}
+
+		ai_will_do = { base = 250 }
+	}
+	communist_rename_aleksandrovsky_sad = {
+		icon = eng_propaganda_campaigns
+		
+		available = {
+			244 = { is_owned_by = ROOT }
+			244 = { NOT = { has_state_flag = state_was_renamed_communist } }
+		}
+
+		visible = {
+       		OR = {
+				tag = AVT
+				tag = ULI
+				tag = KUZ
+				tag = BRL
+				AND = { 
+					tag = EUR
+					has_completed_focus = EUR_lessons_from_the_reds
+				}
+				AND = { 
+					tag = RED
+					has_completed_focus = RED_2030
+				}
+			}
+		}
+
+		complete_effect = {
+			FROM = {
+				country_event = communist_rename_event.2
+			}
+		}
+
+		ai_will_do = { base = 250 }
+	}
+	communist_rename_state_228 = { # Ulitsa Podbel'Skogo/ Bul'var Rokossovskogo
+		icon = eng_propaganda_campaigns
+		
+		available = {
+			228 = { is_owned_by = ROOT }
+			OR = {
+				AND = { 
+					tag = AVT
+					228 = { NOT = { has_state_flag = state_was_renamed_trotskyist } }
+				}
+				AND = { 
+					tag = BRL
+					228 = { NOT = { has_state_flag = state_was_renamed_berilag } }
+				}
+				AND = { 
+					OR = {
+						tag = ULI
+						tag = KUZ
+						AND = {
+							tag = EUR
+							has_completed_focus = EUR_lessons_from_the_reds
+						}
+					}
+					OR = {
+						228 = { has_state_flag = state_was_renamed_berilag }
+						228 = { has_state_flag = state_was_renamed_trotskyist }
+					}
+					228 = { NOT = { has_state_flag = preserved_soviet_legacy } }
+				}
+				AND = { 
+					tag = RED
+					has_completed_focus = RED_2030
+					OR = {
+						228 = { NOT = { has_state_flag = state_was_renamed_communist } }
+						228 = { NOT = { has_state_flag = preserved_soviet_legacy } } 
+						228 = { NOT = { has_state_flag = state_was_renamed_berilag } }
+					}
+				}
+			}
+		}
+
+		visible = {
+       		OR = {
+				tag = AVT
+				tag = ULI
+				tag = KUZ
+				tag = BRL
+				AND = { 
+					tag = EUR
+					has_completed_focus = EUR_lessons_from_the_reds
+				}
+				AND = { 
+					tag = RED
+					has_completed_focus = RED_2030
+				}
+			}
+		}
+
+		complete_effect = {
+			FROM = {
+				country_event = communist_rename_event.3
+			}
+		}
+
+		ai_will_do = { base = 250 }
+	}
+}
+
+generic_rename_decisions = {
+	generic_rename_teatralnaya = {
+		icon = eng_propaganda_campaigns
+
+		visible = { 
+			NOT = { tag = AVT } 
+			NOT = { tag = ULI }
+			NOT = { tag = KUZ }
+			NOT = { has_country_flag = is_communist_nation }
+			NOT = { EUR = { has_completed_focus = EUR_lessons_from_the_reds } }
+		}
+
+		available = {
+			330 = { is_owned_by = ROOT }
+			330 = { has_state_flag = state_was_renamed_communist }
+		}
+
+		complete_effect = {
+			FROM = {
+				country_event = generic_rename_event.1
+			}
+		}
+
+		ai_will_do = { base = 250 }
+	}
+	generic_rename_aleksandrovsky_sad = {
+		icon = eng_propaganda_campaigns
+
+		visible = { 
+			NOT = { tag = AVT } 
+			NOT = { tag = ULI }
+			NOT = { tag = KUZ }
+			NOT = { has_country_flag = is_communist_nation }
+			NOT = { EUR = { has_completed_focus = EUR_lessons_from_the_reds } }
+		}
+
+		available = {
+			244 = { is_owned_by = ROOT }
+			244 = { has_state_flag = state_was_renamed_communist }
+		}
+		
+		complete_effect = {
+			FROM = {
+				country_event = generic_rename_event.2
+			}
+		}
+
+		ai_will_do = { base = 250 }
+	}
+	generic_rename_state_228 = { # Ulitsa Podbel'Skogo/ Bul'var Rokossovskogo
+		icon = eng_propaganda_campaigns
+		
+		available = {
+			228 = { is_owned_by = ROOT }
+			OR = {
+				228 = { has_state_flag = state_was_renamed_communist }
+				228 = { has_state_flag = state_was_renamed_trotskyist }
+				228 = { has_state_flag = state_was_renamed_berilag }
+				228 = { has_state_flag = conducted_desovietization }
+				AND = {
+					OR = {
+						tag = RCH
+						AND = {
+							tag = KAL
+							KAL = { has_completed_focus = KAL_tsarist_victory }
+						}
+					}
+					228 = { has_state_flag = preserved_soviet_legacy }
+				}
+			}
+		}
+
+		visible = { 
+			NOT = { tag = AVT } 
+			NOT = { tag = ULI }
+			NOT = { tag = KUZ }
+			NOT = { has_country_flag = is_communist_nation }
+			NOT = { EUR = { has_completed_focus = EUR_lessons_from_the_reds } }
+		}
+
+		complete_effect = {
+			FROM = {
+				country_event = generic_rename_event.3
+			}
+		}
+
+		ai_will_do = { base = 250 }
+	}
+}
