@@ -103,9 +103,12 @@
   RCH_position_questioned: " Позиция под вопросом"
   RCH_cowardly: "Трусливый"
   RCH_mutant_child_rumours: "Слухи о детях-мутантах"
+  RCH_the_fuhrer: "Фюрер"
+
   RCH_cultist1: "Непоколебимый культист"
   RCH_cultist2: "Бухгалтер культа"
   RCH_cultist3: "Проповедник культа"
+  
   ### ОРЛОВ ###
   RCH_roman_orlov_trait: "Глава Криминалполиции"
   RCH_roman_orlov_trait_improved: "Глава Криминалполиции"
