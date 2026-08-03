@@ -8,7 +8,7 @@
  VDN_berezin_vadimvich: "Berezin Vadimvich"
  VDN_boris: "Boris"
  VDN_pyotr_andreyevich: "Pyotr Andreyevich"
- VDN_erofey: "Erofey"
+ VDN_erofey: "Erofey Pavlenko"
  VDN_kirill: "Kiril"
  VDN_dashka_shuba: "Dashka-Shuba"
  VDN_artyom: "Artyom"
@@ -16,8 +16,8 @@
  VDN_vyacheslav: "Vyacheslav"
 
  VDN_premier_of_commonwealth: "Premier of the Commonwealth"
- VDN_premier_of_commonwealth_2: " "
- VDN_premier_of_commonwealth_3: " "
+ VDN_premier_of_commonwealth_2: "Elected Head"
+ VDN_premier_of_commonwealth_3: "Chief of Defence"
 
 
  VDN_boris_trait: "Gate Guard"
@@ -25,3 +25,23 @@
  VDN_erofey_trait: "Book Seller"
  VDN_kirill_trait: " "
  VDN_dashka_shuba_trait: "Head Cook"
+
+ VDN_tarasovich: "Andrei Tarasovich"
+ VDN_tarasovich_desc: ""
+ VDN_tarasovich_trait: "Head of Alekseevskaya"
+
+ VDN_mihai: "Mihai"
+ VDN_mihai_desc: ""
+ VDN_mihai_trait: "Ammunition Dealer"
+
+ VDN_fyodor: "Fyodor"
+ VDN_fyodor_desc: ""
+ VDN_fyodor_trait: "Rocketeer"
+
+ VDN_gennady: "Gennady"
+ VDN_gennady_desc: ""
+ VDN_gennady_trait: "Firearms Dealer"
+
+ VDN_zakharovich: "Bogdan Zakharovich"
+ VDN_zakharovich_desc: ""
+ VDN_zakharovich_trait: "Head of Rizhskaya"

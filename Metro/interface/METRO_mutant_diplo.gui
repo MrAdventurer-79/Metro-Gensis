@@ -1,0 +1,29 @@
+guiTypes = {
+	containerWindowType = {
+		name = "mutant_diplo_overlay_window"
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "mutant_diplo_overlay"
+			spriteType = "GFX_mutant_diplo_overlay"
+			position = { x = -10 y = -10 }
+			scale = 1
+			pdx_tooltip = "mutant_diplo_overlay_tooltip"
+		}
+
+		iconType = {
+			name = "mutant_diplo_locker"
+			spriteType = "GFX_mutant_diplo_locker"
+			position = { x = 276 y = 360 }
+			scale = 1
+			pdx_tooltip = "mutant_diplo_overlay_tooltip"
+		}
+
+		iconType = {
+			name = "mutant_diplo_patch"
+			spriteType = "GFX_mutant_diplo_patch"
+			position = { x = 522 y = 359 }
+			scale = 1
+		}
+	}
+}

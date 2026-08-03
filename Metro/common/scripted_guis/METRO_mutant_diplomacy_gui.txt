@@ -1,0 +1,21 @@
+# Hidden diplomacy for mutants
+scripted_gui = {
+	mutant_diplo_overlay_gui = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+		window_name = "mutant_diplo_overlay_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			OR = {
+				tag = MUT
+				tag = HMS
+				tag = SUF
+				has_country_flag = is_mutant_nation
+			}
+		}
+	}
+}

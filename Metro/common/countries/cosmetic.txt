@@ -16,6 +16,10 @@ EUR_oligarch_DDR = {
 	color = rgb { 165 24 29 }
     color_ui = rgb { 165 24 29 }
 }
+VDN_hunter_dictatorial = {
+	color = rgb { 152 8 8 }
+    color_ui = rgb { 152 8 8 }
+}
 
 3_strat_name = {
 	color = rgb { 0 128 0 }

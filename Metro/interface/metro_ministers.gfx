@@ -1597,6 +1597,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Ministers/VDN/VDN_minister_artyom.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_VDN_minister_fyodor"
+		texturefile = "gfx/interface/ideas/Ministers/VDN/VDN_minister_fyodor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VDN_minister_gennady"
+		texturefile = "gfx/interface/ideas/Ministers/VDN/VDN_gennady.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VDN_minister_zakharovich"
+		texturefile = "gfx/interface/ideas/Ministers/VDN/VDN_minister_zakharovich.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VDN_minister_mihai"
+		texturefile = "gfx/interface/ideas/Ministers/VDN/VDN_minister_mihai.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VDN_minister_tarasovich"
+		texturefile = "gfx/interface/ideas/Ministers/VDN/VDN_minister_tarasovich.dds"
+	}
+
 	## TRT ##
 
 	spriteType = {

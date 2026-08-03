@@ -2408,6 +2408,13 @@ shared_focus = {
 		trigger = { original_tag = SEV }
 	}
 
+	offset = {
+    	x = 3
+    	trigger = {
+        	original_tag = ULI
+    	}
+	}
+
 	available = { 
 		date > 2030.1.1
 		if = { 

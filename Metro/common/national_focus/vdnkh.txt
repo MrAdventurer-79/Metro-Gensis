@@ -34,6 +34,7 @@ focus_tree = {
 		#		NOT = { has_country_flag = VDNK_threat_from_botanical }
 		#	}
 		#}
+		
 		available = {
 			5 = { is_owned_by = RUI }
 		}
@@ -598,6 +599,10 @@ focus_tree = {
 			set_temp_variable = { bullet_to_gain = -200 }
 			add_bullet_with_tooltip_effect = yes
 			custom_effect_tooltip = VDN_trade_for_research
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = VDN_erofey
 		}
 		ai_will_do = {
 			factor = 10
@@ -1547,7 +1552,7 @@ focus_tree = {
 				amount = 5
 				producer = RUS
 			}
-			add_ideas = VDN_strongarm_merchant_caravants
+			add_ideas = VDN_strongarm_merchant_caravans
 		}
 		ai_will_do = {
 			factor = 10
@@ -1679,6 +1684,11 @@ focus_tree = {
 			multiply_variable = {
 				var = VDN_mushroom_trade_independent_reward value = VDN_mushroom_trade_reward_mult
 			}
+
+			set_temp_variable = { bullet_to_gain = 250 }
+			add_bullet_with_tooltip_effect = yes
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = VDN_political_15_a_tt
 		}
 		ai_will_do = {
 			factor = 10
@@ -1765,6 +1775,9 @@ focus_tree = {
 		relative_position_id = VDN_political_16
 		completion_reward = {
 			add_stability = 0.1
+			capital_scope = {
+				add_manpower = 100
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -1848,6 +1861,15 @@ focus_tree = {
 		#}
 		completion_reward = {
 			army_experience = 25
+
+			add_corps_commander_role = {
+			    Character = VDN_pyotr_andreyevich
+			    skill = 2
+			    attack_skill = 2
+			    defense_skill = 3
+			    planning_skill = 2
+			    logistics_skill = 2
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -2007,9 +2029,7 @@ focus_tree = {
 		}
 		relative_position_id = VDN_fortified_emplacements
 		completion_reward = {
-			set_technology = {
-				sentries_buff_1 = 1
-			}
+			add_ideas = VDN_military_armed_forces_1
 		}
 		ai_will_do = {
 			factor = 10
@@ -2053,8 +2073,9 @@ focus_tree = {
 		}
 		relative_position_id = VDN_military_5
 		completion_reward = {
-			set_technology = {
-				sentries_buff_2 = 1
+			swap_ideas = {
+    			remove_idea = VDN_military_armed_forces_1
+    			add_idea = VDN_military_armed_forces_2
 			}
 		}
 		ai_will_do = {
@@ -2148,8 +2169,8 @@ focus_tree = {
 	focus = {
 		id = VDN_aggressive_containment
 		icon = GFX_VDN_flag
-		x = 1
-		y = 1
+		x = 31
+		y = 11
 		cost = 6.5
 		prerequisite = {
 			focus = VDN_defence_beyond_thresholds
@@ -2201,8 +2222,8 @@ focus_tree = {
 	focus = {
 		id = VDN_fighting_tooth_and_nail
 		icon = GFX_VDN_flag
-		x = 3
-		y = 2
+		x = 35
+		y = 13
 		cost = 6.5
 		prerequisite = {
 			focus = VDN_into_botanical
@@ -2215,24 +2236,8 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = VDN_lack_of_stalkers
 			custom_effect_tooltip = generic_skip_one_line_tt
-			division_template = {
-				name = "Exhibition Stalkers"
-				priority = 1
-				template_counter = 0
-				regiments = {
-					special_forces = { x = 0 y = 0 }
-					special_forces = { x = 1 y = 0 }
-					special_forces = { x = 2 y = 0 }
-					special_forces = { x = 3 y = 0 }
-					special_forces = { x = 4 y = 0 }
-				}
-			}
-			capital_scope = {
-				create_unit = {
-					division = "name = \"Vengeance\" division_template = \"Exhibition Stalkers\" start_experience_factor = 1 start_equipment_factor = 1"
-					owner = ROOT
-				}
-			}
+
+			country_event = nf_VDN_hunter.5
 		}
 		ai_will_do = {
 			factor = 10
@@ -2249,11 +2254,15 @@ focus_tree = {
 		}
 		available = {
 			## If not listened to Hunter, Dark ones must NOT exist
+			hidden_trigger = {
+				has_country_flag = nf_VDN_hunter.5A_flag
+			}
 		}
 		relative_position_id = VDN_fighting_tooth_and_nail
 		completion_reward = {
 			## Botanical is shallow, so the station cannot be ACTIVELY properly recolonized
 			## however, give improvements somehow
+			country_event = nf_VDN_hunter.6
 		}
 		ai_will_do = {
 			factor = 10
@@ -2276,7 +2285,14 @@ focus_tree = {
 		#		has_country_flag = VDNK_threat_from_botanical
 		#	}
 		#}
+		available = {
+			always = no
+		}
 		completion_reward = {
+			country_event = nf_VDN_hunter.1
+
+			#set_temp_variable = { temp_popularity = -0.1 }
+			#add_country_ruling_party_popularity = yes
 		}
 		ai_will_do = {
 			factor = 5
@@ -2293,6 +2309,7 @@ focus_tree = {
 		}
 		relative_position_id = VDN_hunter_arrives
 		completion_reward = {
+			country_event = nf_VDN_hunter.2
 		}
 		ai_will_do = {
 			factor = 10
@@ -2313,6 +2330,7 @@ focus_tree = {
 		relative_position_id = VDN_hunter_arrives_2
 		completion_reward = {
 			VDN_commonwealth_army_dynamic_modifier_efficiency_scripted_effect = yes
+			country_event = nf_VDN_hunter.3
 		}
 		ai_will_do = {
 			factor = 10
@@ -2329,16 +2347,7 @@ focus_tree = {
 		}
 		relative_position_id = VDN_hunter_arrives_3
 		completion_reward = {
-			add_mastery = {
-				amount = 50
-				track = doctrine_track_soldiers 
-			}
-
-			add_equipment_to_stockpile = {
-				type = special_forces_equipment_spartan
-				amount = 20
-				producer = RUS
-			}
+			country_event = nf_VDN_hunter.4
 		}
 		ai_will_do = {
 			factor = 10
@@ -2594,7 +2603,7 @@ focus_tree = {
 	focus = {
 		id = VDN_military_economy_5
 		icon = GFX_VDN_flag
-		x = 0
+		x = 1
 		y = 1
 		cost = 6.5
 		prerequisite = {
@@ -2616,7 +2625,7 @@ focus_tree = {
 	focus = {
 		id = VDN_military_economy_6
 		icon = GFX_VDN_flag
-		x = -2
+		x = -1
 		y = 1
 		cost = 6.5
 		prerequisite = {
@@ -2638,13 +2647,13 @@ focus_tree = {
 	focus = {
 		id = VDN_military_economy_7
 		icon = GFX_VDN_flag
-		x = 3
+		x = 0
 		y = 1
 		cost = 6.5
 		prerequisite = {
-			focus = VDN_military_economy_4
+			focus = VDN_military_economy_6
 		}
-		relative_position_id = VDN_military_economy_4
+		relative_position_id = VDN_military_economy_6
 		completion_reward = {
 			VDN_commonwealth_army_dynamic_modifier_efficiency_scripted_effect = yes
 		}
@@ -2659,9 +2668,9 @@ focus_tree = {
 		y = 1
 		cost = 6.5
 		prerequisite = {
-			focus = VDN_military_economy_6
+			focus = VDN_military_economy_7
 		}
-		relative_position_id = VDN_military_economy_6
+		relative_position_id = VDN_military_economy_7
 		completion_reward = {
 			add_tech_bonus = {
 				name = industrial_bonus
@@ -2677,12 +2686,11 @@ focus_tree = {
 	focus = {
 		id = VDN_military_economy_9
 		icon = GFX_VDN_flag
-		x = 1
+		x = 0
 		y = 1
 		cost = 6.5
 		prerequisite = {
 			focus = VDN_military_economy_5
-			focus = VDN_military_economy_7
 		}
 		relative_position_id = VDN_military_economy_5
 		completion_reward = {
@@ -2695,11 +2703,12 @@ focus_tree = {
 	focus = {
 		id = VDN_military_economy_10
 		icon = GFX_VDN_flag
-		x = 0
+		x = 2
 		y = 1
 		cost = 6.5
 		prerequisite = {
 			focus = VDN_military_economy_7
+			focus = VDN_military_economy_9
 		}
 		available = {
 			has_war = yes
@@ -3754,6 +3763,8 @@ focus_tree = {
 			add_political_power = 150
 
 			ROOT = { add_country_leader_trait = VDN_premier_of_commonwealth }
+
+			country_event = nf_VDN_commonwealth.1
 		}
 		ai_will_do = {
 			factor = 5
@@ -3825,6 +3836,14 @@ focus_tree = {
 			focus = VDN_commonwealth_formed_focus_1
 		}
 		available = {
+			OR = {
+				424 = { is_owned_by = ROOT }
+				RIZ = { is_puppet_of = ROOT }
+			}
+			OR = {
+				317 = { is_owned_by = ROOT }
+				ALK = { is_puppet_of = ROOT }
+			}
 		}
 		relative_position_id = VDN_commonwealth_formed_focus_1
 		completion_reward = {
@@ -3867,10 +3886,14 @@ focus_tree = {
 			focus = VDN_commonwealth_formed_focus_4_economic_1
 		}
 		available = {
+			OR = {
+				317 = { is_owned_by = ROOT }
+				ALK = { is_puppet_of = ROOT }
+			}
 		}
 		relative_position_id = VDN_commonwealth_formed_focus_4_economic_1
 		completion_reward = {
-			336 = { 
+			317 = { 
 				add_state_modifier = {
 					modifier = {
 						local_resources = 0.15
@@ -3894,6 +3917,10 @@ focus_tree = {
 			focus = VDN_commonwealth_formed_focus_4_economic_1
 		}
 		available = {
+			OR = {
+				424 = { is_owned_by = ROOT }
+				RIZ = { is_puppet_of = ROOT }
+			}
 		}
 		relative_position_id = VDN_commonwealth_formed_focus_4_economic_1
 		completion_reward = {
@@ -3921,10 +3948,38 @@ focus_tree = {
 			focus = VDN_commonwealth_formed_focus_4_economic_3
 		}
 		available = {
+			OR = {
+				424 = { is_owned_by = ROOT }
+				RIZ = { is_puppet_of = ROOT }
+			}
 		}
 		relative_position_id = VDN_commonwealth_formed_focus_4_economic_3
 		completion_reward = {
-			add_war_support = 0.1
+			RIZ = {
+				add_war_support = 0.1 
+			
+				division_template = {
+					name = "Tunnel Sentries"
+					priority = 1
+					template_counter = 0
+					regiments = {
+						irregulars = { x = 0 y = 0 }
+						irregulars = { x = 0 y = 1 }
+						irregulars = { x = 0 y = 2 }
+					}
+				}
+				capital_scope = {
+					create_unit = {
+						division = "name = \"1st Standing Guard\" division_template = \"Tunnel Sentries\" start_experience_factor = 0.24 start_equipment_factor = 1"
+						owner = ROOT
+					}
+				}
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = VDN_commonwealth_formed_focus_4_economic_4_tooltip
+			add_to_variable = {
+				var = cost_to_annex_RIZ value = 100
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3940,6 +3995,10 @@ focus_tree = {
 			focus = VDN_commonwealth_formed_focus_4_economic_3
 		}
 		available = {
+			OR = {
+				424 = { is_owned_by = ROOT }
+				RIZ = { is_puppet_of = ROOT }
+			}
 		}
 		relative_position_id = VDN_commonwealth_formed_focus_4_economic_3
 		completion_reward = {
@@ -3966,10 +4025,38 @@ focus_tree = {
 			focus = VDN_commonwealth_formed_focus_4_economic_2
 		}
 		available = {
+			OR = {
+				317 = { is_owned_by = ROOT }
+				ALK = { is_puppet_of = ROOT }
+			}
 		}
 		relative_position_id = VDN_commonwealth_formed_focus_4_economic_2
 		completion_reward = {
-			add_stability = 0.1
+			ALK = { 
+				add_stability = 0.1 
+			
+				division_template = {
+					name = "Tunnel Sentries"
+					priority = 1
+					template_counter = 0
+					regiments = {
+						irregulars = { x = 0 y = 0 }
+						irregulars = { x = 0 y = 1 }
+						irregulars = { x = 0 y = 2 }
+					}
+				}
+				capital_scope = {
+					create_unit = {
+						division = "name = \"1st Standing Guard\" division_template = \"Tunnel Sentries\" start_experience_factor = 0.24 start_equipment_factor = 1"
+						owner = ROOT
+					}
+				}
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = VDN_commonwealth_formed_focus_4_economic_6_tooltip
+			add_to_variable = {
+				var = cost_to_annex_ALK value = 100
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3985,10 +4072,14 @@ focus_tree = {
 			focus = VDN_commonwealth_formed_focus_4_economic_2
 		}
 		available = {
+			OR = {
+				317 = { is_owned_by = ROOT }
+				ALK = { is_puppet_of = ROOT }
+			}
 		}
 		relative_position_id = VDN_commonwealth_formed_focus_4_economic_2
 		completion_reward = {
-			336 = { 
+			317 = { 
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -4011,10 +4102,14 @@ focus_tree = {
 			focus = VDN_commonwealth_formed_focus_4_economic_7
 		}
 		available = {
+			OR = {
+				317 = { is_owned_by = ROOT }
+				ALK = { is_puppet_of = ROOT }
+			}
 		}
 		relative_position_id = VDN_commonwealth_formed_focus_4_economic_7
 		completion_reward = {
-			336 = { set_state_category = city }
+			317 = { set_state_category = city }
 		}
 		ai_will_do = {
 			factor = 10
@@ -4030,6 +4125,10 @@ focus_tree = {
 			focus = VDN_commonwealth_formed_focus_4_economic_5
 		}
 		available = {
+			OR = {
+				424 = { is_owned_by = ROOT }
+				RIZ = { is_puppet_of = ROOT }
+			}
 		}
 		relative_position_id = VDN_commonwealth_formed_focus_4_economic_5
 		completion_reward = {
@@ -4052,12 +4151,27 @@ focus_tree = {
 			focus = VDN_commonwealth_formed_focus_4_economic_8
 		}
 		available = {
+			OR = {
+				424 = { is_owned_by = ROOT }
+				RIZ = { is_puppet_of = ROOT }
+			}
+			OR = {
+				317 = { is_owned_by = ROOT }
+				ALK = { is_puppet_of = ROOT }
+			}
 		}
 		relative_position_id = VDN_commonwealth_formed_focus_4_economic_1
 		completion_reward = {
 			VDN_commonwealth_army_dynamic_modifier_efficiency_scripted_effect = yes
 			custom_effect_tooltip = generic_skip_one_line_tt
 			ROOT = { add_country_leader_trait = VDN_premier_of_commonwealth_2 }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			set_cosmetic_tag = VDN_commonwealth
+			add_timed_idea = { idea = VDNK_commonwealth_formed days = 360 }
+			hidden_effect = { set_country_flag = vdnk_achievement }
+			news_event = { id = global_event.51 days = 1 }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = VDN_commonwealth_formed_focus_4_economic_10_tooltip
 		}
 		ai_will_do = {
 			factor = 10

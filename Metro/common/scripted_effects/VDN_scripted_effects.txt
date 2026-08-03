@@ -112,3 +112,13 @@ VDN_immigrants_arrive_scripted_effect = {
 		add_manpower = 20
 	}
 }
+
+
+VDN_set_hunter_novoreich_flag_scripted_effect = {
+	set_cosmetic_tag = VDN_hunter_dictatorial
+
+	set_politics = {
+    	ruling_party = dictatorial
+    	elections_allowed = no
+	}
+}

@@ -1,0 +1,148 @@
+add_namespace = metro_d6_sector
+
+# Д-6 sector clearing events - fired by d6_excavation_daily_tick when a sector
+# reaches 100% progress. Rewards are intentionally modest placeholders; tune freely.
+
+### Sector 1 - Level 1: Entrance Vestibule ###
+country_event = {
+	id = metro_d6_sector.1
+	title = metro_d6_sector.1.t
+	desc = metro_d6_sector.1.d
+	picture = "GFX_event (155)"
+	is_triggered_only = yes
+
+	option = {
+		name = metro_d6_sector.1.a
+		add_political_power = 50
+	}
+}
+
+### Sector 2 - Level 2: Barracks Block ###
+country_event = {
+	id = metro_d6_sector.2
+	title = metro_d6_sector.2.t
+	desc = metro_d6_sector.2.d
+	picture = "GFX_event (155)"
+	is_triggered_only = yes
+
+	option = {
+		name = metro_d6_sector.2.a
+		add_manpower = 25
+	}
+}
+
+### Sector 3 - Level 2: Central Command Post ###
+country_event = {
+	id = metro_d6_sector.3
+	title = metro_d6_sector.3.t
+	desc = metro_d6_sector.3.d
+	picture = "GFX_event (155)"
+	is_triggered_only = yes
+
+	option = {
+		name = metro_d6_sector.3.a
+		add_command_power = 25
+	}
+}
+
+### Sector 4 - Level 2: Communications Hub ###
+country_event = {
+	id = metro_d6_sector.4
+	title = metro_d6_sector.4.t
+	desc = metro_d6_sector.4.d
+	picture = "GFX_event (155)"
+	is_triggered_only = yes
+
+	option = {
+		name = metro_d6_sector.4.a
+		add_political_power = 25
+		add_command_power = 10
+	}
+}
+
+### Sector 5 - Level 2: Supply Depots ###
+country_event = {
+	id = metro_d6_sector.5
+	title = metro_d6_sector.5.t
+	desc = metro_d6_sector.5.d
+	picture = "GFX_event (155)"
+	is_triggered_only = yes
+
+	option = {
+		name = metro_d6_sector.5.a
+		army_experience = 25
+	}
+}
+
+### Sector 6 - Level 2: Vehicle Hangars ###
+country_event = {
+	id = metro_d6_sector.6
+	title = metro_d6_sector.6.t
+	desc = metro_d6_sector.6.d
+	picture = "GFX_event (155)"
+	is_triggered_only = yes
+
+	option = {
+		name = metro_d6_sector.6.a
+		army_experience = 25
+	}
+}
+
+### Sector 7 - Level 3: The Arsenal ###
+country_event = {
+	id = metro_d6_sector.7
+	title = metro_d6_sector.7.t
+	desc = metro_d6_sector.7.d
+	picture = "GFX_event (155)"
+	is_triggered_only = yes
+
+	option = {
+		name = metro_d6_sector.7.a
+		army_experience = 50
+		add_war_support = 0.02
+	}
+}
+
+### Sector 8 - Level 3: Reactor Complex ###
+country_event = {
+	id = metro_d6_sector.8
+	title = metro_d6_sector.8.t
+	desc = metro_d6_sector.8.d
+	picture = "GFX_event (155)"
+	is_triggered_only = yes
+
+	option = {
+		name = metro_d6_sector.8.a
+		add_stability = 0.02
+	}
+}
+
+### Sector 9 - Level 3: Bio-Laboratories ###
+country_event = {
+	id = metro_d6_sector.9
+	title = metro_d6_sector.9.t
+	desc = metro_d6_sector.9.d
+	picture = "GFX_event (155)"
+	is_triggered_only = yes
+
+	option = {
+		name = metro_d6_sector.9.a
+		add_political_power = 100
+	}
+}
+
+### Sector 10 - Level 4: The Deep Vault ###
+country_event = {
+	id = metro_d6_sector.10
+	title = metro_d6_sector.10.t
+	desc = metro_d6_sector.10.d
+	picture = "GFX_event (155)"
+	is_triggered_only = yes
+
+	option = {
+		name = metro_d6_sector.10.a
+		add_political_power = 150
+		add_command_power = 50
+		add_war_support = 0.05
+	}
+}

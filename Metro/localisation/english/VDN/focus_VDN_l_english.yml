@@ -1,6 +1,6 @@
 ﻿l_english:
   VDN_branching_out: "Beyond [VDN.capital.GetName]"
-  VDN_branching_out_desc: "[VDN.capital.GetName] own hermetic was dismantled by engineers more than a decade ago. As of recent, we haven't seen a single mutant straying from the north. Has the mutant threat subsided? Some within the commonwealth believe so, and are convinced now is none other than a good time to attempt to expand outwards, and to resettle neighboring [307.GetName] Station."
+  VDN_branching_out_desc: "[VDN.capital.GetName]s' hermetic was dismantled by engineers more than a decade ago. As of recent, we haven't seen a single mutant straying in from the north. Has the mutant threat subsided? Some within the commonwealth believe so, and are convinced now is none other than a good time to attempt to expand outwards, and to resettle neighboring [307.GetName] Station."
 
   VDN_establish_defensive_watch: "Defensive Watch"
   VDN_establish_defensive_watch_desc: "The tunnel beyond [VDN.capital.GetName] station has been cleansed of rubble. The half-dozen swollen rats were no match for our soldiers! A garrison force should be entrusted in securing the stretch of tunnel, allowing for the safe passage of supply and eventually settlers further north."
@@ -67,18 +67,330 @@
   VDN_exports_2_desc: "Far from the prosperity seen from the Hanza, or even the Arbat or Polis, Vdnk station is able to live comfortably as long as merchant caravans flow freely undeterred from trouble. Some may even say that with time and effort, Vdnkh has all the right to become a major player in the Metro."
 
   VDN_medical_wards: "Triage Wards"
-  VDN_medical_wards_desc: "Improving the lives of our citizens is a moral imperative. We must make great strides in ensuring every person has the best possible quality of life we can afford."
+  VDN_medical_wards_desc: "Improving the lives of our citizens is a moral imperative! We must make great strides in ensuring every person has the best possible quality of life we can afford."
 
   VDN_economy_2: "Mushroom Economy"
   VDN_economy_2_desc: "Far from the breadbaskets of the likes of the Zamoskvoretskaya trading alliance, VDNKh primarily relies upon the export of foodstuffs to the Hanza in order to turn a profit, and maintain a living. "
 
+  VDN_economy_2a: "From the Bones of Civilization"
+  VDN_economy_2a_desc: "The bones of the Earth are ours to plunder. Directly organizing our scavenger teams and prioritizing the resources we fundamentally lack shall assure that we do not run out of the most necessary resources in a pinch."
 
-VDN_the_VDNKH:0 "The VDNKH"
-VDN_the_VDNKH_desc:0 "The VDNKH is threatened by the Dark Ones. How will the VDNKH will handle the compley political sitoation of the northern territories of the metro while there is also the threath from the Dark Ones?"
+  VDN_economy_3: "Necessesities of Scavenging"
+  VDN_economy_3_desc: "Recovering materials from any scrap heaps or forgotten tunnels should be prioritized. We can't afford to stick our noses up to every rusted beam, or pile of rubble."
 
-VDN_political_manoeuvring:0 "Political Manoeuvering"
-VDN_political_manoeuvring_desc:0 "In order to preserve our glorious union, we must decide what approach to take in the fight for political survival."
+  VDN_economy_3a: "Refurbished Dynamos"
+  VDN_economy_3a_desc: "Energy is a luxury that most, of not all, can barely afford. Where entire factories could churn enough power to feed millions, improvised dynamos and wheezing generators is the only thing that can afford our station not falling into complete darkness"
 
+  VDN_economy_4: "Modest Prosperity"
+  VDN_economy_4_desc: "We may not be as rich as the Hanza, or decadent as the politburo of the Redline or even as shielded from the horrors of this dying world to the likes of Polis, but for our citizens who live ordinary lives, Ordinary is far above what many other stations could dream of."
+
+  VDN_economy_5: "Commerce of Necessity"
+  VDN_economy_5_desc: "Survival is a currency in all of its own. Bought and to be sold. Every crate of mushrooms, bag of tools or cartridge exchanged from one hands to another. To safeguard the future of [ROOT.Capital.GetName], this must never cease."
+
+  VDN_economy_6: "Network of Commerce"
+  VDN_economy_6_desc: "Commerce can be measured not by riches, but by its resolve. Every caravan protected, trade honored only strengthens our position as a beating arterial vessal in the Metro."
+
+  VDN_economy_7: "Dedicated Technicians"
+  VDN_economy_7_desc: "To afford our own engineers not only to repair and refabricate tools, but to devise and construct entirely new gear must be obstained."
+
+  VDN_economy_commonwealth: "Our Determined Destiny"
+  VDN_economy_commonwealth_desc: "In the decades since complete collapse, society has gone backwards in some respect, but also has gone forwards. Culture still thrives in the Metro, and whilst more forget how the old world worked and functioned, a new world has begun to form in its sted."
+
+  VDN_economy_8: "Promote Mentorships"
+  VDN_economy_8_desc: "Every tool which breaks is another slither of the old world permanently lost. Yet the greatest treasures of the world before is not equipment, but knowledge required to keep them operational. Formalizing these practices, and ensuring the knowledge is passed down will keep it preserved,"
+
+  VDN_economy_9: "Expand Economic Zones"
+  VDN_economy_9_desc: "Maintaining a network of scavengers and prospecting sorties will help us coordinate efforts across the line, bringing us more resources with every success."
+
+  VDN_burgeoning_station2: "Prosperity in Abundance"
+  VDN_burgeoning_station2_desc: "Not only should Vdnkh station live in modest prosperity, but the rest of the Commonwealth should also share the same living standards."
+
+  VDN_burgeoning_station0: "Fortified against the Night"
+  VDN_burgeoning_station0_desc: "Similarly, all stations should follow the benchmark set about by Vdnkh, each station should be a fortress in its own right."
+
+  VDN_burgeoning_station1: "Localized Scavenger Depots"
+  VDN_burgeoning_station1_desc: "Scavenger depots will give our local scavengers a place to properly store, and reclaim the remnants of the old world before they disappear forever."
+
+  VDN_the_VDNKH: "Picking up the Pieces"
+  VDN_the_VDNKH_desc: "With our failure, the outlook has become overly pessimistic. The sudden increased mutant activity from Botanical has only kicked up a storn of complaints and naysayers in our station. We must walk a tightrope between serving the needs of our community, and keeping them safe from the horrors of the darkness."
+
+  VDN_political_1: "Political Manoeuvers"
+  VDN_political_1_desc: "Preservation of Vdnkh station is imperative, not only for our citizens who live here, but for the whole Metro as a whole. Our fate remains in our own hands, we must unite as one, or risp being blown away."
+
+  VDN_exhibition_station: "Housing Construction"
+  VDN_exhibition_station_desc: "The first steps which should be taken in properly meeting the needs of our citizens is the place in which they sleep. Ensuring every citizen has a roof over their heads, and a warm fire to return to after a days worth of work should be our top priority."
+
+  VDN_planning_zones: "Planning Zones"
+  VDN_planning_zones_desc: "Space is finite, and must be fiercely spend and considered carefully. Properly designating zones and areas for future construction work is a good choice."
+
+  VDN_citizens_to_work: "Put the Citizens to Work"
+  VDN_citizens_to_work_desc: "Idleness is a luxury that we cannot afford. Every citizen; young, old, male or female, must earn their keep."
+
+  VDN_salvage: "Salvage Efforts"
+  VDN_salvage_desc: "Rusted beams, shattered cinderblocks and rebar still pose some use, even if it doesn't immediately seem so. We should store these resources for future use, whatever purpose they may eventually possess."
+
+  VDN_procure_tools: "Tooling Efforts"
+  VDN_procure_tools_desc: "One blunt-saw between several dozen carpenters is a recipe for bottlenecks. At the very least if we cannot procure fresh new tools, we should have multiple of the same make or sorts."
+
+  VDN_wooden_shacks: "Wooden Shacks"
+  VDN_wooden_shacks_desc: "More permanent structures was something that we couldn't afford - until now. Able to withstand more than a simple tent."
+
+  VDN_shared_tooling: "Shared Workstations"
+  VDN_shared_tooling_desc: "Communal Workbenches will allow our citizens a place to work, without having to afford such an extreme cost. With a centralized place to work, store tools and resources, this will drive the overall productivity and efficiency of our workers."
+
+  VDN_burgeoning_station: "Burgeoning Station"
+  VDN_burgeoning_station_desc: "What was little more than half a dozen rag tents years ago, has now grown into a flourishing settlement, rife with the noise and sight of civilization in all of its decrepit but modest glory."
+
+  VDN_shared_tooling_2: "Industrial Extentions"
+  VDN_shared_tooling_2_desc: "Specialized workbenches, machinery stations and other improved areas will undoubtedly allow our technicians and crafters to improve and hone their craft."
+
+  
+  VDN_soviet_ideals_path: "Lean into Soviet Nostalgia"
+  VDN_soviet_ideals_path_desc: "Collectivist solidarity, equality and a strong state should be our top priority. Rose-tinted perspective of the past or not, communal spirit and guaranteeing the basic needs of our citizenry are met should be met."
+
+  VDN_collective_path: "Collective Unity"
+  VDN_collective_path_desc: "Security of the Collective, and a federal, centralized system emphasising survival and self-defense is imperative. We can only rely upon ourselves, and upon our neighbors for support."
+
+  VDN_centralize_station_authority: "Empower the Station Council"
+  VDN_centralize_station_authority_desc: ""
+
+  VDN_political_7: "Forging a Unified Line"
+  VDN_political_7_desc: ""
+
+  VDN_political_6: "A Common Cause"
+  VDN_political_6_desc: ""
+
+  VDN_political_9: "Strengthen Interstation Relations"
+  VDN_political_9_desc: ""
+
+  VDN_political_8: "Cultivate Goodwill"
+  VDN_political_8_desc: ""
+
+  VDN_political_9A: "Foster Interstation Trade Relations"
+  VDN_political_9A_desc: ""
+
+  VDN_political_10: "Arm the Caravans"
+  VDN_political_10_desc: ""
+
+  VDN_political_11: "Anchor of Cooperation"
+  VDN_political_11_desc: ""
+
+  VDN_capitalism_path: "State Capitalism"
+  VDN_capitalism_path_desc: "Direct ownership and heavily influencing, and supporting our local export economy will allow us accumulate wealth and also to compete as a major player in the Metro economy. With a hands-on approach, we can use the wealth generated to improve the lives of our citizenry. Not only just monetarily, but also through innovation and talent."
+
+  VDN_political_12: "Champion Civic Freedoms"
+  VDN_political_12_desc: ""
+
+  VDN_political_13: "Encourage Private Enterprise"
+  VDN_political_13_desc: ""
+
+  VDN_export_economy: "Secure Trade Agreements"
+  VDN_export_economy_desc: ""
+
+  VDN_political_15: "Monopolize the Mushroom Trade"
+  VDN_political_15_desc: "Other stations can only dream of competing with our burgeoning export economy. With trade comes affluence and with affluence we can exchange it for power."
+  VDN_political_15_tt: "Trade Decisions now provide doubled bullets."
+  VDN_political_15_a_tt: "Unlocks Decisions to bring §Y[PRO.GetFlag][PRO.GetName]§! into our sphere of influence, potentially puppeting them if we have yet to form the VDNKh Commonwealth!"
+
+  VDN_political_16: "Communal Property"
+  VDN_political_16_desc: "Strides must be made in restoring the rights of access to facilities to our population. Workbenches, tools, our citizens will own the means to their labor."
+
+  VDN_political_17: "Prosperity for All"
+  VDN_political_17_desc: ""
+
+  VDN_political_18: "Raise Living Standards"
+  VDN_political_18_desc: ""
+  
+  VDN_political_19: "Return of Stolovayas"
+  VDN_political_19_desc: "Bread lines demarked Russias soviet history. Instead of demarking economic burdens and food shortages, instead this time will demonstrate food abundance for our citizens. A meal a day at the very least."
+
+  VDN_self_sufficiency: "Self Sufficiency"
+  VDN_self_sufficiency_desc: " "
+
+  VDN_soviet_ideals_path1: "A Place Among the Stations"
+  VDN_soviet_ideals_path1_desc: ""
+
+  VDN_burgeoning_power: "The Metro Looks to Us"
+  VDN_burgeoning_power_desc: ""
+
+  VDN_commonwealth: "Diplomatic Outreach Programmes"
+  VDN_commonwealth_desc: ""
+  VDNK_commonwealth_forming: "Pursuing this focus branch will allow us to form the §YVDNKh Commonwealth§! Quicker!\n\nCertain focuses in our tree may also complete certain focuses of this branch."
+
+  VDN_commonwealth_fight: "Bring Order to the Line"
+  VDN_commonwealth_fight_desc: ""
+
+  VDN_commonwealth_telecommunications: "Establish Telecommunication Lines"
+  VDN_commonwealth_telecommunications_desc: ""
+
+  VDN_commonwealth_humanitarian_aid: "Launch Humanitarian Aid Caravans"
+  VDN_commonwealth_humanitarian_aid_desc: ""
+
+  VDN_commonwealth_mutual_defense: "Mutual Defense Pact"
+  VDN_commonwealth_mutual_defense_desc: ""
+
+  VDN_commonwealth_friendship_pact: "Pact of Friendship"
+  VDN_commonwealth_friendship_pact_desc: ""
+
+  VDN_commonwealth_telecommunications_5: "Establish Co-Economic Prosperity Sphere"
+  VDN_commonwealth_telecommunications_5_desc: ""
+
+  VDN_commonwealth_formed_focus_1: "Freedom, Equality, and Fraternity!"
+  VDN_commonwealth_formed_focus_1_desc: ""
+
+  VDN_commonwealth_formed_focus_4_economic_1: "Ties in Which Bind"
+  VDN_commonwealth_formed_focus_4_economic_1_desc: ""
+
+  VDN_commonwealth_formed_focus_4_economic_2: "Fixing Time Blindness"
+  VDN_commonwealth_formed_focus_4_economic_2_desc: "Would you believe it? The Citizens of [317.GetName] can't even tell the time! Their station clock was stolen years ago, and ever since the station has been living without any sense of time. First thing should be installing clocks around the station at the very least."
+
+  VDN_commonwealth_formed_focus_4_economic_3: "Support [424.GetName] Local Economy"
+  VDN_commonwealth_formed_focus_4_economic_3_desc: "Many citizens of [424.GetName] operate as merchants, and proffer in lucrative trade with the neighboring Prospekt Mira. Though some other trades do persist, namely the pig manure and knitting trade. Both are key arterial vessels the stations economy."
+
+  VDN_commonwealth_formed_focus_4_economic_4: "Assist [424.GetName] Garrison"
+  VDN_commonwealth_formed_focus_4_economic_4_desc: "Though initially appearing to be more impressive than the likes of their nighbors, [424.GetName] maintains its own detachments serving as tunnel guards. Although their armed forces are mainly centralized upon the southern direction, given the multiple tunnels to Prospekt Mira, this greatly depletes the resources the station has."
+  VDN_commonwealth_formed_focus_4_economic_4_tooltip: "Cost to Annex §Y[RIZ.GetFlag][RIZ.GetName]§! via decision £pol_power_icon §G-100§!"
+
+  VDN_commonwealth_formed_focus_4_economic_5: "Gateway to the Ring"
+  VDN_commonwealth_formed_focus_4_economic_5_desc: "Although dislodging the gloomy mood of the station may be impossible, their situation has been drastically upheaved because of our assistance. Tunnels manned, economy secured. Though the grumbling complaints may never erode anytime soon, many can't doubt that things are turning up for the best."
+
+  VDN_commonwealth_formed_focus_4_economic_6: "Bring Discipline to [317.GetName]s Garrison"
+  VDN_commonwealth_formed_focus_4_economic_6_desc: "The Armed forces of [317.GetName] is not very proficient, to put it nicely. Morale and discipline is extremely low across the rank and file. With how poor the station is, their armed forces can only afford quilted jackets and the most basic essentials for their sorties."
+  VDN_commonwealth_formed_focus_4_economic_6_tooltip: "Cost to Annex §Y[RIZ.GetFlag][RIZ.GetName]§! via decision £pol_power_icon §G-100§!"
+
+  VDN_commonwealth_formed_focus_4_economic_7: "Support [317.GetName] Mushroom Industry"
+  VDN_commonwealth_formed_focus_4_economic_7_desc: "Following our economic model, [317.GetName] quickly tried to adapt and imitate us. This however failed catastrophically, with their crops and pigs all failing under mysterious circumstances. With the station barely able to afford to feed itself, their trade dwindled."
+
+  VDN_commonwealth_formed_focus_4_economic_8: "Bringing Prosperity to [317.GetName]"
+  VDN_commonwealth_formed_focus_4_economic_8_desc: "Some may have claimed that [317.GetName] was only a poor imitation of Exhibition Station, but no longer. With our assistance, they have begun to flourish and prosper into blossoming station. Our expert farmers assisting their own, and propping up their mushroom and farming economy."
+
+  VDN_commonwealth_formed_focus_4_economic_9: "Relieve Tension in [424.GetName]"
+  VDN_commonwealth_formed_focus_4_economic_9_desc: "The Atmosphere of [424.GetName] has always remained tense. Its people living in a constant state of tension. Whether it be pressure exerted from stations to the south, or unseen threats. A gloomy mood has always reigned at the station. No longer now with our full protection, however."
+
+  VDN_commonwealth_formed_focus_4_economic_10: "Rising Star Above the Metro"
+  VDN_commonwealth_formed_focus_4_economic_10_desc: "From a small wayward station on the edge of civilization, Vdnkh station has grown into a prosperous society. One could say, a beacon of light against the raging storm."
+  VDN_commonwealth_formed_focus_4_economic_10_tooltip: "Unlock the availability to annex §Y[ALK.GetFlag][ALK.GetName]§! and §Y[RIZ.GetFlag][RIZ.GetName]§! via decisions"
+  
+  VDN_military_0: "Install the 250th Meter Patrol"
+  VDN_military_0_desc: ""
+
+  VDN_threat_from_botanical: "Beyond the 500th Meter"
+  VDN_threat_from_botanical_desc: ""
+
+  VDN_equipment_standards: "Standardize the Surplus"
+  VDN_equipment_standards_desc: ""
+
+  VDN_purchase_arms: "Purchase Armaments"
+  VDN_purchase_arms_desc: ""
+
+  VDN_fortified_emplacements: "Fortified Emplacements"
+  VDN_fortified_emplacements_desc: ""
+
+  VDN_military_5: "Standing Force of the Commonwealth"
+  VDN_military_5_desc: ""
+
+  VDN_military_6: "Supply the Reservists"
+  VDN_military_6_desc: ""
+
+  VDN_military_5_1: "Obligated Combat Duties"
+  VDN_military_5_1_desc: ""
+
+  VDN_military_6_1: "Ready the Reservists for Battle"
+  VDN_military_6_1_desc: ""
+
+  VDN_defence_beyond_thresholds: "Install Blackwatches"
+  VDN_defence_beyond_thresholds_desc: ""
+
+  VDN_safe_distance: "Safety First"
+  VDN_safe_distance_desc: ""
+
+  VDN_aggressive_containment: "Aggressive Containment"
+  VDN_aggressive_containment_desc: ""
+
+  VDN_into_botanical: "The Threat from Botanical"
+  VDN_into_botanical_desc: ""
+
+  VDN_fighting_tooth_and_nail: "Fighting Tooth and Nail"
+  VDN_fighting_tooth_and_nail_desc: ""
+
+  VDN_recolonize_botanical: "Purge Botanical"
+  VDN_recolonize_botanical_desc: ""
+
+  VDN_hunter_arrives: "Hunter Arrives"
+  VDN_hunter_arrives_desc: ""
+
+  VDN_hunter_leadership_available_country_flag: "VDNKh is devastated by Mutant attacks"
+
+  VDN_hunter_arrives_2: "Conundrum of Humanity"
+  VDN_hunter_arrives_2_desc: ""
+
+  VDN_hunter_arrives_3: "There Will Come Soft Rains"
+  VDN_hunter_arrives_3_desc: ""
+
+  VDN_hunter_arrives_4: "Into the Lair of the Beast"
+  VDN_hunter_arrives_4_desc: ""
+
+  VDN_military_economy_1: "Purchase Medical Supplies"
+  VDN_military_economy_1_desc: ""
+
+  VDN_military_economy_2: "Amend Scrap Arms"
+  VDN_military_economy_2_desc: ""
+
+  VDN_military_economy_3: "Refit Workshops for Arms Production"
+  VDN_military_economy_3_desc: ""
+
+  VDN_military_defence_1: "Repurpose Defunct-Machinery"
+  VDN_military_defence_1_desc: ""
+
+  VDN_military_defence_2: "Duct-Taped Arms"
+  VDN_military_defence_2_desc: ""
+
+  VDN_military_defence_3: "Homemade Assault Rifles"
+  VDN_military_defence_3_desc: ""
+
+  VDN_military_offence_1: "Professionalize the Militia"
+  VDN_military_offence_1_desc: ""
+
+  VDN_military_offence_2: "A Well-Drilled Militia"
+  VDN_military_offence_2_desc: ""
+
+  VDN_military_offence_3: "Invite Technicians"
+  VDN_military_offence_3_desc: ""
+
+  VDN_military_economy_4: "Mandate Military Service for all Males"
+  VDN_military_economy_4_desc: ""
+
+  VDN_military_economy_5: "Integrate Support Firesquads"
+  VDN_military_economy_5_desc: ""
+
+  VDN_military_economy_6: "Deploy Soldiers to the 300th Meter"
+  VDN_military_economy_6_desc: ""
+
+  VDN_military_economy_7: "Push Patrols to the 450th Meter"
+  VDN_military_economy_7_desc: ""
+
+  VDN_military_economy_8: "Extend to the 480th Meter"
+  VDN_military_economy_8_desc: ""
+
+  VDN_military_economy_9: "Stationary Emplacements"
+  VDN_military_economy_9_desc: ""
+
+  VDN_military_economy_10: "The Armories of VDNKh Station"
+  VDN_military_economy_10_desc: ""
+
+  VDN_military_hard_line_1: "Stitched Jackets"
+  VDN_military_hard_line_1_desc: ""
+
+  VDN_military_hard_line_2: "Helmets & Hardhats"
+  VDN_military_hard_line_2_desc: ""
+
+  VDN_military_hard_line_2_A: "Hand-Cranked Flashlights"
+  VDN_military_hard_line_2_A_desc: ""
+
+
+
+  ### DEPRECIATED ###
+  
 VDN_centralization:0 "A Central Government"
 VDN_centralization_desc:0 "It is now time for us to take our fate into our own hands. We don't have time for the political ramblings of weak and irrelevant stations. We must unite all of the metro system under the VDNKH government!"
 

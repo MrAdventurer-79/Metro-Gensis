@@ -228,6 +228,12 @@ VDN_mushroom_trade_category = {
 			has_equipment = {
 				rail_cart_equipment > 0
 			}
+
+			hidden_trigger = {
+				NOT = {
+					has_idea = VDN_book_trade_research
+				}
+			}
 		}
 		custom_cost_trigger = {
 			set_temp_variable = { temp_bullet_cost = 200 }
@@ -258,7 +264,10 @@ VDN_mushroom_trade_category = {
 		days_remove = 3
 		#days_re_enable = 180
 		remove_effect = {
-			
+			add_timed_idea = {
+				idea = VDN_book_trade_research
+				days = 60
+			}
 			custom_effect_tooltip = generic_skip_one_line_tt
 			add_equipment_to_stockpile = {
 				type = rail_cart_equipment
@@ -464,4 +473,393 @@ VDN_immigration_category = {
 	}
 
 
+}
+
+VDN_commonwealth_category = {
+
+	VDN_commonwealth_RIZ_1_timed_mission = {
+		days_mission_timeout = 360
+		activation = { has_country_flag = VDN_commonwealth_activator_flag }
+		is_good = no
+
+		available = {	
+			317 = {
+				infrastructure > 4
+				industrial_complex > 4
+			}
+		}
+
+		selectable_mission = no
+		fire_only_once = yes
+
+		cancel_trigger = { 
+			317 = {
+				NOT = { is_owned_by = ROOT }
+			}
+		}
+
+		timeout_effect = { ## if we fail completing agenda
+		}
+
+		complete_effect = { ## if we finish completing agenda
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			reduce_focus_completion_cost = {
+				focus = VDN_commonwealth_formed_focus_4_economic_2
+				cost = 24
+			}
+
+			reduce_focus_completion_cost = {
+				focus = VDN_commonwealth_formed_focus_4_economic_6
+				cost = 24
+			}
+		}
+	}
+
+	VDN_commonwealth_RIZ_2_timed_mission = {
+		days_mission_timeout = 360
+		activation = { has_country_flag = VDN_commonwealth_activator_flag }
+		is_good = no
+
+		custom_cost_text = "bullet_decisions_cost_text"
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_bullet_cost = 500 }
+			check_variable = {
+				bullet > temp_bullet_cost
+			}
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		selectable_mission = yes
+		fire_only_once = yes
+
+		cancel_trigger = { 
+			317 = {
+				NOT = { is_owned_by = ROOT }
+			}
+		}
+
+		timeout_effect = { ## if we fail completing agenda
+		}
+
+		complete_effect = { ## if we finish completing agenda
+			set_temp_variable = { bullet_to_gain = -500 }
+			add_bullet_with_tooltip_effect = yes
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_timed_idea = {
+				idea = VDN_prop_up_farming days = 90
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			reduce_focus_completion_cost = {
+				focus = VDN_commonwealth_formed_focus_4_economic_7
+				cost = 24
+			}
+
+			reduce_focus_completion_cost = {
+				focus = VDN_commonwealth_formed_focus_4_economic_8
+				cost = 24
+			}
+		}
+	}
+	
+	VDN_commonwealth_ALK_1_timed_mission = {
+		days_mission_timeout = 360
+		activation = { has_country_flag = VDN_commonwealth_activator_flag }
+		is_good = no
+
+		custom_cost_text = HNZ_agenda_requirement
+
+		available = {	## We will complete the agenda if said requirements are met
+			## Tunnel station has X amount of forts, infra etc.
+			custom_trigger_tooltip = {
+				tooltip = VDN_commonwealth_ALK_1_timed_mission_trigger_tooltip
+			}
+			8 = {
+				infrastructure > 3
+				resistance < 5
+				radar_station  > 0
+			}
+		}
+
+		selectable_mission = no
+		fire_only_once = yes
+
+		cancel_trigger = {  
+			8 = {
+				resistance > 74
+				NOT = {
+					is_owned_by = ROOT 
+				}
+			}
+			424 = {
+				NOT = { is_owned_by = ROOT }
+			}
+		}
+
+		timeout_effect = { ## if we fail completing agenda
+		}
+
+		complete_effect = { ## if we finish completing agenda
+			army_experience = 20
+			custom_effect_tooltip = generic_skip_one_line_tt
+			reduce_focus_completion_cost = {
+				focus = VDN_commonwealth_formed_focus_4_economic_3
+				cost = 24
+			}
+			reduce_focus_completion_cost = {
+				focus = VDN_commonwealth_formed_focus_4_economic_4
+				cost = 24
+			}
+		}
+	}
+
+	VDN_commonwealth_ALK_2_timed_mission = {
+		days_mission_timeout = 360
+		activation = { has_country_flag = VDN_commonwealth_activator_flag }
+		is_good = no
+
+		custom_cost_text = "command_power_decisions_cost_text"
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_command_power_cost = 50 }
+			check_variable = {
+				command_power > temp_command_power_cost
+			}
+		}
+
+		available = {	## We will complete the agenda if said requirements are met
+			has_equipment = { infantry_equipment > 24 }
+			has_equipment = { infantry_gear_equipment > 24 }
+			has_equipment = { support_equipment = 9 }
+		}
+
+		selectable_mission = yes
+		fire_only_once = yes
+
+		cancel_trigger = { 
+			424 = {
+				NOT = { is_owned_by = ROOT }
+			}
+		}
+
+		timeout_effect = { ## if we fail completing agenda
+		}
+
+		complete_effect = { ## if we finish completing agenda
+			set_temp_variable = { temp_command_power_cost = 50 }
+			multiply_temp_variable = { temp_command_power_cost = -1 }
+			add_command_power = temp_command_power_cost
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -25 }
+			add_equipment_to_stockpile = { type = infantry_gear_equipment amount = -25 }
+			add_equipment_to_stockpile = { type = support_equipment amount = -5 }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			reduce_focus_completion_cost = {
+				focus = VDN_commonwealth_formed_focus_4_economic_5
+				cost = 24
+			}
+
+			reduce_focus_completion_cost = {
+				focus = VDN_commonwealth_formed_focus_4_economic_9
+				cost = 24
+			}
+		}
+	} 
+
+	VDN_commonwealth_annex_RIZ = {
+
+		icon = generic_research
+
+		available = { 
+			has_completed_focus = VDN_commonwealth_formed_focus_4_economic_10
+		}
+
+		cost = cost_to_annex_RIZ
+		fire_only_once = yes
+		days_remove = 21
+
+		cancel_trigger = { 
+			RIZ = { 
+				NOT = { 
+					is_subject_of = ROOT 
+				} 
+			} 
+		}
+
+		remove_effect = {
+			annex_country = {
+    			target = RIZ
+    			transfer_troops = yes
+			}
+			RIZ = {
+				every_owned_state = {
+					add_core_of = ROOT
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 10000
+		}
+	}
+
+	VDN_commonwealth_annex_ALK = {
+
+		icon = generic_research
+
+		available = { 
+			has_completed_focus = VDN_commonwealth_formed_focus_4_economic_10
+		}
+
+		cost = cost_to_annex_ALK
+		fire_only_once = yes
+		days_remove = 21
+
+		cancel_trigger = { 
+			ALK = { 
+				NOT = { 
+					is_subject_of = ROOT 
+				} 
+			} 
+		}
+
+		remove_effect = {
+			annex_country = {
+    			target = ALK
+    			transfer_troops = yes
+			}
+			ALK = {
+				every_owned_state = {
+					add_core_of = ROOT
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 10000
+		}
+	}
+
+	VDN_commonwealth_annex_PRO = {
+
+		icon = generic_research
+
+		available = { 
+			has_completed_focus = VDN_commonwealth_formed_focus_4_economic_10
+		}
+
+		cost = 250
+		fire_only_once = yes
+		days_remove = 21
+
+		cancel_trigger = { 
+			PRO = { 
+				NOT = { 
+					is_subject_of = ROOT 
+				} 
+			} 
+		}
+
+		remove_effect = {
+			annex_country = {
+    			target = PRO
+    			transfer_troops = yes
+			}
+			PRO = {
+				every_owned_state = {
+					add_core_of = ROOT
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 10000
+		}
+	}
+
+	VDN_commonwealth_subvert_PRO = {
+
+		icon = generic_research
+
+		visible = {
+			has_completed_focus = VDN_capitalism_path
+			PRO = { exists = yes NOT = { has_idea = VDN_PRO_autonomy } }
+		}
+
+		available = { 
+			has_completed_focus = VDN_political_15
+			PRO = { exists = yes NOT = { has_idea = VDN_PRO_autonomy } }
+		}
+
+		cost = 200
+		fire_only_once = no
+		days_remove = 3
+
+		cancel_trigger = { 
+			PRO = { 
+				NOT = { 
+					is_subject = yes
+					exists = no
+				} 
+			} 
+		}
+
+		remove_effect = {
+			PRO = {
+				if = {
+					limit = { ROOT = { has_government = community } }
+					add_timed_idea = { idea = SAV_community_interference days = 1080 }
+				}
+				if = {
+					limit = { ROOT = { has_government = council } }
+					add_timed_idea = { idea = SAV_council_interference days = 1080 }
+				}
+				if = {
+					limit = { ROOT = { has_government = oligarch  } }
+					add_timed_idea = { idea = SAV_oligarch_interference days = 1080 }
+				}
+				add_timed_idea = { idea = VDN_PRO_autonomy days = 720 }
+			}
+			HNZ = {
+				country_event = nf_VDN_PRO.1
+			}
+		}
+
+		ai_will_do = {
+			base = 10000
+		}
+	}
+
+	VDN_commonwealth_subvert_PRO_2 = {
+
+		icon = generic_research
+
+		visible = {
+			has_completed_focus = VDN_capitalism_path
+		}
+
+		available = { 
+			has_completed_focus = VDN_political_15
+			PRO = { exists = yes NOT = { is_subject_of = HNZ } }
+		}
+
+		cost = 200
+		fire_only_once = yes
+		days_remove = 3
+
+		cancel_trigger = { 
+			PRO = { 
+				NOT = { 
+					is_subject = yes
+					exists = no
+				} 
+			} 
+		}
+
+		remove_effect = {
+			puppet = PRO
+		}
+	}
 }

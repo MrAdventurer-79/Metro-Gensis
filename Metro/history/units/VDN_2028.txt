@@ -2,8 +2,8 @@ division_template = {
 	name = "Tunnel Sentries"			
 
 	regiments = {
-		sentries =  { x = 0 y = 0 }
-		sentries =  { x = 1 y = 0 }
+		irregulars =  { x = 0 y = 0 }
+		irregulars =  { x = 1 y = 0 }
 	}
 }
 

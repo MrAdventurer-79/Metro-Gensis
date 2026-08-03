@@ -4,6 +4,17 @@ on_actions = {
 			106 = { set_state_flag = D6_FLAG }
 		}
 	}
+	on_daily = {
+		effect = {
+			# Only the owner-controller of D-6 advances the excavation; halts while contested or unowned
+			if = {
+				limit = {
+					106 = { is_owned_and_controlled_by = ROOT }
+				}
+				d6_excavation_daily_tick = yes
+			}
+		}
+	}
 	on_state_control_changed = {
         effect = {
             if = {

@@ -1,0 +1,7 @@
+defined_text = {
+    name = ULI_incident_loc
+
+    text = {
+        localization_key = ULI_incident_scripted_loc
+    }
+}

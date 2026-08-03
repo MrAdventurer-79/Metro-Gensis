@@ -20,7 +20,7 @@ set_technology = {
     tech_farming_1 = 1 
 	spec_ops_equipment_1_tech = 1
 	
-	sentries_unlock = 1
+	#sentries_unlock = 1
 }
 
 set_politics = {
@@ -121,13 +121,18 @@ set_country_flag = disable_scavenging_flag
 	set_variable = { VDN_immigrant_reduction = 30 }
 	set_variable = { VDN_immigrant_increase = 30 }
 
+	set_variable = { cost_to_annex_ALK = 250 }
+	set_variable = { cost_to_annex_RIZ = 250 }
+
 
 add_to_tech_sharing_group = VDN_faction_tech_group
 
 recruit_character = VDN_alexander_nikolaevich_kalyapin 
 recruit_character = VDN_alexander_sukhoi 
+
 recruit_character = VDN_colonel_patronknov 
-recruit_character = VDN_trade_council 
+recruit_character = VDN_trade_council
+
 recruit_character = VDN_andrey_arkadyevich 
 recruit_character = VDN_shirokov_makarovich 
 recruit_character = VDN_berezin_vadimvich 
@@ -142,5 +147,12 @@ recruit_character = VDN_artyom
 recruit_character = VDN_hunter 
 recruit_character = VDN_vyacheslav
 
+## ALK
+recruit_character = VDN_tarasovich
+recruit_character = VDN_fyodor
+## RIZ
+recruit_character = VDN_mihai
+recruit_character = VDN_gennady
+recruit_character = VDN_zakharovich 
 
 

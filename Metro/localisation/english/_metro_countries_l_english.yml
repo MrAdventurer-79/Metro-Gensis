@@ -31,12 +31,18 @@
  MUT_ADJ:0 "Mutant"
 
  ARB:0 "Arbat Confederation"
- ARB_DEF:0 "Arbat Confederation"
+ ARB_DEF:0 "The Arbat Confederation"
  ARB_ADJ:0 "Arbat"
 
  VDN:0 "VDNKh"
- VDN_DEF:0 "VDNKh"
+ VDN_DEF:0 "The Station of VDNKh"
  VDN_ADJ:0 "VDNKh"
+ VDN_hunter_dictatorial: "Novoreich"
+ VDN_hunter_dictatorial_DEF: "The New Reich"
+ VDN_hunter_dictatorial_ADJ: "Novoreich"
+ VDN_commonwealth: "VDNKh Commonwealth"
+ VDN_commonwealth_DEF: "The VDNKh Commonwealth"
+ VDN_commonwealth_ADJ: "VDNKh"
 
  ELI:0 "VDNKh Elites"
  ELI_DEF:0 "VDNKh Elites"

@@ -24,7 +24,7 @@ focus_tree = {
 		icon = GFX_ULI_generic
 		x = 24
 		y = 0
-		cost = 4.3
+		cost = 3
 		completion_reward = {
 			country_event = nf_ULI.3
 			hidden_effect = { ULI = { country_event = {  id = nf_ULI.5 days = 7 random_days = 7  } } }
@@ -38,8 +38,9 @@ focus_tree = {
 		icon = GFX_equipment_gasmask
 		cost = 8.6
 		prerequisite = { focus = ULI_focus_1 }
+		mutually_exclusive = { focus = ULI_focus_100A }
 		available = { has_war_support > 0.6 NOT = { has_country_flag = ULI_polezhaevsky_incident_flag } }
-		x = 6
+		x = 7
 		y = 1
 		relative_position_id = ULI_focus_1
 		completion_reward = {
@@ -57,16 +58,41 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = ULI_focus_100A
+		icon = GFX_equipment_gasmask
+		cost = 12.9
+		prerequisite = { focus = ULI_focus_1 }
+		mutually_exclusive = { focus = ULI_focus_100 }
+		available = { NOT = { has_country_flag = ULI_polezhaevsky_incident_flag } }
+		x = 9
+		y = 1
+		relative_position_id = ULI_focus_1
+		completion_reward = {
+			add_stability = -0.2
+			custom_effect_tooltip = generic_skip_one_line_tt
+
+			add_tech_bonus = {
+                bonus = 1
+                uses = 1
+                category = stalker
+            }
+		}
+		cancel_if_invalid = yes
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	focus = {
 		id = ULI_focus_110
 		icon = GFX_dark_ones
 		cost = 10
-		prerequisite = { focus = ULI_focus_100 }
+		prerequisite = { focus = ULI_focus_100 focus = ULI_focus_100A }
 		available = { 
 			has_tech = spec_ops_equipment_4_tech
 			NOT = { has_country_flag = ULI_polezhaevsky_incident_flag } 
 		}
-		x = 0
-		y = 1
+		x = 1
+		y = 2
 		relative_position_id = ULI_focus_100
 		completion_reward = {
 			custom_effect_tooltip = ULI_fight_the_threat
@@ -83,7 +109,7 @@ focus_tree = {
 		cost = 6.5
 		prerequisite = { focus = ULI_focus_1 }
 		available = { has_country_flag = ULI_polezhaevsky_incident_flag }
-		x = -3
+		x = -4
 		y = 1
 		relative_position_id = ULI_focus_1
 		completion_reward = {
@@ -117,7 +143,7 @@ focus_tree = {
 		cost = 6.5
 		prerequisite = { focus = ULI_focus_1 }
 		available = { has_country_flag = ULI_polezhaevsky_incident_flag }
-		x = 2
+		x = 3
 		y = 1
 		relative_position_id = ULI_focus_1
 		completion_reward = {
@@ -338,14 +364,42 @@ focus_tree = {
 		cost = 6.5
 		prerequisite = { focus = ULI_focus_2 }
 		available = { NOT = { has_completed_focus = ULI_focus_14 }}
-		x = -3
-		y = 1
+		x = -2
+		y = 2
 		relative_position_id = ULI_focus_2
 		completion_reward = {
 			custom_effect_tooltip = ULI_depose_zotov_tooltip
 			## option to depose zotov. Either plunging the nation into
 			## civil war, for significant buffs by leaning eaither spectrum
 			country_event = nf_ULI.6
+		}
+		ai_will_do = {
+			factor = 3
+		}
+	}
+	focus = {
+		id = ULI_depose_zotov_2
+		icon = GFX_RCH_commander3
+		cost = 6.5
+		prerequisite = { focus = ULI_depose_zotov }
+		available = { 
+			NOT = { has_completed_focus = ULI_focus_14 } 
+			
+			has_country_leader = {
+				character = ULI_ilya
+				ruling_only = yes
+			}
+		}
+		x = 0
+		y = 3
+		relative_position_id = ULI_depose_zotov
+		completion_reward = {
+			remove_power_balance = {
+    			id = ULI_power_balance
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			remove_ideas = ULI_1905_station_factionalism
+			add_country_leader_trait = ULI_country_leader_trait
 		}
 		ai_will_do = {
 			factor = 3
@@ -393,20 +447,12 @@ focus_tree = {
 			NOT = { has_idea = ULI_polezhaevsky_incident }
 			count_triggers = {
 				amount = 1
-				AND = {
-					is_subject = no 
-					has_war_support > 0.74
-				}
-				AND = {
-					is_subject = yes
-					date > 2034.10.1
-				}
-				AND = {
-					has_war_support > 0.89
-				}
+				NOT = { has_idea = ULI_1905_station_factionalism }
+				date > 2034.1.1
+				has_war_support > 0.74
 			}
 		}
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = ULI_focus_12
 		completion_reward = {
@@ -586,24 +632,11 @@ focus_tree = {
 		cost = 6.5
 		prerequisite = { focus = ULI_revanchist_rhetoric focus = ULI_emergency_women_draft focus = ULI_rage_against_the_light }
 		available = { 
-			NOT = { has_completed_focus = satellite_status_quo }
-			count_triggers = {
-				amount = 1
-				AND = {
-					is_subject = no 
-					has_war_support > 0.74
-				}
-				AND = {
-					is_subject = yes
-					date > 2034.10.1
-				}
-				AND = {
-					has_war_support > 0.89
-				}
-			}
+			302 = { is_owned_by = ROOT is_core_of = ROOT }
+			267 = { is_owned_by = ROOT is_core_of = ROOT }
 		}
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = ULI_revanchist_rhetoric
 		completion_reward = {
 			IF = {

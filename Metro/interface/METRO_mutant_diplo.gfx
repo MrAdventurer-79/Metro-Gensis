@@ -1,0 +1,16 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_mutant_diplo_overlay"
+		textureFile = "gfx/interface/mutant_diplo/MUT_diplo_overlay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mutant_diplo_locker"
+		textureFile = "gfx/interface/mutant_diplo/MUT_diplo_locker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mutant_diplo_patch"
+		textureFile = "gfx/interface/mutant_diplo/MUT_diplo_patch.dds"
+	}
+}

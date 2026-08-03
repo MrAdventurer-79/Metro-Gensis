@@ -1,0 +1,59 @@
+defined_text = {
+	name = GetD6ActiveSectorLabel
+	text = {
+		trigger = {
+			check_variable = { global.d6_active_sector = 0 }
+		}
+		localization_key = D6_NO_ACTIVE_SECTOR
+	}
+	text = {
+		localization_key = D6_ACTIVE_SECTOR_INFO
+	}
+}
+
+defined_text = {
+	name = GetD6ActiveSectorName
+	text = {
+		trigger = { check_variable = { global.d6_active_sector = 1 } }
+		localization_key = D6_SECTOR_1_NAME
+	}
+	text = {
+		trigger = { check_variable = { global.d6_active_sector = 2 } }
+		localization_key = D6_SECTOR_2_NAME
+	}
+	text = {
+		trigger = { check_variable = { global.d6_active_sector = 3 } }
+		localization_key = D6_SECTOR_3_NAME
+	}
+	text = {
+		trigger = { check_variable = { global.d6_active_sector = 4 } }
+		localization_key = D6_SECTOR_4_NAME
+	}
+	text = {
+		trigger = { check_variable = { global.d6_active_sector = 5 } }
+		localization_key = D6_SECTOR_5_NAME
+	}
+	text = {
+		trigger = { check_variable = { global.d6_active_sector = 6 } }
+		localization_key = D6_SECTOR_6_NAME
+	}
+	text = {
+		trigger = { check_variable = { global.d6_active_sector = 7 } }
+		localization_key = D6_SECTOR_7_NAME
+	}
+	text = {
+		trigger = { check_variable = { global.d6_active_sector = 8 } }
+		localization_key = D6_SECTOR_8_NAME
+	}
+	text = {
+		trigger = { check_variable = { global.d6_active_sector = 9 } }
+		localization_key = D6_SECTOR_9_NAME
+	}
+	text = {
+		trigger = { check_variable = { global.d6_active_sector = 10 } }
+		localization_key = D6_SECTOR_10_NAME
+	}
+	text = {
+		localization_key = D6_SECTOR_NONE_NAME
+	}
+}

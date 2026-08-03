@@ -224,3 +224,11 @@ calculate_education_reforms = {
 #	}
 #	add_to_variable = { education_reforms_books_reenable = education_books_duration }
 #}
+
+
+add_country_ruling_party_popularity = {
+	if = { limit = { has_government = community } add_popularity = { ideology = community popularity = temp_popularity } }
+	if = { limit = { has_government = council } add_popularity = { ideology = council popularity = temp_popularity } }
+	if = { limit = { has_government = oligarch } add_popularity = { ideology = oligarch popularity = temp_popularity } }
+	if = { limit = { has_government = dictatorial } add_popularity = { ideology = dictatorial popularity = temp_popularity } }
+}

@@ -122,7 +122,6 @@ country_event = {
 
 	option = {
 		name = nf_ULI.3.a
-		add_political_power = 50
 		custom_effect_tooltip = nf_ULI.3.a.tt
 
 		activate_mission = ULI_evacuate_north_countdown_risk
@@ -183,29 +182,35 @@ country_event = {
 
 	option = {
 		name = nf_ULI.6.a
-		trigger = {
-			power_balance_value = {
-				id = ULI_power_balance
-				value > 0.6
-			}
-		}
 		set_politics = {
 			ruling_party = oligarch
 			elections_allowed = no
+		}
+		if = {
+			limit = {
+				power_balance_value = {
+    				id = ULI_power_balance
+    				value < 0.6
+				}
+			}
+			add_stability = -0.1
 		}
 	}
 
 	option = {
 		name = nf_ULI.6.b
-		trigger = {
-			power_balance_value = {
-				id = ULI_power_balance
-				value < -0.6
-			}
-		}
 		set_politics = {
 			ruling_party = community
 			elections_allowed = no
+		}
+		if = {
+			limit = {
+				power_balance_value = {
+    				id = ULI_power_balance
+    				value > -0.6
+				}
+			}
+			add_stability = -0.1
 		}
 	}
 
@@ -221,8 +226,23 @@ country_event = {
 				value < 0.1
 			}
 		}
-		add_political_power = 100 
 		ULI_ilya = { add_country_leader_trait = ULI_capable_leader }
+
+		if = {
+			limit = {
+				OR = {
+					power_balance_value = {
+    					id = ULI_power_balance
+    					value > -0.6
+					}
+					power_balance_value = {
+    					id = ULI_power_balance
+    					value < 0.6
+					}
+				}
+			}
+			add_stability = -0.16
+		}
 	}
 }
 

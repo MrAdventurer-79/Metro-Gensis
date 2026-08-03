@@ -80,7 +80,7 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { infantry_officer }
+			traits = { brave_personality_trait }
 			skill = 3
 			legacy_id=-1
 			attack_skill = 3
@@ -142,7 +142,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = high_command
 			idea_token = VDN_pyotr_andreyevich
 			cost = 100
 			traits = { VDN_pyotr_andreyevich_trait }
@@ -165,6 +165,11 @@ characters = {
 			idea_token = VDN_erofey
 			cost = 100
 			traits = { VDN_erofey_trait }
+			available = { has_completed_focus = VDN_establish_libraries }
+			research_bonus = {
+				industry = 0.15
+				support_tech = 0.15
+			}
 			ai_will_do = {
 				factor = 10
 			}
@@ -180,7 +185,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = political_advisor
+			slot = high_command
 			idea_token = VDN_kirill
 			cost = 100
 			traits = { VDN_kirill_trait }
@@ -240,7 +245,186 @@ characters = {
 				large = "gfx/leaders/VDN/VDN_hunter.dds"
 			}
 			army = { 
-				small = GFX_idea_VDN_minister_hunter0
+				small = GFX_idea_VDN_minister_hunter
+			}
+		}
+	}
+
+	VDN_tarasovich = {
+		name = VDN_tarasovich
+		portraits = {
+			army = {
+				large = "gfx/leaders/VDN/VDN_tarasovich.dds"
+				small = "GFX_idea_VDN_minister_tarasovich"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VDN_tarasovich
+			cost = 100
+			traits = { VDN_tarasovich_trait }
+			visible = {
+				has_completed_focus = VDN_commonwealth
+			}
+			available = {
+				317 = { is_owned_by = ROOT }
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	VDN_fyodor = {
+		name = VDN_fyodor
+		portraits = {
+			army = {
+				large = "gfx/leaders/VDN/VDN_fyodor.dds"
+				small = "GFX_idea_VDN_minister_fyodor"
+			}
+		}
+		advisor = {
+			slot = materiel_manufacturer
+			idea_token = VDN_fyodor
+			cost = 150
+			traits = { VDN_fyodor_trait }
+			available = {
+				if = {
+					limit = {
+						FROM = { is_hired_as_advisor = no }
+					}
+					custom_trigger_tooltip = {
+						tooltip = bullet_sum_amount
+						check_variable = {
+							bullet > 199
+						}
+					}
+				}
+			}
+			on_add = { 
+				hidden_effect = { 
+					set_temp_variable = { bullet_to_gain = -200 }
+					add_bullet_with_tooltip_effect = yes
+				}	
+			}
+			visible = {
+				has_completed_focus = VDN_commonwealth
+			}
+			available = {
+				317 = { is_owned_by = ROOT }
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	VDN_mihai = {
+		name = VDN_mihai
+		portraits = {
+			army = {
+				large = "gfx/leaders/VDN/VDN_mihai.dds"
+				small = "GFX_idea_VDN_minister_mihai"
+			}
+		}
+		advisor = {
+			slot = industrial_concern
+			idea_token = VDN_mihai
+			cost = 150
+			traits = { VDN_mihai_trait }
+			visible = {
+				has_completed_focus = VDN_commonwealth
+			}
+			available = {
+				424 = { is_owned_by = ROOT }
+			}
+			available = {
+				if = {
+					limit = {
+						FROM = { is_hired_as_advisor = no }
+					}
+					custom_trigger_tooltip = {
+						tooltip = bullet_sum_amount
+						check_variable = {
+							bullet > 199
+						}
+					}
+				}
+			}
+			on_add = { 
+				hidden_effect = { 
+					set_temp_variable = { bullet_to_gain = -200 }
+					add_bullet_with_tooltip_effect = yes
+				}	
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	VDN_gennady = {
+		name = VDN_gennady
+		portraits = {
+			army = {
+				large = "gfx/leaders/VDN/VDN_gennady.dds"
+				small = "GFX_idea_VDN_minister_gennady"
+			}
+		}
+		advisor = {
+			slot = industrial_concern
+			idea_token = VDN_gennady
+			cost = 150
+			traits = { VDN_gennady_trait }
+			visible = {
+				has_completed_focus = VDN_commonwealth
+			}
+			available = {
+				424 = { is_owned_by = ROOT }
+			}
+			available = {
+				if = {
+					limit = {
+						FROM = { is_hired_as_advisor = no }
+					}
+					custom_trigger_tooltip = {
+						tooltip = bullet_sum_amount
+						check_variable = {
+							bullet > 199
+						}
+					}
+				}
+			}
+			on_add = { 
+				hidden_effect = { 
+					set_temp_variable = { bullet_to_gain = -200 }
+					add_bullet_with_tooltip_effect = yes
+				}	
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	VDN_zakharovich = {
+		name = VDN_zakharovich
+		portraits = {
+			army = {
+				large = "gfx/leaders/VDN/VDN_zakharovich.dds"
+				small = "GFX_idea_VDN_minister_zakharovich"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VDN_zakharovich
+			cost = 100
+			traits = { VDN_zakharovich_trait }
+			visible = {
+				has_completed_focus = VDN_commonwealth
+			}
+			available = {
+				424 = { is_owned_by = ROOT }
+			}
+			ai_will_do = {
+				factor = 10
 			}
 		}
 	}

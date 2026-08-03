@@ -1,0 +1,63 @@
+# Д-6 sector excavation triggers
+# Sector layout (levels separated by the red/yellow/green lines in the GUI):
+#   Level 1: S1
+#   Level 2: S2 S3 S4 / S5 S6
+#   Level 3: S7 S8 S9
+#   Level 4: S10
+# A sector can be excavated once a connected sector above it has been cleared.
+
+d6_can_start_excavation = {
+	check_variable = { global.d6_active_sector = 0 }
+	106 = {
+		is_owned_and_controlled_by = ROOT
+	}
+}
+
+d6_sector_1_prereq_met = {
+	always = yes
+}
+
+d6_sector_2_prereq_met = {
+	has_global_flag = D6_sector_3_cleared
+}
+
+d6_sector_3_prereq_met = {
+	has_global_flag = D6_sector_1_cleared
+}
+
+d6_sector_4_prereq_met = {
+	has_global_flag = D6_sector_3_cleared
+}
+
+d6_sector_5_prereq_met = {
+	OR = {
+		has_global_flag = D6_sector_2_cleared
+		has_global_flag = D6_sector_3_cleared
+	}
+}
+
+d6_sector_6_prereq_met = {
+	OR = {
+		has_global_flag = D6_sector_3_cleared
+		has_global_flag = D6_sector_4_cleared
+	}
+}
+
+d6_sector_7_prereq_met = {
+	has_global_flag = D6_sector_5_cleared
+}
+
+d6_sector_8_prereq_met = {
+	OR = {
+		has_global_flag = D6_sector_5_cleared
+		has_global_flag = D6_sector_6_cleared
+	}
+}
+
+d6_sector_9_prereq_met = {
+	has_global_flag = D6_sector_6_cleared
+}
+
+d6_sector_10_prereq_met = {
+	has_global_flag = D6_sector_8_cleared
+}

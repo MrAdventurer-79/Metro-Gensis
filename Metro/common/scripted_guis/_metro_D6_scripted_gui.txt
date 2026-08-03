@@ -5,7 +5,7 @@ scripted_gui = {
 		parent_window_token = selected_state_view
 
 		visible = {
-			ROOT = { 
+			ROOT = {
 				NOT = {
 					has_country_flag = D6_GUI_disabled_flag
 				}
@@ -46,8 +46,286 @@ scripted_gui = {
 		parent_window_token = selected_state_view
 
 		visible = {
+			has_state_flag = D6_FLAG
 			ROOT = {
 				has_country_flag = D6_show_gui
+			}
+		}
+
+		properties = {
+			d6_s1_bar = { frame = global.d6_sector_progress }
+			d6_s2_bar = { frame = global.d6_sector_progress }
+			d6_s3_bar = { frame = global.d6_sector_progress }
+			d6_s4_bar = { frame = global.d6_sector_progress }
+			d6_s5_bar = { frame = global.d6_sector_progress }
+			d6_s6_bar = { frame = global.d6_sector_progress }
+			d6_s7_bar = { frame = global.d6_sector_progress }
+			d6_s8_bar = { frame = global.d6_sector_progress }
+			d6_s9_bar = { frame = global.d6_sector_progress }
+			d6_s10_bar = { frame = global.d6_sector_progress }
+			d6_main_bar = { frame = global.d6_sector_progress }
+		}
+
+		effects = {
+			d6_s1_start_click = { d6_start_sector_1 = yes }
+			d6_s2_start_click = { d6_start_sector_2 = yes }
+			d6_s3_start_click = { d6_start_sector_3 = yes }
+			d6_s4_start_click = { d6_start_sector_4 = yes }
+			d6_s5_start_click = { d6_start_sector_5 = yes }
+			d6_s6_start_click = { d6_start_sector_6 = yes }
+			d6_s7_start_click = { d6_start_sector_7 = yes }
+			d6_s8_start_click = { d6_start_sector_8 = yes }
+			d6_s9_start_click = { d6_start_sector_9 = yes }
+			d6_s10_start_click = { d6_start_sector_10 = yes }
+		}
+
+		triggers = {
+			### Sector 1 ###
+			d6_s1_locked_visible = {
+				NOT = { has_global_flag = D6_sector_1_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 1 } }
+				NOT = { d6_sector_1_prereq_met = yes }
+			}
+			d6_s1_start_visible = {
+				d6_sector_1_prereq_met = yes
+				NOT = { has_global_flag = D6_sector_1_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 1 } }
+			}
+			d6_s1_start_click_enabled = {
+				d6_can_start_excavation = yes
+			}
+			d6_s1_active_visible = {
+				check_variable = { global.d6_active_sector = 1 }
+			}
+			d6_s1_done_visible = {
+				has_global_flag = D6_sector_1_cleared
+			}
+			d6_s1_bar_visible = {
+				check_variable = { global.d6_active_sector = 1 }
+			}
+
+			### Sector 2 ###
+			d6_s2_locked_visible = {
+				NOT = { has_global_flag = D6_sector_2_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 2 } }
+				NOT = { d6_sector_2_prereq_met = yes }
+			}
+			d6_s2_start_visible = {
+				d6_sector_2_prereq_met = yes
+				NOT = { has_global_flag = D6_sector_2_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 2 } }
+			}
+			d6_s2_start_click_enabled = {
+				d6_can_start_excavation = yes
+			}
+			d6_s2_active_visible = {
+				check_variable = { global.d6_active_sector = 2 }
+			}
+			d6_s2_done_visible = {
+				has_global_flag = D6_sector_2_cleared
+			}
+			d6_s2_bar_visible = {
+				check_variable = { global.d6_active_sector = 2 }
+			}
+
+			### Sector 3 ###
+			d6_s3_locked_visible = {
+				NOT = { has_global_flag = D6_sector_3_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 3 } }
+				NOT = { d6_sector_3_prereq_met = yes }
+			}
+			d6_s3_start_visible = {
+				d6_sector_3_prereq_met = yes
+				NOT = { has_global_flag = D6_sector_3_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 3 } }
+			}
+			d6_s3_start_click_enabled = {
+				d6_can_start_excavation = yes
+			}
+			d6_s3_active_visible = {
+				check_variable = { global.d6_active_sector = 3 }
+			}
+			d6_s3_done_visible = {
+				has_global_flag = D6_sector_3_cleared
+			}
+			d6_s3_bar_visible = {
+				check_variable = { global.d6_active_sector = 3 }
+			}
+
+			### Sector 4 ###
+			d6_s4_locked_visible = {
+				NOT = { has_global_flag = D6_sector_4_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 4 } }
+				NOT = { d6_sector_4_prereq_met = yes }
+			}
+			d6_s4_start_visible = {
+				d6_sector_4_prereq_met = yes
+				NOT = { has_global_flag = D6_sector_4_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 4 } }
+			}
+			d6_s4_start_click_enabled = {
+				d6_can_start_excavation = yes
+			}
+			d6_s4_active_visible = {
+				check_variable = { global.d6_active_sector = 4 }
+			}
+			d6_s4_done_visible = {
+				has_global_flag = D6_sector_4_cleared
+			}
+			d6_s4_bar_visible = {
+				check_variable = { global.d6_active_sector = 4 }
+			}
+
+			### Sector 5 ###
+			d6_s5_locked_visible = {
+				NOT = { has_global_flag = D6_sector_5_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 5 } }
+				NOT = { d6_sector_5_prereq_met = yes }
+			}
+			d6_s5_start_visible = {
+				d6_sector_5_prereq_met = yes
+				NOT = { has_global_flag = D6_sector_5_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 5 } }
+			}
+			d6_s5_start_click_enabled = {
+				d6_can_start_excavation = yes
+			}
+			d6_s5_active_visible = {
+				check_variable = { global.d6_active_sector = 5 }
+			}
+			d6_s5_done_visible = {
+				has_global_flag = D6_sector_5_cleared
+			}
+			d6_s5_bar_visible = {
+				check_variable = { global.d6_active_sector = 5 }
+			}
+
+			### Sector 6 ###
+			d6_s6_locked_visible = {
+				NOT = { has_global_flag = D6_sector_6_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 6 } }
+				NOT = { d6_sector_6_prereq_met = yes }
+			}
+			d6_s6_start_visible = {
+				d6_sector_6_prereq_met = yes
+				NOT = { has_global_flag = D6_sector_6_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 6 } }
+			}
+			d6_s6_start_click_enabled = {
+				d6_can_start_excavation = yes
+			}
+			d6_s6_active_visible = {
+				check_variable = { global.d6_active_sector = 6 }
+			}
+			d6_s6_done_visible = {
+				has_global_flag = D6_sector_6_cleared
+			}
+			d6_s6_bar_visible = {
+				check_variable = { global.d6_active_sector = 6 }
+			}
+
+			### Sector 7 ###
+			d6_s7_locked_visible = {
+				NOT = { has_global_flag = D6_sector_7_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 7 } }
+				NOT = { d6_sector_7_prereq_met = yes }
+			}
+			d6_s7_start_visible = {
+				d6_sector_7_prereq_met = yes
+				NOT = { has_global_flag = D6_sector_7_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 7 } }
+			}
+			d6_s7_start_click_enabled = {
+				d6_can_start_excavation = yes
+			}
+			d6_s7_active_visible = {
+				check_variable = { global.d6_active_sector = 7 }
+			}
+			d6_s7_done_visible = {
+				has_global_flag = D6_sector_7_cleared
+			}
+			d6_s7_bar_visible = {
+				check_variable = { global.d6_active_sector = 7 }
+			}
+
+			### Sector 8 ###
+			d6_s8_locked_visible = {
+				NOT = { has_global_flag = D6_sector_8_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 8 } }
+				NOT = { d6_sector_8_prereq_met = yes }
+			}
+			d6_s8_start_visible = {
+				d6_sector_8_prereq_met = yes
+				NOT = { has_global_flag = D6_sector_8_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 8 } }
+			}
+			d6_s8_start_click_enabled = {
+				d6_can_start_excavation = yes
+			}
+			d6_s8_active_visible = {
+				check_variable = { global.d6_active_sector = 8 }
+			}
+			d6_s8_done_visible = {
+				has_global_flag = D6_sector_8_cleared
+			}
+			d6_s8_bar_visible = {
+				check_variable = { global.d6_active_sector = 8 }
+			}
+
+			### Sector 9 ###
+			d6_s9_locked_visible = {
+				NOT = { has_global_flag = D6_sector_9_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 9 } }
+				NOT = { d6_sector_9_prereq_met = yes }
+			}
+			d6_s9_start_visible = {
+				d6_sector_9_prereq_met = yes
+				NOT = { has_global_flag = D6_sector_9_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 9 } }
+			}
+			d6_s9_start_click_enabled = {
+				d6_can_start_excavation = yes
+			}
+			d6_s9_active_visible = {
+				check_variable = { global.d6_active_sector = 9 }
+			}
+			d6_s9_done_visible = {
+				has_global_flag = D6_sector_9_cleared
+			}
+			d6_s9_bar_visible = {
+				check_variable = { global.d6_active_sector = 9 }
+			}
+
+			### Sector 10 ###
+			d6_s10_locked_visible = {
+				NOT = { has_global_flag = D6_sector_10_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 10 } }
+				NOT = { d6_sector_10_prereq_met = yes }
+			}
+			d6_s10_start_visible = {
+				d6_sector_10_prereq_met = yes
+				NOT = { has_global_flag = D6_sector_10_cleared }
+				NOT = { check_variable = { global.d6_active_sector = 10 } }
+			}
+			d6_s10_start_click_enabled = {
+				d6_can_start_excavation = yes
+			}
+			d6_s10_active_visible = {
+				check_variable = { global.d6_active_sector = 10 }
+			}
+			d6_s10_done_visible = {
+				has_global_flag = D6_sector_10_cleared
+			}
+			d6_s10_bar_visible = {
+				check_variable = { global.d6_active_sector = 10 }
+			}
+
+			### Bottom panel ###
+			d6_main_bar_visible = {
+				check_variable = { global.d6_active_sector > 0 }
+			}
+			d6_main_barframe_visible = {
+				check_variable = { global.d6_active_sector > 0 }
 			}
 		}
 	}

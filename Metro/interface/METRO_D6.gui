@@ -9,6 +9,7 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_D6_button"
 			frame = 1
+			pdx_tooltip = "D6_BUTTON_DESC"
 		}
 
 		buttonType = {
@@ -16,13 +17,14 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_D6_button"
 			frame = 2
+			pdx_tooltip = "D6_BUTTON_CLOSE_DESC"
 		}
 	}
 
 	containerWindowType = {
 		name = "D6_window_container"
-		position = { x = 488 y = 11 }
-		size = { width = 700 height = 500 }
+		position = { x = 493 y = 11 }
+		size = { width = 520 height = 690 }
 
 		fade_time = 300
 		fade_type = linear
@@ -32,6 +34,394 @@ guiTypes = {
 		background = {
 			name = "background"
 			spriteType = "GFX_tiled_window"
+		}
+
+		iconType = {
+			name = "d6_tree_lines"
+			spriteType = "GFX_D6_tree_lines"
+			position = { x = 0 y = 0 }
+		}
+
+		instantTextBoxType = {
+			name = "d6_window_title"
+			position = { x = 10 y = 16 }
+			font = "hoi_22tech"
+			text = "D6_WINDOW_TITLE"
+			maxWidth = 500
+			maxHeight = 30
+			format = centre
+		}
+
+		### Sector 1 - Level 1 ###
+		iconType = {
+			name = "d6_s1_locked"
+			spriteType = "GFX_D6_sector_box"
+			frame = 1
+			position = { x = 224 y = 56 }
+			pdx_tooltip = "D6_SECTOR_1_LOCKED_tt"
+		}
+		buttonType = {
+			name = "d6_s1_start"
+			spriteType = "GFX_D6_sector_box"
+			frame = 2
+			position = { x = 224 y = 56 }
+			pdx_tooltip = "D6_SECTOR_1_START_tt"
+		}
+		iconType = {
+			name = "d6_s1_active"
+			spriteType = "GFX_D6_sector_box"
+			frame = 3
+			position = { x = 224 y = 56 }
+			pdx_tooltip = "D6_SECTOR_1_ACTIVE_tt"
+		}
+		iconType = {
+			name = "d6_s1_done"
+			spriteType = "GFX_D6_sector_box"
+			frame = 4
+			position = { x = 224 y = 56 }
+			pdx_tooltip = "D6_SECTOR_1_DONE_tt"
+		}
+		iconType = {
+			name = "d6_s1_bar"
+			spriteType = "GFX_D6_sector_progress"
+			position = { x = 228 y = 116 }
+		}
+
+		### Sector 2 - Level 2 ###
+		iconType = {
+			name = "d6_s2_locked"
+			spriteType = "GFX_D6_sector_box"
+			frame = 1
+			position = { x = 74 y = 166 }
+			pdx_tooltip = "D6_SECTOR_2_LOCKED_tt"
+		}
+		buttonType = {
+			name = "d6_s2_start"
+			spriteType = "GFX_D6_sector_box"
+			frame = 2
+			position = { x = 74 y = 166 }
+			pdx_tooltip = "D6_SECTOR_2_START_tt"
+		}
+		iconType = {
+			name = "d6_s2_active"
+			spriteType = "GFX_D6_sector_box"
+			frame = 3
+			position = { x = 74 y = 166 }
+			pdx_tooltip = "D6_SECTOR_2_ACTIVE_tt"
+		}
+		iconType = {
+			name = "d6_s2_done"
+			spriteType = "GFX_D6_sector_box"
+			frame = 4
+			position = { x = 74 y = 166 }
+			pdx_tooltip = "D6_SECTOR_2_DONE_tt"
+		}
+		iconType = {
+			name = "d6_s2_bar"
+			spriteType = "GFX_D6_sector_progress"
+			position = { x = 78 y = 226 }
+		}
+
+		### Sector 3 - Level 2 ###
+		iconType = {
+			name = "d6_s3_locked"
+			spriteType = "GFX_D6_sector_box"
+			frame = 1
+			position = { x = 224 y = 166 }
+			pdx_tooltip = "D6_SECTOR_3_LOCKED_tt"
+		}
+		buttonType = {
+			name = "d6_s3_start"
+			spriteType = "GFX_D6_sector_box"
+			frame = 2
+			position = { x = 224 y = 166 }
+			pdx_tooltip = "D6_SECTOR_3_START_tt"
+		}
+		iconType = {
+			name = "d6_s3_active"
+			spriteType = "GFX_D6_sector_box"
+			frame = 3
+			position = { x = 224 y = 166 }
+			pdx_tooltip = "D6_SECTOR_3_ACTIVE_tt"
+		}
+		iconType = {
+			name = "d6_s3_done"
+			spriteType = "GFX_D6_sector_box"
+			frame = 4
+			position = { x = 224 y = 166 }
+			pdx_tooltip = "D6_SECTOR_3_DONE_tt"
+		}
+		iconType = {
+			name = "d6_s3_bar"
+			spriteType = "GFX_D6_sector_progress"
+			position = { x = 228 y = 226 }
+		}
+
+		### Sector 4 - Level 2 ###
+		iconType = {
+			name = "d6_s4_locked"
+			spriteType = "GFX_D6_sector_box"
+			frame = 1
+			position = { x = 374 y = 166 }
+			pdx_tooltip = "D6_SECTOR_4_LOCKED_tt"
+		}
+		buttonType = {
+			name = "d6_s4_start"
+			spriteType = "GFX_D6_sector_box"
+			frame = 2
+			position = { x = 374 y = 166 }
+			pdx_tooltip = "D6_SECTOR_4_START_tt"
+		}
+		iconType = {
+			name = "d6_s4_active"
+			spriteType = "GFX_D6_sector_box"
+			frame = 3
+			position = { x = 374 y = 166 }
+			pdx_tooltip = "D6_SECTOR_4_ACTIVE_tt"
+		}
+		iconType = {
+			name = "d6_s4_done"
+			spriteType = "GFX_D6_sector_box"
+			frame = 4
+			position = { x = 374 y = 166 }
+			pdx_tooltip = "D6_SECTOR_4_DONE_tt"
+		}
+		iconType = {
+			name = "d6_s4_bar"
+			spriteType = "GFX_D6_sector_progress"
+			position = { x = 378 y = 226 }
+		}
+
+		### Sector 5 - Level 2 ###
+		iconType = {
+			name = "d6_s5_locked"
+			spriteType = "GFX_D6_sector_box"
+			frame = 1
+			position = { x = 149 y = 286 }
+			pdx_tooltip = "D6_SECTOR_5_LOCKED_tt"
+		}
+		buttonType = {
+			name = "d6_s5_start"
+			spriteType = "GFX_D6_sector_box"
+			frame = 2
+			position = { x = 149 y = 286 }
+			pdx_tooltip = "D6_SECTOR_5_START_tt"
+		}
+		iconType = {
+			name = "d6_s5_active"
+			spriteType = "GFX_D6_sector_box"
+			frame = 3
+			position = { x = 149 y = 286 }
+			pdx_tooltip = "D6_SECTOR_5_ACTIVE_tt"
+		}
+		iconType = {
+			name = "d6_s5_done"
+			spriteType = "GFX_D6_sector_box"
+			frame = 4
+			position = { x = 149 y = 286 }
+			pdx_tooltip = "D6_SECTOR_5_DONE_tt"
+		}
+		iconType = {
+			name = "d6_s5_bar"
+			spriteType = "GFX_D6_sector_progress"
+			position = { x = 153 y = 346 }
+		}
+
+		### Sector 6 - Level 2 ###
+		iconType = {
+			name = "d6_s6_locked"
+			spriteType = "GFX_D6_sector_box"
+			frame = 1
+			position = { x = 299 y = 286 }
+			pdx_tooltip = "D6_SECTOR_6_LOCKED_tt"
+		}
+		buttonType = {
+			name = "d6_s6_start"
+			spriteType = "GFX_D6_sector_box"
+			frame = 2
+			position = { x = 299 y = 286 }
+			pdx_tooltip = "D6_SECTOR_6_START_tt"
+		}
+		iconType = {
+			name = "d6_s6_active"
+			spriteType = "GFX_D6_sector_box"
+			frame = 3
+			position = { x = 299 y = 286 }
+			pdx_tooltip = "D6_SECTOR_6_ACTIVE_tt"
+		}
+		iconType = {
+			name = "d6_s6_done"
+			spriteType = "GFX_D6_sector_box"
+			frame = 4
+			position = { x = 299 y = 286 }
+			pdx_tooltip = "D6_SECTOR_6_DONE_tt"
+		}
+		iconType = {
+			name = "d6_s6_bar"
+			spriteType = "GFX_D6_sector_progress"
+			position = { x = 303 y = 346 }
+		}
+
+		### Sector 7 - Level 3 ###
+		iconType = {
+			name = "d6_s7_locked"
+			spriteType = "GFX_D6_sector_box"
+			frame = 1
+			position = { x = 74 y = 396 }
+			pdx_tooltip = "D6_SECTOR_7_LOCKED_tt"
+		}
+		buttonType = {
+			name = "d6_s7_start"
+			spriteType = "GFX_D6_sector_box"
+			frame = 2
+			position = { x = 74 y = 396 }
+			pdx_tooltip = "D6_SECTOR_7_START_tt"
+		}
+		iconType = {
+			name = "d6_s7_active"
+			spriteType = "GFX_D6_sector_box"
+			frame = 3
+			position = { x = 74 y = 396 }
+			pdx_tooltip = "D6_SECTOR_7_ACTIVE_tt"
+		}
+		iconType = {
+			name = "d6_s7_done"
+			spriteType = "GFX_D6_sector_box"
+			frame = 4
+			position = { x = 74 y = 396 }
+			pdx_tooltip = "D6_SECTOR_7_DONE_tt"
+		}
+		iconType = {
+			name = "d6_s7_bar"
+			spriteType = "GFX_D6_sector_progress"
+			position = { x = 78 y = 456 }
+		}
+
+		### Sector 8 - Level 3 ###
+		iconType = {
+			name = "d6_s8_locked"
+			spriteType = "GFX_D6_sector_box"
+			frame = 1
+			position = { x = 224 y = 396 }
+			pdx_tooltip = "D6_SECTOR_8_LOCKED_tt"
+		}
+		buttonType = {
+			name = "d6_s8_start"
+			spriteType = "GFX_D6_sector_box"
+			frame = 2
+			position = { x = 224 y = 396 }
+			pdx_tooltip = "D6_SECTOR_8_START_tt"
+		}
+		iconType = {
+			name = "d6_s8_active"
+			spriteType = "GFX_D6_sector_box"
+			frame = 3
+			position = { x = 224 y = 396 }
+			pdx_tooltip = "D6_SECTOR_8_ACTIVE_tt"
+		}
+		iconType = {
+			name = "d6_s8_done"
+			spriteType = "GFX_D6_sector_box"
+			frame = 4
+			position = { x = 224 y = 396 }
+			pdx_tooltip = "D6_SECTOR_8_DONE_tt"
+		}
+		iconType = {
+			name = "d6_s8_bar"
+			spriteType = "GFX_D6_sector_progress"
+			position = { x = 228 y = 456 }
+		}
+
+		### Sector 9 - Level 3 ###
+		iconType = {
+			name = "d6_s9_locked"
+			spriteType = "GFX_D6_sector_box"
+			frame = 1
+			position = { x = 374 y = 396 }
+			pdx_tooltip = "D6_SECTOR_9_LOCKED_tt"
+		}
+		buttonType = {
+			name = "d6_s9_start"
+			spriteType = "GFX_D6_sector_box"
+			frame = 2
+			position = { x = 374 y = 396 }
+			pdx_tooltip = "D6_SECTOR_9_START_tt"
+		}
+		iconType = {
+			name = "d6_s9_active"
+			spriteType = "GFX_D6_sector_box"
+			frame = 3
+			position = { x = 374 y = 396 }
+			pdx_tooltip = "D6_SECTOR_9_ACTIVE_tt"
+		}
+		iconType = {
+			name = "d6_s9_done"
+			spriteType = "GFX_D6_sector_box"
+			frame = 4
+			position = { x = 374 y = 396 }
+			pdx_tooltip = "D6_SECTOR_9_DONE_tt"
+		}
+		iconType = {
+			name = "d6_s9_bar"
+			spriteType = "GFX_D6_sector_progress"
+			position = { x = 378 y = 456 }
+		}
+
+		### Sector 10 - Level 4 ###
+		iconType = {
+			name = "d6_s10_locked"
+			spriteType = "GFX_D6_sector_box"
+			frame = 1
+			position = { x = 224 y = 506 }
+			pdx_tooltip = "D6_SECTOR_10_LOCKED_tt"
+		}
+		buttonType = {
+			name = "d6_s10_start"
+			spriteType = "GFX_D6_sector_box"
+			frame = 2
+			position = { x = 224 y = 506 }
+			pdx_tooltip = "D6_SECTOR_10_START_tt"
+		}
+		iconType = {
+			name = "d6_s10_active"
+			spriteType = "GFX_D6_sector_box"
+			frame = 3
+			position = { x = 224 y = 506 }
+			pdx_tooltip = "D6_SECTOR_10_ACTIVE_tt"
+		}
+		iconType = {
+			name = "d6_s10_done"
+			spriteType = "GFX_D6_sector_box"
+			frame = 4
+			position = { x = 224 y = 506 }
+			pdx_tooltip = "D6_SECTOR_10_DONE_tt"
+		}
+		iconType = {
+			name = "d6_s10_bar"
+			spriteType = "GFX_D6_sector_progress"
+			position = { x = 228 y = 566 }
+		}
+
+		### Bottom panel: active excavation summary ###
+		instantTextBoxType = {
+			name = "d6_active_sector_label"
+			position = { x = 10 y = 588 }
+			font = "hoi_18mbs"
+			text = "D6_ACTIVE_SECTOR_LABEL"
+			maxWidth = 500
+			maxHeight = 22
+			format = centre
+		}
+		iconType = {
+			name = "d6_main_barframe"
+			spriteType = "GFX_D6_main_barframe"
+			position = { x = 34 y = 614 }
+		}
+		iconType = {
+			name = "d6_main_bar"
+			spriteType = "GFX_D6_main_progress"
+			position = { x = 37 y = 617 }
+			pdx_tooltip = "D6_MAIN_BAR_tt"
 		}
 	}
 }
