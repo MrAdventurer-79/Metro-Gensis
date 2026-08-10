@@ -16,6 +16,7 @@ STB_education_decision_category = {
 			NOT = {
 				has_country_flag = STB_research_cooldown
 			}
+			has_active_mission = STB_education_adopt_research_countdown
 		}
 
 		cost = 100
@@ -23,8 +24,32 @@ STB_education_decision_category = {
 		days_re_enable = 0
 
 		complete_effect = {
-			activate_decision = STB_education_renovate_research_mission
+			activate_mission = STB_education_adopt_research_countdown
 		}
+	}
+
+	STB_education_adopt_research_countdown = {
+		
+		activation = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		priority = 1001
+
+		is_good = yes
+		days_mission_timeout = 90
+
+		timeout_effect = {                 
+            country_event = nf_metro_education.1
+            custom_effect_tooltip = STB_education_adopt_research_countdown_tooltip
+            hidden_effect = {
+            	clr_country_flag = improving_education
+            }
+        }
 	}
 
 	STB_education_renovate_research_mission = {
@@ -34,16 +59,13 @@ STB_education_decision_category = {
 		}
 
 		available = {
-			hidden_trigger = { always = no }
 
 			## Check var of raided targets
 
 			custom_trigger_tooltip = {
 				tooltip = STB_raids_tooltip
 				check_variable = { 
-					var = STB_raids_value
-					value = STB_raids_variable
-					compare = greater_than_or_equals
+					STB_raids_value > STB_raids_variable
 				}
 			}
 		}
@@ -51,19 +73,24 @@ STB_education_decision_category = {
 		custom_cost_text = STB_raids_cost_text
 		custom_cost_trigger = {
 			check_variable = { 
-				var = STB_raids_value
-				value = STB_raids_variable
-				compare = greater_than_or_equals
+				STB_raids_value > STB_raids_variable
 			}
 		}
 
 		priority = 1001
 
 		days_remove = 7 
+		fire_only_once = no
+		days_re_enable = 30
 
-		complete_effect = {
+		remove_effect = {
 			## their method of improving research rate
 			set_country_flag = STB_can_adopt_research_flag
+			unlock_decision_tooltip = STB_education_adopt_research_decision
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = STB_adopt_research_tooltip
+
+			hidden_effect = { clear_variable = STB_raids_value }
 		}
 
 		ai_will_do = {
@@ -73,8 +100,20 @@ STB_education_decision_category = {
 
 	STB_questionable_ethics_research_decision = {
 		### Parent decision where all succes/fail var edits are made
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = STB_ubermensch_unlock_flag
+				has_country_flag = STB_ubermensch_unlock_flag
+			}
+		}
+
+		visible = {
+			hidden_trigger = { has_country_flag = STB_ubermensch_unlock_flag }
+		}
+		
 		cost = 100
-		days_remove = 14
+		days_remove = 28
 		days_re_enable = 0
 
 		complete_effect = {
@@ -83,6 +122,21 @@ STB_education_decision_category = {
 	}
 
 	STB_questionable_ethics_ubermensch_timed_decision = {
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = STB_research_renovate_enable_tooltip
+
+				NOT = { has_country_flag = STB_research_cooldown }
+			}
+		}
+
+		visible = {
+			has_country_flag = STB_can_adopt_research_flag
+			NOT = {
+				has_country_flag = STB_research_cooldown
+			}
+		}
 
 		complete_effect = {
 			set_temp_variable = {
@@ -97,15 +151,15 @@ STB_education_decision_category = {
 	STB_questionable_supersoldaten_decision = {
 
 		available = {
-			#custom_trigger_tooltip = {
-			#	tooltip = STB_ubermensch_unlock_flag
-			#	has_country_flag = STB_ubermensch_unlock_flag
-			#}
+			custom_trigger_tooltip = {
+				tooltip = STB_ubermensch_unlock_flag
+				has_country_flag = STB_ubermensch_unlock_flag
+			}
 		}
 
-		#visible = {
-		#	hidden_trigger = { has_country_flag = STB_ubermensch_unlock_flag }
-		#}
+		visible = {
+			hidden_trigger = { has_country_flag = STB_ubermensch_unlock_flag }
+		}
 
 		cost = 100
 		days_remove = 14
@@ -127,17 +181,17 @@ STB_education_decision_category = {
 	STB_questionable_ethics_ubermensch_decision = {
 
 		available = {
-			#custom_trigger_tooltip = {
-			#	tooltip = STB_ubermensch_unlock_flag
-			#	has_country_flag = STB_ubermensch_unlock_flag
-			#}
+			custom_trigger_tooltip = {
+				tooltip = STB_ubermensch_unlock_flag
+				has_country_flag = STB_ubermensch_unlock_flag
+			}
 
 			has_manpower > 9
 		}
 
-		#visible = {
-		#	hidden_trigger = { has_country_flag = STB_ubermensch_unlock_flag }
-		#}
+		visible = {
+			hidden_trigger = { has_country_flag = STB_ubermensch_unlock_flag }
+		}
 
 		cost = 100
 		days_remove = 14

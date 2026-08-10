@@ -339,7 +339,7 @@ sanctity_of_life = {
 		}
 
 		days_remove = 70
-		days_re_enable = 128
+		days_re_enable = 45
 
 		cost = 50
 
@@ -396,7 +396,7 @@ sanctity_of_life = {
 		}
 
 		days_remove = 70
-		days_re_enable = 128
+		days_re_enable = 45
 
 		cost = 50
 
@@ -435,7 +435,7 @@ sanctity_of_life = {
 		}
 
 		days_remove = 70
-		days_re_enable = 128
+		days_re_enable = 45
 
 		cost = 50
 
@@ -481,7 +481,7 @@ sanctity_of_life = {
 		}
 
 		days_remove = 70
-		days_re_enable = 144
+		days_re_enable = 90
 
 		cost = 50
 
@@ -535,7 +535,7 @@ sanctity_of_life = {
 		}
 
 		days_remove = 70
-		days_re_enable = 124
+		days_re_enable = 90
 
 		ai_will_do = {
 			base = 5
@@ -552,12 +552,61 @@ sanctity_of_life = {
 		}
 	}
 
+	give_back_to_the_people_3 = {
+
+		icon = category_spr_the_seeds_of_revolution
+
+		available = {
+			has_stability < 0.75
+			has_war_support < 0.75
+		}
+
+		visible = { NOT = { has_government = dictatorial } }
+
+		custom_cost_trigger = {
+			set_temp_variable = { temp_bullet_cost = 350 }
+			check_variable = {
+				bullet > temp_bullet_cost
+			}
+		}
+		custom_cost_text = "bullet_decisions_cost_text"
+
+		fire_only_once = no
+
+		modifier = {
+			political_power_gain = 1
+		}
+
+		complete_effect = {
+			hidden_effect = { 
+				set_temp_variable = { bullet_to_gain = -350 }
+				add_bullet_with_tooltip_effect = yes
+			}
+		}
+
+		days_remove = 30
+		days_re_enable = 480
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+				add = 20
+				political_power_daily < 0.5
+			}
+		}
+	}
+
 	military_signing = {
 
 		icon = category_spr_the_seeds_of_revolution
 
 		available = {
-			has_manpower < 349
+			OR = {
+				has_manpower < 299
+				has_army_manpower = {
+    				size < 200
+				}
+			}
 			NOT = {
 				has_idea = civics_border_4
 				has_idea = civics_support_1
@@ -565,7 +614,6 @@ sanctity_of_life = {
 		}
 
 		visible = {
-			has_manpower < 349
 			NOT = {
 				has_country_flag = is_cultist_nation
 				has_idea = RCH_genetic_supremacy
@@ -575,7 +623,7 @@ sanctity_of_life = {
 		}
 
 		custom_cost_trigger = {
-			set_temp_variable = { temp_bullet_cost = 250 }
+			set_temp_variable = { temp_bullet_cost = 300 }
 			check_variable = {
 				bullet > temp_bullet_cost
 			}
@@ -586,14 +634,14 @@ sanctity_of_life = {
 
 		modifier = {
 			#custom_modifier_tooltip = ONE_TIME_DECISION_TT
-			mobilization_speed = 0.15
+			mobilization_speed = 0.25
 			weekly_manpower = 2
 			bullet_expense_from_ideas = 20
 		}
 
 		complete_effect = {
 			hidden_effect = { 
-				set_temp_variable = { bullet_to_gain = -250 }
+				set_temp_variable = { bullet_to_gain = -300 }
 				add_bullet_with_tooltip_effect = yes
 			}
 		}
@@ -717,6 +765,40 @@ sanctity_of_life = {
 			modifier = {
 				add = 15
 				has_war = yes
+			}
+		}
+	}
+
+	promises_of_peace = {
+
+		icon = category_spr_the_seeds_of_revolution
+
+		available = { 
+			has_stability < 0.5
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		    stability_weekly = 0.005
+		}
+
+		days_remove = 70
+		days_re_enable = 124
+
+		cost = 25
+
+		cancel_trigger = { 
+			has_stability > 0.5
+			has_war = yes
+		}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+				add = 2
+				has_stability < 0.5
+				has_war = no
 			}
 		}
 	}

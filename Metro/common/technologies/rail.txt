@@ -368,10 +368,10 @@ technologies = {
 
 		research_cost = 2
 	    xp_research_type = army
-		start_year = 2033
+		start_year = 2032
 		folder = {
 			name = rail_folder
-			position = { x = @TECH_COLUMN_RAIL_TANK y = @TECH_YEAR_2033_Y }
+			position = { x = @TECH_COLUMN_RAIL_TANK y = @TECH_YEAR_2032_Y }
 		}
 		categories = {
 		    rail_panzer
@@ -392,10 +392,10 @@ technologies = {
 		}
 		research_cost = 2
 	    xp_research_type = army
-		start_year = 2034
+		start_year = 2033
 		folder = {
 			name = rail_folder
-			position = { x = @TECH_COLUMN_RAIL_TANK y = @TECH_YEAR_2034_Y }
+			position = { x = @TECH_COLUMN_RAIL_TANK y = @TECH_YEAR_2033_Y }
 		}
 		categories = {
 		    rail_panzer
@@ -411,9 +411,32 @@ technologies = {
 			max_organisation = 2
 			max_strength = 0.15
 		}
+		path = {
+		    leads_to_tech = rail_panzer_tech_2036
+			research_cost_coeff = 1
+		}
 		research_cost = 2
 	    xp_research_type = army
 		start_year = 2035
+		folder = {
+			name = rail_folder
+			position = { x = @TECH_COLUMN_RAIL_TANK y = @TECH_YEAR_2034_Y }
+		}
+		categories = {
+		    rail_panzer
+			armor
+			motorized_tech
+		}
+		ai_will_do = {
+			factor = 1.5
+		}
+	}
+	rail_panzer_tech_2036 = {
+		enable_equipments = { rail_panzer_equipment_2  }
+
+		research_cost = 2
+	    xp_research_type = army
+		start_year = 2036
 		folder = {
 			name = rail_folder
 			position = { x = @TECH_COLUMN_RAIL_TANK y = @TECH_YEAR_2035_Y }

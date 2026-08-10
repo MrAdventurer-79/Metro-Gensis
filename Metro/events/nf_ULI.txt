@@ -259,7 +259,10 @@ country_event = { ### civil stuff 2
 
 	option = {
 		name = nf_ULI.7.a
-		add_ideas = ULI_fuel_sell
+		add_timed_idea = {
+			idea = ULI_fuel_sell
+			days = 480
+		}
 		add_power_balance_value = {
 			id = ULI_power_balance
 			value = 0.2
@@ -268,7 +271,10 @@ country_event = { ### civil stuff 2
 
 	option = {
 		name = nf_ULI.7.b
-		add_ideas = ULI_fuel_forfeit
+		add_timed_idea = {
+			idea = ULI_fuel_forfeit
+			days = 480
+		}
 		add_power_balance_value = {
 			id = ULI_power_balance
 			value = -0.2
@@ -303,14 +309,13 @@ country_event = { ### civil stuff 2
 			value = -0.2
 		}
 		418 = {
-			add_extra_state_shared_building_slots = 2
+			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = industrial_complex
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
-		add_stability = -0.1
 	}
 }
 

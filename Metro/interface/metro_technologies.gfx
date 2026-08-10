@@ -2815,4 +2815,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipment/generic/rail_cart_tech_tachanka.dds"
 		alwaystransparent = yes
 	}
+	SpriteType = {
+		name = "GFX_rail_panzer_tech_2036_medium"
+		texturefile = "gfx/interface/equipment/generic/rail_panzer_tech_2036.dds"
+		alwaystransparent = yes
+	}
 }

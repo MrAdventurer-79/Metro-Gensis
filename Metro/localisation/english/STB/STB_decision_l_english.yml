@@ -4,11 +4,19 @@
  STB_research_cooldown: "Currently Integrating Research"
 
  STB_education_renovate_research_mission: "§YRenovate our Research Base§!"
- STB_raids_tooltip: "Raided research stockpile is §Y[?STB_raids_variable]§! or greater. Current amount §R[?STB_raids_value]§!."
+ STB_education_renovate_research_mission_desc: "With the aid of papers pilfered from neighboring stations, we may improve or sorely lacking research base."
+ STB_adopt_research_tooltip: "We may appropriate the research stolen from neighboring stations, improving our §YEducation Level§!."
+ STB_raids_tooltip: "£research2_texticon §YStolen research§! stockpile is §Y[?STB_raids_variable]§! or greater. Current amount £research2_texticon  §R[?STB_raids_value]§!."
  STB_raids_cost_text: "£research2_texticon   [?STB_raids_variable|H0]"
  STB_raids_cost_text_blocked: "£research2_texticon   [?STB_raids_variable|0R]"
 
+ STB_research_raid_scripted_effect_tooltip: "£research2_texticon  §YStolen research +§! §G1§! \n\n"
+ STB_research_renovate_enable_tooltip: "Can improve research level"
+ STB_education_adopt_research_countdown: "Improving our Research Efforts"
+ STB_education_adopt_research_countdown_tooltip: "\nWith the aid of our £research2_texticon §YStolen research§! stockpiles, we shall seek to improve our research efforts, thus improving our education law"
+
  STB_questionable_ethics_research_decision: "Extend Scientific Division"
+ STB_questionable_ethics_success_chance_tt: "\nIncreases success chance likelyhood by 10%, to a maximum of 80%"
 
  STB_questionable_ethics_ubermensch_timed_decision: "Begin Projekt Ubermensch"
 

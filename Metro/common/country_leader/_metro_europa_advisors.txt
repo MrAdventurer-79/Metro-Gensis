@@ -47,7 +47,7 @@ leader_traits = {
 		random = no
 		ai_will_do = { factor = 1 }
 	}
-	EUR_minister_military_oligarch_5 = {
+	EUR_minister_military_oligarch_5_trait = {
 		org_loss_when_moving = -0.05
 		attrition = -0.025
 		random = no
@@ -55,7 +55,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	EUR_minister_military_oligarch_4 = {
+	EUR_minister_military_oligarch_4_trait = {
 		supply_consumption_factor = -0.05
 		experience_loss_factor = -0.05
 		random = no
@@ -63,7 +63,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	EUR_minister_military_oligarch_3 = {
+	EUR_minister_military_oligarch_3_trait = {
 		army_morale_factor = -0.1
 		army_org_regain = 0.15
 		random = no
@@ -71,7 +71,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	EUR_minister_military_oligarch_2 = {
+	EUR_minister_military_oligarch_2_trait = {
 		minimum_training_level = -0.1 
 		army_core_defence_factor = 0.05
 		random = no
@@ -79,7 +79,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	EUR_minister_military_oligarch_1 = {
+	EUR_minister_military_oligarch_1_trait = {
 		army_org_regain = 0.1
         attrition = -0.05
 		random = no
@@ -87,14 +87,14 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	EUR_minister_military_5 = {
+	EUR_minister_military_5_trait = {
 		org_loss_when_moving = -0.1
 		random = no
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	EUR_minister_military_4 = {
+	EUR_minister_military_4_trait = {
 		land_reinforce_rate = 0.02
 		training_time_factor = -0.08
 		random = no
@@ -102,7 +102,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	EUR_minister_military_3 = {
+	EUR_minister_military_3_trait = {
 		dig_in_speed_factor = 0.05
 		army_leader_start_planning_level = 1 
 		random = no
@@ -110,7 +110,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	EUR_minister_military_2 = {
+	EUR_minister_military_2_trait = {
 		org_loss_at_low_org_factor = -0.05
 		experience_loss_factor = -0.05
 		random = no
@@ -118,21 +118,21 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	EUR_minister_military_1 = {
+	EUR_minister_military_1_trait = {
 		special_forces_min = 10
 		random = no
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	EUR_minister_theorist_2 = {
+	EUR_minister_theorist_2_trait = {
 		experience_gain_army = 0.1
 		random = no
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	EUR_minister_theorist_1 = {
+	EUR_minister_theorist_1_trait = {
 		command_power_gain = 0.1
 		random = no
 		ai_will_do = {
@@ -147,7 +147,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	EUR_minister_industrialist_council = {
+	EUR_minister_industrialist_council_trait = {
 		industry_repair_factor = 0.15
 		supply_node_range = 0.1
 		random = no
@@ -155,66 +155,66 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	EUR_minister_industrialist_2 = {
+	EUR_minister_industrialist_2_trait = {
 		country_resource_alloys = 8
 		country_resource_scrap = 8
 		country_resource_components = 8
 		random = no
 		ai_will_do = { factor = 1 }
 	}
-	EUR_minister_industrialist_1 = {
+	EUR_minister_industrialist_1_trait = {
 		country_resource_chemicals = 8
 		random = no
 		ai_will_do = { factor = 1 }
 	}
-	EUR_minister_manufacturer_3 = {
+	EUR_minister_manufacturer_3_trait = {
 		line_change_production_efficiency_factor = 0.1
 		random = no
 		ai_will_do = { factor = 1 }
 	}
-	EUR_minister_manufacturer_2 = {
+	EUR_minister_manufacturer_2_trait = {
 		conversion_cost_civ_to_mil_factor = -0.15
 		conversion_cost_mil_to_civ_factor = -0.15
 		random = no
 		ai_will_do = { factor = 1 }
 	}
-	EUR_minister_manufacturer_1 = {
+	EUR_minister_manufacturer_1_trait = {
 		production_factory_start_efficiency_factor = 0.1
 		random = no
 		ai_will_do = { factor = 1 }
 	}
-	EUR_minister_dictatorial_align = {
+	EUR_minister_dictatorial_align_trait = {
 		dictatorial_drift = 0.03
 		war_support_factor = 0.1
 		army_core_attack_factor = 0.05
 		random = no
 		ai_will_do = { factor = 1 }
 	}
-	EUR_minister_oligarch_align  = {
+	EUR_minister_oligarch_align_trait  = {
 		consumer_goods_factor = -0.05
 		production_factory_efficiency_gain_factor = -0.1
 		random = no
 		ai_will_do = { factor = 1 }
 	}
-	EUR_minister_council_align = {
+	EUR_minister_council_align_trait = {
 		faction_trade_opinion_factor = 0.15
 		opinion_gain_monthly_factor = 0.25
 		random = no
 		ai_will_do = { factor = 1 }
 	}
-	EUR_minister_3 = {
+	EUR_minister_3_trait = {
 		party_popularity_stability_factor = 0.05
 		political_power_gain = 0.1
 		random = no
 		ai_will_do = { factor = 1 }
 	}
-	EUR_minister_2 = {
+	EUR_minister_2_trait = {
 		local_resources_factor = 0.06
 		production_speed_salvage_hub_factor = 0.08
 		random = no
 		ai_will_do = { factor = 1 }
 	}
-	EUR_minister_1 = {
+	EUR_minister_1_trait = {
 		economy_cost_factor = -0.1
 		mobilization_laws_cost_factor = -0.1
 		trade_laws_cost_factor = -0.1

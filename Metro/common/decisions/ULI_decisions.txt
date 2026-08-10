@@ -1,6 +1,7 @@
 ULI_evacuate_north_category = {
 
 	ULI_evacuate_north_countdown_risk = {
+		icon = rats
 		activation = { has_country_flag = ULI_dark_ones_crisis }
 		is_good = no
 		priority = 1001
@@ -39,7 +40,7 @@ ULI_evacuate_north_category = {
 	}
 	
 	ULI_evacuate_north_resources_scrap = {
-		icon = scrap
+		icon = resource_scrap
 
 		available = {
 			has_equipment = { rail_cart_equipment > 1 }
@@ -77,10 +78,6 @@ ULI_evacuate_north_category = {
 
 		remove_effect = {
 			add_days_mission_timeout = { mission = ULI_evacuate_north_countdown_risk days = -10 }
-			add_equipment_to_stockpile = {
-				type = rail_cart_equipment
-				amount = -2
-			}
 			if = {
 				limit = {
 					302 = {
@@ -129,7 +126,7 @@ ULI_evacuate_north_category = {
 	}
 
 	ULI_evacuate_north_resources_alloys = {
-		icon = alloys
+		icon = resource_alloys
 
 		available = {
 			has_equipment = { rail_cart_equipment > 1 }
@@ -167,10 +164,6 @@ ULI_evacuate_north_category = {
 
 		remove_effect = {
 			add_days_mission_timeout = { mission = ULI_evacuate_north_countdown_risk days = -10 }
-			add_equipment_to_stockpile = {
-				type = rail_cart_equipment
-				amount = -2
-			}
 			if = {
 				limit = {
 					302 = {
@@ -219,7 +212,7 @@ ULI_evacuate_north_category = {
 	}
 
 	ULI_evacuate_north_resources_components = {
-		icon = components
+		icon = resource_components
 
 		available = {
 			has_equipment = { rail_cart_equipment > 1 }
@@ -257,10 +250,6 @@ ULI_evacuate_north_category = {
 
 		remove_effect = {
 			add_days_mission_timeout = { mission = ULI_evacuate_north_countdown_risk days = -10 }
-			add_equipment_to_stockpile = {
-				type = rail_cart_equipment
-				amount = -2
-			}
 			if = {
 				limit = {
 					302 = {
@@ -309,7 +298,7 @@ ULI_evacuate_north_category = {
 	}
 
 	ULI_evacuate_north_resources_chemicals = {
-		icon = chemicals
+		icon = resource_chemicals
 
 		available = {
 			has_equipment = { rail_cart_equipment > 1 }
@@ -347,10 +336,6 @@ ULI_evacuate_north_category = {
 
 		remove_effect = {
 			add_days_mission_timeout = { mission = ULI_evacuate_north_countdown_risk days = -10 }
-			add_equipment_to_stockpile = {
-				type = rail_cart_equipment
-				amount = -2
-			}
 			if = {
 				limit = {
 					302 = {
@@ -399,7 +384,7 @@ ULI_evacuate_north_category = {
 	}
 
 	ULI_evacuate_north_resources_electronics = {
-		icon = electronics
+		icon = resource_electronics
 
 		available = {
 			has_equipment = { rail_cart_equipment > 1 }
@@ -437,10 +422,6 @@ ULI_evacuate_north_category = {
 
 		remove_effect = {
 			add_days_mission_timeout = { mission = ULI_evacuate_north_countdown_risk days = -10 }
-			add_equipment_to_stockpile = {
-				type = rail_cart_equipment
-				amount = -2
-			}
 			if = {
 				limit = {
 					302 = {
@@ -521,10 +502,6 @@ ULI_evacuate_north_category = {
 
 		remove_effect = {
 			add_days_mission_timeout = { mission = ULI_evacuate_north_countdown_risk days = -10 }
-			add_equipment_to_stockpile = {
-				type = rail_cart_equipment
-				amount = -2
-			}
 			if = {
 				limit = {
 					302 = {
@@ -625,10 +602,6 @@ ULI_evacuate_north_category = {
 
 		remove_effect = {
 			add_days_mission_timeout = { mission = ULI_evacuate_north_countdown_risk days = -10 }
-			add_equipment_to_stockpile = {
-				type = rail_cart_equipment
-				amount = -2
-			}
 			if = {
 				limit = {
 					302 = {
@@ -729,7 +702,7 @@ ULI_evacuate_north_category = {
 		}
 
 		remove_effect = {
-			add_days_mission_timeout = { mission = ULI_evacuate_north_countdown_risk days = 20 }
+			add_days_mission_timeout = { mission = ULI_evacuate_north_countdown_risk days = 30 }
 		}
 	}
 

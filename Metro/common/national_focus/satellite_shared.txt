@@ -1956,6 +1956,11 @@ shared_focus = {
 			exists = yes
 		}
 	}
+	offset = {
+		x = 4
+		y = 0
+		trigger = { original_tag = ULI }
+	}
 	completion_reward = {
 		add_war_support = 0.1
 		if = {

@@ -1,5 +1,5 @@
 ULI_evacuate_north_category = {
-	icon = generic_industry
+	icon = GFX_decision_decision_category_mutant
 	picture = GFX_decision_category_generic_header_19
 
 	allowed = { original_tag = ULI }

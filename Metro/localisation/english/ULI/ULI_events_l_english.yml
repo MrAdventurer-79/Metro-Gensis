@@ -3,11 +3,10 @@
  nf_ULI.2.d: "Reports that the cordon at Polezhaevskaya have been breached have come to our attention! A detachment of over 100 soldiers, and armed militia of Begovaya have been sent to Polezhaevskaya, but what they discovered was even more insidious than what they could ever hope to imagine. The Majority of the citizens upon Polezhaevskaya Street are gone! No traces of people, no sign of blood or bullet casings or even a sign of a struggle! As if they have simply vanished."
  nf_ULI.2.a: "Blow the tunnels, abandon the North"
 
- nf_ULI.3.t: "The Calm before the Storm"
+ nf_ULI.3.t: "The Calm Before the Storm"
  nf_ULI.3.d: "Our scouts which we initially sent north deeper into the tunnels have failed to return under mysterious circumstances. This could simply be coughed up to a simple case of desertion, if not the same exact issue has been persisting. Unlike the first group, which we initially sent soldiers to go searching for them, even our most steadfast troops refuse any such order.\n\nRecently, it has come to our attention, and perhaps better late than never, it seems it is more than the case of our soldiers simply losing faith in the Confederation, and points to a more grim reasoning.\n\nSome sort of threat; Human, Mutant or something else is gathering its strength. It is clear that Polezhaevskaya lays directly in its sight, and perhaps will be next in its sights.\n\nWe may subtly try and 'evacuate' the station to soften the impact. Or simply leave it to fate to decide on whether or not we can brace the storm."
- nf_ULI.3.a: "Trouble is brewing in the Darkness"
- ULI_incident_scripted_loc: "\n\nThe Two stations of §YPolezhaevskaya§! and §YOktyabr'skoe Pole§! will eventually become uninhabitable due to the amount of disappearances and paranormal activity.\n\nWe may decide to usher in a safe evacuation, without causing alarm to our population or try make a stand against whatever threat is lingering in the dark.\n\n"
- nf_ULI.3.a.tt: "[ULI_incident_scripted_loc]"
+ nf_ULI.3.a: "There is trouble is brewing in the Darkness"
+ nf_ULI.3.a.tt: "\n\nThe Two stations of §YPolezhaevskaya§! and §YOktyabr'skoe Pole§! will eventually become uninhabitable due to the amount of disappearances and paranormal activity.\n\nWe may decide to usher in a safe evacuation, without causing alarm to our population or try make a stand against whatever threat is lingering in the dark.\n\n"
 
 
  nf_ULI.4.t: "Strike the Source"

@@ -51,6 +51,26 @@ spriteTypes = {
 		name = "GFX_decision_category_worm_cult_3"
 		texturefile = "gfx/interface/decisions/decision_category_worm_cult_3.dds"
 	}
+	SpriteType = {
+		name = "GFX_decision_decision_category_dshk"
+		texturefile = "gfx/interface/decisions/decision_category_dshk.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_decision_category_rat"
+		texturefile = "gfx/interface/decisions/decision_category_rat.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_decision_category_general"
+		texturefile = "gfx/interface/decisions/decision_category_general.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_decision_category_soldier"
+		texturefile = "gfx/interface/decisions/decision_category_soldier.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_decision_category_mutant"
+		texturefile = "gfx/interface/decisions/decision_category_mutant.dds"
+	}
 	spriteType = {
 		name = "GFX_decision_people"
 		texturefile = "gfx/interface/decisions/decision_people.dds"

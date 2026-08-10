@@ -149,7 +149,7 @@ ideas = {
 
 			modifier = {	
 				party_popularity_stability_factor = -0.25
-				political_power_gain = -0.25
+				political_power_gain = -0.2
 				custom_modifier_tooltip = disable_reclamation_mechanic
 	        }
 		}
@@ -163,7 +163,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {	
-				political_power_gain = -0.15
+				political_power_gain = -0.1
 				stability_weekly  = -0.005
 			}
 		}
@@ -314,7 +314,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {	
-				bullet_income_from_ideas = 5
+				bullet_income_from_ideas = 15
 				stability_factor = -0.05
 	        }
 		}
@@ -327,8 +327,8 @@ ideas = {
 
 			removal_cost = -1
 
-			modifier = {	
-				max_fuel_factor = 0.1
+			modifier = {
+				political_power_factor = 0.05
 				base_fuel_gain = 18
 				stability_factor = -0.05
 	        }

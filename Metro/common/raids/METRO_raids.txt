@@ -163,6 +163,7 @@ types = {
 					raid_add_unit_experience = 0.1
 					add_raid_history_entry = yes
 
+					STB_research_raid_scripted_effect = yes
 					var:actor_country = {
 						set_temp_variable = {
 							STB_add_to_raids_value = 1
@@ -201,6 +202,7 @@ types = {
 					raid_add_unit_experience = 0.15
 					add_raid_history_entry = yes
 
+					STB_research_raid_scripted_effect = yes
 					var:actor_country = {
 						set_temp_variable = {
 							STB_add_to_raids_value = 1

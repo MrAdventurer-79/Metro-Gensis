@@ -88,10 +88,10 @@ NDefines.NProduction.POWERED_FACTORY_SPEED_MIL = 4.5
 
 NDefines.NProduction.MAX_EQUIPMENT_RESOURCES_NEED = 5
 NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 10
-NDefines.NProduction.BASE_FACTORY_START_EFFICIENCY_FACTOR = 5
+NDefines.NProduction.BASE_FACTORY_START_EFFICIENCY_FACTOR = 2.5
 NDefines.BASE_FACTORY_MAX_EFFICIENCY_FACTOR = 25
 NDefines.NProduction.PRODUCTION_RESOURCE_LACK_PENALTY = -0.75
-NDefines.NProduction.BASE_FACTORY_EFFICIENCY_GAIN = 0.25
+NDefines.NProduction.BASE_FACTORY_EFFICIENCY_GAIN = 0.15
 
 NDefines.NProduction.BASE_FACTORY_EFFICIENCY_VARIANT_CHANGE_FACTOR = 50		-- Base factor for changing production variants in %.
 NDefines.NProduction.BASE_FACTORY_EFFICIENCY_PARENT_CHANGE_FACTOR = 25		-- Base factor for changing production parent<->children in %.

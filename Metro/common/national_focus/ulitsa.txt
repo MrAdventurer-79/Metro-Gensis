@@ -63,7 +63,7 @@ focus_tree = {
 		cost = 12.9
 		prerequisite = { focus = ULI_focus_1 }
 		mutually_exclusive = { focus = ULI_focus_100 }
-		available = { NOT = { has_country_flag = ULI_polezhaevsky_incident_flag } }
+		available = { has_stability > 0.25 NOT = { has_country_flag = ULI_polezhaevsky_incident_flag } }
 		x = 9
 		y = 1
 		relative_position_id = ULI_focus_1
@@ -85,18 +85,23 @@ focus_tree = {
 	focus = {
 		id = ULI_focus_110
 		icon = GFX_dark_ones
-		cost = 10
+		cost = 6.5
 		prerequisite = { focus = ULI_focus_100 focus = ULI_focus_100A }
 		available = { 
 			has_tech = spec_ops_equipment_4_tech
 			NOT = { has_country_flag = ULI_polezhaevsky_incident_flag } 
+
+			has_active_mission = ULI_evacuate_north_countdown_risk
 		}
 		x = 1
 		y = 2
 		relative_position_id = ULI_focus_100
 		completion_reward = {
 			custom_effect_tooltip = ULI_fight_the_threat
-			add_war_support = 0.05
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_stability = 0.05
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_days_mission_timeout = { mission = ULI_evacuate_north_countdown_risk days = 45 }
 		}
 		cancel_if_invalid = yes
 		ai_will_do = {

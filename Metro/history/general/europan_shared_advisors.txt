@@ -6,7 +6,7 @@ every_possible_country = {
 		token_base = EUR_minister_1
 		advisor = {
 			slot = political_advisor
-			traits = { EUR_minister_1 }
+			traits = { EUR_minister_1_trait }
 			cost = 100
 			ai_will_do = { factor = 12 }
 		}
@@ -16,7 +16,7 @@ every_possible_country = {
 		token_base = EUR_minister_2
 		advisor = {
 			slot = political_advisor
-			traits = { EUR_minister_2 }
+			traits = { EUR_minister_2_trait }
 			cost = 100
 			ai_will_do = { factor = 12 }
 		}
@@ -26,7 +26,7 @@ every_possible_country = {
 		token_base = EUR_minister_3
 		advisor = {
 			slot = political_advisor
-			traits = { EUR_minister_3 }
+			traits = { EUR_minister_3_trait }
 			cost = 100
 			ai_will_do = { factor = 12 }
 		}
@@ -36,7 +36,7 @@ every_possible_country = {
 		token_base = EUR_minister_council_align
 		advisor = {
 			slot = political_advisor
-			traits = { EUR_minister_council_align }
+			traits = { EUR_minister_council_align_trait }
 			available = { has_completed_focus = EUR_centralized_planning }
 			cost = 100
 			ai_will_do = { factor = 12 }
@@ -47,7 +47,7 @@ every_possible_country = {
 		token_base = EUR_minister_oligarch_align
 		advisor = {
 			slot = political_advisor
-			traits = { EUR_minister_oligarch_align }
+			traits = { EUR_minister_oligarch_align_trait }
 			available = { has_completed_focus = EUR_lessons_from_the_reds }
 			cost = 100
 			ai_will_do = { factor = 12 }
@@ -58,7 +58,7 @@ every_possible_country = {
 		token_base = EUR_minister_dictatorial_align
 		advisor = {
 			slot = political_advisor
-			traits = { EUR_minister_dictatorial_align }
+			traits = { EUR_minister_dictatorial_align_trait }
 			available = { has_completed_focus = EUR_italian_influence }
 			cost = 100
 			ai_will_do = { factor = 12 }
@@ -69,7 +69,7 @@ every_possible_country = {
 		token_base = EUR_minister_manufacturer_1
 		advisor = {
 			slot = materiel_manufacturer
-			traits = { EUR_minister_manufacturer_1 }
+			traits = { EUR_minister_manufacturer_1_trait }
 			research_bonus = { }
 			cost = 150
 			available = {
@@ -101,7 +101,7 @@ every_possible_country = {
 		token_base = EUR_minister_manufacturer_2
 		advisor = {
 			slot = materiel_manufacturer
-			traits = { EUR_minister_manufacturer_2 }
+			traits = { EUR_minister_manufacturer_2_trait }
 			research_bonus = { }
 			cost = 150
 			available = {
@@ -133,7 +133,7 @@ every_possible_country = {
 		token_base = EUR_minister_manufacturer_3
 		advisor = {
 			slot = materiel_manufacturer
-			traits = { EUR_minister_manufacturer_3 }
+			traits = { EUR_minister_manufacturer_3_trait }
 			research_bonus = { }
 			cost = 150
 			available = {
@@ -165,7 +165,7 @@ every_possible_country = {
 		token_base = EUR_minister_industrialist_1
 		advisor = {
 			slot = industrial_concern
-			traits = { EUR_minister_industrialist_1 }
+			traits = { EUR_minister_industrialist_1_trait }
 			research_bonus = {  }
 			cost = 150
 			available = {
@@ -195,7 +195,7 @@ every_possible_country = {
 		token_base = EUR_minister_industrialist_2
 		advisor = {
 			slot = industrial_concern
-			traits = { EUR_minister_industrialist_2 }
+			traits = { EUR_minister_industrialist_2_trait }
 			research_bonus = {  }
 			cost = 150
 			available = {
@@ -225,7 +225,7 @@ every_possible_country = {
 		token_base = EUR_minister_industrialist_council
 		advisor = {
 			slot = industrial_concern
-			traits = { EUR_minister_industrialist_council }
+			traits = { EUR_minister_industrialist_council_trait }
 			research_bonus = {  }
 			available = { has_completed_focus = EUR_industrial_powerhouse }
 			cost = 150
@@ -287,7 +287,7 @@ every_possible_country = {
 		token_base = EUR_minister_theorist_1
 		advisor = {
 			slot = theorist
-			traits = { EUR_minister_theorist_1 }
+			traits = { EUR_minister_theorist_1_trait }
 			cost = 150
 			available = {
 				if = {
@@ -318,7 +318,7 @@ every_possible_country = {
 		token_base = EUR_minister_theorist_2
 		advisor = {
 			slot = theorist
-			traits = { EUR_minister_theorist_2 }
+			traits = { EUR_minister_theorist_2_trait }
 			cost = 150
 			available = {
 				if = {
@@ -350,7 +350,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			ledger = army
-			traits = { EUR_minister_military_1 }
+			traits = { EUR_minister_military_1_trait }
 			available = { NOT = { has_completed_focus = EUR_lessons_from_the_reds } }
 			cost = 100
 			ai_will_do = { factor = 5 }
@@ -362,7 +362,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			ledger = army
-			traits = { EUR_minister_military_2 }
+			traits = { EUR_minister_military_2_trait } }
 			available = { NOT = { has_completed_focus = EUR_lessons_from_the_reds } }
 			cost = 100
 			ai_will_do = { factor = 5 }
@@ -374,7 +374,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			ledger = army
-			traits = { EUR_minister_military_3  }
+			traits = { EUR_minister_military_3_trait }
 			available = { NOT = { has_completed_focus = EUR_lessons_from_the_reds } }
 			cost = 100
 			ai_will_do = { factor = 5 }
@@ -386,7 +386,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			ledger = army
-			traits = { EUR_minister_military_4 }
+			traits = { EUR_minister_military_4_trait }
 			available = { NOT = { has_completed_focus = EUR_lessons_from_the_reds } }
 			cost = 100
 			ai_will_do = { factor = 5 }
@@ -398,7 +398,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			ledger = army
-			traits = { EUR_minister_military_5 }
+			traits = { EUR_minister_military_5_trait }
 			available = { NOT = { has_completed_focus = EUR_lessons_from_the_reds } }
 			cost = 100
 			ai_will_do = { factor = 5 }
@@ -410,7 +410,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			ledger = army
-			traits = { EUR_minister_military_oligarch_1 }
+			traits = { EUR_minister_military_oligarch_1_trait }
 			available = { has_completed_focus = EUR_lessons_from_the_reds }
 			cost = 100
 			ai_will_do = { factor = 5 }
@@ -422,7 +422,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			ledger = army
-			traits = { EUR_minister_military_oligarch_2 }
+			traits = { EUR_minister_military_oligarch_2_trait }
 			available = { has_government = oligarch }
 			cost = 100
 			ai_will_do = { factor = 5 }
@@ -434,7 +434,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			ledger = army
-			traits = { EUR_minister_military_oligarch_3 }
+			traits = { EUR_minister_military_oligarch_3_trait }
 			available = { has_government = oligarch }
 			cost = 100
 			ai_will_do = { factor = 5 }
@@ -446,7 +446,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			ledger = army
-			traits = { EUR_minister_military_oligarch_4 }
+			traits = { EUR_minister_military_oligarch_4_trait }
 			available = { has_government = oligarch }
 			cost = 100
 			ai_will_do = { factor = 5 }
