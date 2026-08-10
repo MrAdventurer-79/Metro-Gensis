@@ -24,6 +24,18 @@
  VDN_commonwealth_subvert_PRO_2: "Bring §Y[PRO.GetFlag][PRO.GetName]§! into our Sphere"
  VDN_commonwealth_subvert_PRO_2_desc: ""
 
+ VDN_mushroom_trade_organize_caravan: "Organize a Trade Caravan"
+ VDN_mushroom_trade_organize_caravan_desc: ""
+ 
+ VDN_mushroom_trade_sell_directly_to_hanza: "Export Directly to the Hanza"
+ VDN_mushroom_trade_sell_directly_to_hanza_desc: ""
+
+ VDN_mushroom_trade_research_caravan: "Fund Humanitarian Caravans"
+ VDN_mushroom_trade_research_caravan_desc: ""
+
+ 359_owned_by_hanza_subject: " §Y[359.GetName]§! is either owned by us or the §Y[HNZ.GetFlag] [HNZ.GetName]§!\n\n"
+
+
  VDN_factionalism_category:0 "Balance of Power"
  VDN_factionalism_category_desc:0 "Six political, economic and social affilitations make up the demographics of the Commonwealth. You must make sure that your favored groups do not become irrelevant while keeping the unfavorables out of the spotlight. \n \n§CTrader Influence: [ROOT.GetVDN_Trade_Influence]§! \n \n§1Capitalist Influence: [ROOT.GetVDN_Capitalist_Influence]§!\n \n§OForeign Influence: [ROOT.GetVDN_Foreign_Influence]§!\n \n§7Military Influence: [ROOT.GetVDN_Military_Influence]§!\n \n§8Commonfolk Influence: [ROOT.GetVDN_Commonfolk_Influence]§!\n \n§3Politician Influence: [ROOT.GetVDN_Politician_Influence]§!"
  

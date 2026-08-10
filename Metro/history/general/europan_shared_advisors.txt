@@ -362,7 +362,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			ledger = army
-			traits = { EUR_minister_military_2_trait } }
+			traits = { EUR_minister_military_2_trait } 
 			available = { NOT = { has_completed_focus = EUR_lessons_from_the_reds } }
 			cost = 100
 			ai_will_do = { factor = 5 }

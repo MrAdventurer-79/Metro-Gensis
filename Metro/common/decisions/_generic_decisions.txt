@@ -557,8 +557,7 @@ sanctity_of_life = {
 		icon = category_spr_the_seeds_of_revolution
 
 		available = {
-			has_stability < 0.75
-			has_war_support < 0.75
+			has_stability > 0.24
 		}
 
 		visible = { NOT = { has_government = dictatorial } }
@@ -584,8 +583,8 @@ sanctity_of_life = {
 			}
 		}
 
-		days_remove = 30
-		days_re_enable = 480
+		days_remove = 45
+		days_re_enable = 360
 
 		ai_will_do = {
 			base = 5
