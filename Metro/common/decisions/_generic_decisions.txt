@@ -524,7 +524,7 @@ sanctity_of_life = {
 		modifier = {
 			stability_weekly = 0.005
 		    war_support_weekly = 0.005
-			bullet_expense_from_ideas = 10
+			tax_efficiency_modifier = -0.2
 		}
 
 		complete_effect = {

@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+		ALK_mushroom_economy_collapse = {
+			picture = idea_begging
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_expected_value = 0.25
+				production_speed_buildings_factor = 0.25
+	        }	
+	    }
+		ALK_struggling_garrison = {
+			picture = idea_homeless
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				conscription_factor = -0.3
+	        }	
+	    }
+    }
+}

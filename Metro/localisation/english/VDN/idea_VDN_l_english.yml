@@ -2,18 +2,17 @@
  VDNK_commonwealth_formed: "Formation of the Commonwealth"
  VDN_dark_ones_idea: "Dark Ones"
 
-
  VDN_stable_society_dynamic_modifier: "Stable Society"
  VDN_beyond_the_yard_dynamic_modifier: "Beyond the Tunnels"
  VDN_estranged_from_everyone_dynamic_modifier: "Estranged from the Metro"
  VDN_mushroom_cultivations_dynamic_modifier: "Mushroom Industry"
  VDN_commonwealth_army_dynamic_modifier: "Army of the [VDN.GetNameDef]"
 
- VDN_stable_society_dynamic_modifier_tt: "Modify §Y$VDN_stable_society$§! by"
- VDN_beyond_the_yard_dynamic_modifier_tt: "Modify §Y$VDN_beyond_the_yard$§! by"
- VDN_estranged_from_everyone_dynamic_modifier_tt: "Modify §Y$VDN_estranged_from_everyone$§! by"
- VDN_mushroom_cultivations_dynamic_modifier_tt: "Modify §Y$VDN_mushroom_cultivations$§! by"
- VDN_commonwealth_army_dynamic_modifier_tt: "Modify §Y$VDN_commonwealth_army$§! by"
+ VDN_stable_society_dynamic_modifier_tt: "Modify §Y$VDN_stable_society_dynamic_modifier$§! by"
+ VDN_beyond_the_yard_dynamic_modifier_tt: "Modify §Y$VDN_beyond_the_yard_dynamic_modifier$§! by"
+ VDN_estranged_from_everyone_dynamic_modifier_tt: "Modify §Y$VDN_estranged_from_everyone_dynamic_modifier$§! by"
+ VDN_mushroom_cultivations_dynamic_modifier_tt: "Modify §Y$VDN_mushroom_cultivations_dynamic_modifier$§! by"
+ VDN_commonwealth_army_dynamic_modifier_tt: "Modify §Y$VDN_commonwealth_army_dynamic_modifier$§! by"
 
  VDN_mushroom_cultivations: "Mushroom Cultivation"
  VDN_mushroom_cultivations_2: "$VDN_mushroom_cultivations$"

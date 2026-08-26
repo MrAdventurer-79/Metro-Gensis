@@ -295,7 +295,7 @@
 
   ARB_neutral_grounds_2: "Neutral Grounds"
   ARB_neutral_grounds_2_desc: ""
-  expert_scavengers_tt: "\nScavenging §GDecisions§! are now §GFree§!."
+  expert_scavengers_tt: "\n§Y$scavenging_expeditions$§! are now §YFree§!."
 
   ARB_neutral_grounds_3: "Arms Processing"
   ARB_neutral_grounds_3_desc: ""

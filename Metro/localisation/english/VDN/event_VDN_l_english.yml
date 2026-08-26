@@ -20,7 +20,27 @@
   nf_VDN_PRO.1.d: "Recent news has come to us that [VDN.GetName] are attempting to subtly manipulate [PRO.GetName] to fall beneath their sphere of orbit. This comes after the recent influx of VDNKh merchants seen in Proletarskaya, seeking to flood their market with VDNKh produce, using this as a method to bring the station into their sphere of influence.\n\nWhile VDNKh officals surely will deny and refute such preposterous claims, undoubtedly this is the case."
   nf_VDN_PRO.1.a: "[PRO.GetName] belongs underneath our rightful jurisdiction!"
 
+  nf_VDN_neighbors.1.t: "Disaster striles [ALK.GetName]"
+  nf_VDN_neighbors.1.d: "Reports have come to us regarding our neighbors of [ALK.GetName] and their attempts at remodeling their economy after our recent success. A mysterious disease has stricken their newly-purchased sows, their birthrates plummeting and their offspring being sickly and mutated. What's worse, is their mushroom crops similarly are suffering from disease. Desperate, the station authorities have reached out to us, hoping our cordial relations will result in charity."
+  nf_VDN_neighbors.1.a: "Unfortunately, you're on your own"
+  nf_VDN_neighbors.1.b: "Anything for a friend in need"
 
+  nf_VDN_neighbors.2.t: "Struggling Garrison at [ALK.GetName] Station"
+  nf_VDN_neighbors.2.d: "It has always been known to us that our neighbors of [ALK.GetName] have always struggled maintaining a strong armed force. With only a dozen or so guards kitted in ragged-bits of attire and scrap guns to patrol the tunnels to and from their station, their soldiers are overworked. However, it seems that they've finally ran dry on armaments, and are in desperate need of guns."
+  nf_VDN_neighbors.2.a: "Unfortunately, we cannot help"
+  nf_VDN_neighbors.2.b: "We may spare a few odds and ends"
+
+  nf_VDN_neighbors.3.t: "[RIZ.GetName] Seized by terror"
+  nf_VDN_neighbors.3.d: "The station of [RIZ.GetName] has always secured a sense of security positioned right on the ring line, and right besides the Hanseatic League, however it seems that not even this false sense of security can calm the growing atmosphere clouding their station. Within recent weeks, reports of growing mutant activity has stressed their station populace. Reliant on trade, an increase of mutants prowling through the tunnels will undoubtedly disrupt local trade, and stop their chief exports to the Hansa. Whats worse, is that their rather-decent militia is being worked overtime, between doubled-shifts to watch for mutants, and to ease the fears of the station populace. They've reached out to us, pleading for our assistance with reinbursing their already-fatigued garrison."
+  nf_VDN_neighbors.3.a: "Sorry, but we cannot spare the extra hands"
+  nf_VDN_neighbors.3.b: "We can assist"
+
+  RIZ_tension_idea: "Rising Tension"
+  RIZ_tension_idea_desc: "Recent mutant activity has sprouted anxiety amongst this station populace."
+  ALK_struggling_garrison: "Struggling Garrison"
+  ALK_struggling_garrison_desc: "The meagre armed-forces of this station is currently struggling to effectively guard their station."
+  ALK_mushroom_economy_collapse: "Collapsed Economy"
+  ALK_mushroom_economy_collapse_desc: "Recent attempts at remodeling their economy has lead to disaster, leaving the station impoverished until they can recover."
   ### DEPECIATED ### 
  nf_VDN.1.t:0 "The State of the Commonwealth"
  nf_VDN.1.d:0 "The Commonwealth is made up of three stations, with VDNKH being its leader. Alekseyevskaya and Rizhskaya form the 2 member states. After being kicked out of the northern stations by the Dark One invasions, citizens of the Commonwealth have a deep resentment for the creatures to the north. \n \nPolitically, the Commonwealth cannot decide who it wants to be. Is it a centralized government with a unified command and political structure? Or is it a decentralized government with seperate government and military bodies. Only time will be able to tell which ideology the Commonwealth will take to survive."

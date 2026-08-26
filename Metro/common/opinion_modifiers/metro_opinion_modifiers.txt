@@ -279,4 +279,10 @@ opinion_modifiers = {
 	bandit_KTG_friendly = {
 		value = 25
 	}
+	VDN_assistance = {
+		value = 15
+	}
+	VDN_assistance_2 = {
+		value = 15
+	}
 }

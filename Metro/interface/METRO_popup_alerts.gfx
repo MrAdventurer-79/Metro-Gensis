@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_D6_excavation_alert"
+		texturefile = "gfx/interface/alerts/D6_excavation_alert"
+	}
+}

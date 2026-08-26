@@ -6942,24 +6942,84 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VDN_alk.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_alk_discipline"
+		texturefile = "gfx/interface/goals/VDN_alk_discipline.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_alk_mushroom"
+		texturefile = "gfx/interface/goals/VDN_alk_mushroom.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_armory"
+		texturefile = "gfx/interface/goals/VDN_armory.dds"
+	}
+	SpriteType = {
 		name = "GFX_VDN_army_marching"
 		texturefile = "gfx/interface/goals/VDN_army_marching.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_barricades"
+		texturefile = "gfx/interface/goals/VDN_barricades.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_bastard_gun"
+		texturefile = "gfx/interface/goals/VDN_bastard_gun.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_bell"
+		texturefile = "gfx/interface/goals/VDN_bell.dds"
 	}
 	SpriteType = {
 		name = "GFX_VDN_boat"
 		texturefile = "gfx/interface/goals/VDN_boat.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_botanical_garden_annex"
+		texturefile = "gfx/interface/goals/VDN_botanical_garden_annex.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_capitalism"
+		texturefile = "gfx/interface/goals/VDN_capitalism.dds"
+	}
+	SpriteType = {
 		name = "GFX_VDN_capitalist"
 		texturefile = "gfx/interface/goals/VDN_capitalist.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_capitalists"
+		texturefile = "gfx/interface/goals/VDN_capitalists.dds"
 	}
 	SpriteType = {
 		name = "GFX_VDN_centralization"
 		texturefile = "gfx/interface/goals/VDN_centralization.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_checkpoint"
+		texturefile = "gfx/interface/goals/VDN_checkpoint.dds"
+	}
+	SpriteType = {
 		name = "GFX_vdn_church"
 		texturefile = "gfx/interface/goals/vdn_church.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_citizen_work"
+		texturefile = "gfx/interface/goals/VDN_citizen_work.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_coffee_pot"
+		texturefile = "gfx/interface/goals/VDN_coffee_pot.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_collective"
+		texturefile = "gfx/interface/goals/VDN_collective.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_common_cause"
+		texturefile = "gfx/interface/goals/VDN_common_cause.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_communication_wire"
+		texturefile = "gfx/interface/goals/VDN_communication_wire.dds"
 	}
 	SpriteType = {
 		name = "GFX_VDN_concessions"
@@ -6990,6 +7050,30 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VDN_decentralization.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_defense_fund"
+		texturefile = "gfx/interface/goals/VDN_defense_fund.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_defensive_pact"
+		texturefile = "gfx/interface/goals/VDN_defensive_pact.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_draftees"
+		texturefile = "gfx/interface/goals/VDN_draftees.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_dshk"
+		texturefile = "gfx/interface/goals/VDN_dshk.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_duct_tape_AK"
+		texturefile = "gfx/interface/goals/VDN_duct_tape_AK.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_dynamo"
+		texturefile = "gfx/interface/goals/VDN_dynamo.dds"
+	}
+	SpriteType = {
 		name = "GFX_vdn_economy"
 		texturefile = "gfx/interface/goals/vdn_economy.dds"
 	}
@@ -7006,6 +7090,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VDN_escortguards.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_expedition"
+		texturefile = "gfx/interface/goals/VDN_expedition.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_export_humanitarian"
+		texturefile = "gfx/interface/goals/VDN_export_humanitarian.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_export_power"
+		texturefile = "gfx/interface/goals/VDN_export_power.dds"
+	}
+	SpriteType = {
 		name = "GFX_VDN_fire_government"
 		texturefile = "gfx/interface/goals/VDN_fire_government.dds"
 	}
@@ -7018,12 +7114,52 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VDN_flag.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_flashlight"
+		texturefile = "gfx/interface/goals/VDN_flashlight.dds"
+	}
+	SpriteType = {
 		name = "GFX_VDN_fortisfortune"
 		texturefile = "gfx/interface/goals/VDN_fortisfortune.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_freedom"
+		texturefile = "gfx/interface/goals/VDN_freedom.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_from_the_ashes"
+		texturefile = "gfx/interface/goals/VDN_from_the_ashes.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_funding"
+		texturefile = "gfx/interface/goals/VDN_funding.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_humanitarian"
+		texturefile = "gfx/interface/goals/VDN_humanitarian.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_into_botanical"
+		texturefile = "gfx/interface/goals/VDN_into_botanical.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_into_botanical_2"
+		texturefile = "gfx/interface/goals/VDN_into_botanical_2.dds"
+	}
+	SpriteType = {
 		name = "GFX_VDN_jesus"
 		texturefile = "gfx/interface/goals/VDN_jesus.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_liberty"
+		texturefile = "gfx/interface/goals/VDN_liberty.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_lightbulb"
+		texturefile = "gfx/interface/goals/VDN_lightbulb.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_mandated_schooling"
+		texturefile = "gfx/interface/goals/VDN_mandated_schooling.dds"
 	}
 	SpriteType = {
 		name = "GFX_VDN_merc"
@@ -7042,6 +7178,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VDN_military_generic.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_novus_homo"
+		texturefile = "gfx/interface/goals/VDN_novus_homo.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_ornate"
+		texturefile = "gfx/interface/goals/VDN_ornate.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_pig"
+		texturefile = "gfx/interface/goals/VDN_pig.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_pig_plenty"
+		texturefile = "gfx/interface/goals/VDN_pig_plenty.dds"
+	}
+	SpriteType = {
 		name = "GFX_VDN_politics_generic"
 		texturefile = "gfx/interface/goals/VDN_politics_generic.dds"
 	}
@@ -7050,8 +7202,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VDN_poster.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_purchase_arms"
+		texturefile = "gfx/interface/goals/VDN_purchase_arms.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_relieve_tension"
+		texturefile = "gfx/interface/goals/VDN_relieve_tension.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_reservists"
+		texturefile = "gfx/interface/goals/VDN_reservists.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_reservists_2"
+		texturefile = "gfx/interface/goals/VDN_reservists_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_reservists_3"
+		texturefile = "gfx/interface/goals/VDN_reservists_3.dds"
+	}
+	SpriteType = {
 		name = "GFX_VDN_riz"
 		texturefile = "gfx/interface/goals/VDN_riz.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_riz_gateway"
+		texturefile = "gfx/interface/goals/VDN_riz_gateway.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_riz_militia"
+		texturefile = "gfx/interface/goals/VDN_riz_militia.dds"
 	}
 	SpriteType = {
 		name = "GFX_VDN_running_soldier"
@@ -7062,16 +7242,56 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VDN_scale.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_scavenging"
+		texturefile = "gfx/interface/goals/VDN_scavenging.dds"
+	}
+	SpriteType = {
 		name = "GFX_vdn_scout"
 		texturefile = "gfx/interface/goals/vdn_scout.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_seal_trade_routes"
+		texturefile = "gfx/interface/goals/VDN_seal_trade_routes.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_self_sufficiency"
+		texturefile = "gfx/interface/goals/VDN_self_sufficiency.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_shack"
+		texturefile = "gfx/interface/goals/VDN_shack.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_side_tunnels"
+		texturefile = "gfx/interface/goals/VDN_side_tunnels.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_socialite"
+		texturefile = "gfx/interface/goals/VDN_socialite.dds"
 	}
 	SpriteType = {
 		name = "GFX_vdn_soldier"
 		texturefile = "gfx/interface/goals/vdn_soldier.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_spartan"
+		texturefile = "gfx/interface/goals/VDN_spartan.dds"
+	}
+	SpriteType = {
 		name = "GFX_vdn_stations"
 		texturefile = "gfx/interface/goals/vdn_stations.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_station_bust"
+		texturefile = "gfx/interface/goals/VDN_station_bust.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_station_line_emblem"
+		texturefile = "gfx/interface/goals/VDN_station_line_emblem.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_station_tent"
+		texturefile = "gfx/interface/goals/VDN_station_tent.dds"
 	}
 	SpriteType = {
 		name = "GFX_VDN_suitcase"
@@ -7082,12 +7302,40 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/VDN_sukhoi.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_technician"
+		texturefile = "gfx/interface/goals/VDN_technician.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_thumbs_up"
+		texturefile = "gfx/interface/goals/VDN_thumbs_up.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_ties_which_bind"
+		texturefile = "gfx/interface/goals/VDN_ties_which_bind.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_tooling"
+		texturefile = "gfx/interface/goals/VDN_tooling.dds"
+	}
+	SpriteType = {
 		name = "GFX_VDN_tools"
 		texturefile = "gfx/interface/goals/VDN_tools.dds"
 	}
 	SpriteType = {
+		name = "GFX_VDN_tooth_and_nail"
+		texturefile = "gfx/interface/goals/VDN_tooth_and_nail.dds"
+	}
+	SpriteType = {
 		name = "GFX_VDN_tradesoldier"
 		texturefile = "gfx/interface/goals/VDN_tradesoldier.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_unity"
+		texturefile = "gfx/interface/goals/VDN_unity.dds"
+	}
+	SpriteType = {
+		name = "GFX_VDN_workshops"
+		texturefile = "gfx/interface/goals/VDN_workshops.dds"
 	}
 	SpriteType = {
 		name = "GFX_volunteer_expedition"

@@ -855,6 +855,14 @@ focus_tree = {
 		relative_position_id = PAG_prepare_for_hyperborea
 
 		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						has_tech = savage_spec_ops_equipment_1_tech
+					}
+				}
+				set_technology = { savage_spec_ops_equipment_1_tech = 1 }
+			}
 			custom_effect_tooltip = PAG_specops_template
 			division_template = {
 				name = "VRIL Warriors"

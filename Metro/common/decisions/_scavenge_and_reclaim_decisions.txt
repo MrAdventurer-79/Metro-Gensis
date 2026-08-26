@@ -1,6 +1,7 @@
 @temp_command_power_cost_ai = 25
 @temp_command_power_cost = 50
 
+
 reclaim_metro = {
 	reclaim_this_state = {
 	   	icon = generic_military
@@ -182,7 +183,7 @@ reclaim_metro = {
 	    }
 	    available = {
 		    hidden_trigger = {
-				has_country_flag = disable_reclamation_mechanic
+				NOT = { has_country_flag = disable_reclamation_mechanic }
 				has_country_flag = is_savage_nation 
 		    }
 		    FROM = { 
@@ -527,7 +528,7 @@ scavenging_expeditions = {
 		days_remove = 14
 		fire_only_once = no
 		custom_cost_trigger = {
-			set_temp_variable = { temp_bullet_cost = 250 }
+			set_temp_variable = { temp_bullet_cost = base_establish_stalkers_cost }
 			check_variable = {
 				bullet > temp_bullet_cost
 			}
@@ -546,17 +547,14 @@ scavenging_expeditions = {
 			has_equipment = {
 				special_forces_equipment > 4
 			}
-			custom_trigger_tooltip = {
-				tooltip = scavenging_been_disabled_tt
-				hidden_trigger = {
-					NOT = { has_country_flag = scavenging_disabled }
-				}
+			hidden_trigger = {
+				NOT = { has_country_flag = scavenging_disabled }
 			}
 		}
 		complete_effect = {
 			hidden_effect = { 
-				set_temp_variable = { bullet_to_gain = -250 }
-				add_bullet_with_tooltip_effect = yes
+				set_temp_variable = { bullet_to_gain = base_establish_stalkers_cost }
+				remove_bullet_with_tooltip_effect = yes
 			}
 			add_manpower = -5
 			add_equipment_to_stockpile = {
@@ -584,15 +582,7 @@ scavenging_expeditions = {
 		icon = flag
 		priority = 100
 		custom_cost_trigger = {
-			if = {
-				limit = {
-					original_tag = MSU
-				}
-				set_temp_variable = { temp_bullet_cost = 0 }
-			}
-			else = {
-				set_temp_variable = { temp_bullet_cost = 100 }
-			}
+			set_temp_variable = { temp_bullet_cost = launch_scavenging_mission_cost }
 			check_variable = {
 				bullet > temp_bullet_cost
 			}
@@ -608,16 +598,8 @@ scavenging_expeditions = {
 		}
 		complete_effect = {
 			hidden_effect = { 
-				if = {
-					limit = {
-						original_tag = MSU
-					}
-					set_temp_variable = { bullet_to_gain = 0 }
-				}
-				else = {
-					set_temp_variable = { bullet_to_gain = -100 }
-				}
-				add_bullet_with_tooltip_effect = yes
+				set_temp_variable = { bullet_to_lose = launch_scavenging_mission_cost }
+				remove_bullet_with_tooltip_effect = yes
 			}
 		}
 		remove_effect = {

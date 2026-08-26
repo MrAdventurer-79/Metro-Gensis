@@ -340,6 +340,18 @@ on_actions = {
 				
 				}
 			}
+
+			## initiate scavenging variables
+
+			every_country = {
+				limit = { NOT = { original_tag = RUI original_tag = MSU } }
+				set_variable = { base_establish_stalkers_cost = 250 }
+				set_variable = { launch_scavenging_mission_cost = 100 }
+			}
+			every_country = {
+				limit = { original_tag = MSU } 
+				scavenging_zero_cost_scripted_effect = yes
+			}
 		}
 	}
 }

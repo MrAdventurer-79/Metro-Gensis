@@ -18,7 +18,7 @@ focus_tree = {
 
 	focus = {
 		id = VDN_branching_out
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_checkpoint
 		x = 5
 		y = 0
 		cost = 3.6
@@ -48,7 +48,7 @@ focus_tree = {
 
 	focus = {
 		id = VDN_establish_defensive_watch
-		icon = GFX_VDN_flag
+		icon = GFX_vdn_scout
 		x = -1
 		y = 1
 		cost = 2.2
@@ -75,7 +75,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_repair_routelines
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_side_tunnels
 		x = 1
 		y = 1
 		cost = 2.2
@@ -99,7 +99,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_drawing_from_populace
-		icon = GFX_VDN_flag
+		icon = GFX_volunteer_expedition
 		x = -2
 		y = 2
 		cost = 2.2
@@ -135,7 +135,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_establish_defensive_watch_3
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_botanical_garden_annex
 		x = 0
 		y = 3
 		cost = 2.2
@@ -159,7 +159,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_funding_expansion
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_funding
 		x = 2
 		y = 2
 		cost = 2.2
@@ -195,7 +195,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_communication_lines
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_bell
 		x = 2
 		y = 1
 		cost = 2.2
@@ -223,7 +223,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_fortifications
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_barricades
 		x = -2
 		y = 1
 		cost = 2.2
@@ -254,7 +254,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_funding_outwards
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_defense_fund
 		x = 0
 		y = 1
 		cost = 2.2
@@ -278,7 +278,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_explore_botanical_gardens
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_into_botanical_2
 		x = 0
 		y = 2
 		cost = 3.6
@@ -317,7 +317,7 @@ focus_tree = {
 
 	focus = {
 		id = VDN_the_VDNKH
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_unity
 		x = 5
 		y = 7
 		cost = 6.5
@@ -341,7 +341,7 @@ focus_tree = {
 	}	
 	focus = {
 		id = VDN_commercialized_fungiculture
-		icon = GFX_VDN_flag
+		icon = GFX_vdn_economy
 		x = -17
 		y = 1
 		cost = 6.5
@@ -369,7 +369,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_establish_libraries
-		icon = GFX_VDN_flag
+		icon = GFX_generic_books
 		x = -1
 		y = 1
 		cost = 6.5
@@ -398,7 +398,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_social_support
-		icon = GFX_VDN_flag
+		icon = GFX_generic_bullet
 		x = 1
 		y = 1
 		cost = 6.5
@@ -421,7 +421,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_health_hygiene
-		icon = GFX_VDN_flag
+		icon = GFX_generic_soap
 		x = 0
 		y = 1
 		cost = 6.5
@@ -450,7 +450,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_medical_wards
-		icon = GFX_VDN_flag
+		icon = GFX_generic_bandages
 		x = 1
 		y = 3
 		cost = 6.5
@@ -470,7 +470,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_exports
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_scale
 		x = 5
 		y = 1
 		cost = 6.5
@@ -502,7 +502,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_exports_2
-		icon = GFX_VDN_flag
+		icon = GFX_generic_trade_stall
 		x = 0
 		y = 2
 		cost = 6.5
@@ -530,7 +530,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_mushroom_tea_industry
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_coffee_pot
 		x = 2
 		y = 1
 		cost = 6.5
@@ -547,7 +547,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_piggies
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_pig_plenty
 		x = 0
 		y = 1
 		cost = 6.5
@@ -579,7 +579,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_fund_bookreading
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_mandated_schooling
 		x = 0
 		y = 1
 		cost = 6.5
@@ -610,7 +610,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_research_6
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_export_power
 		x = -1
 		y = 3
 		cost = 6.5
@@ -633,7 +633,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_research_6a
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_export_humanitarian
 		x = 0
 		y = 1
 		cost = 6.5
@@ -653,7 +653,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_planning_zones
-		icon = GFX_VDN_flag
+		icon = GFX_generic_scribbles
 		x = -9
 		y = 1
 		cost = 6.5
@@ -678,7 +678,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_exhibition_station
-		icon = GFX_VDN_flag
+		icon = GFX_generic_campsite
 		x = -7
 		y = 1
 		cost = 6.5
@@ -714,7 +714,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_citizens_to_work
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_citizen_work
 		x = 1
 		y = 1
 		cost = 6.5
@@ -753,7 +753,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_salvage
-		icon = GFX_VDN_flag
+		icon = GFX_generic_wielding
 		x = 0
 		y = 1
 		cost = 6.5
@@ -777,7 +777,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_procure_tools
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_tools
 		x = -2
 		y = 1
 		cost = 6.5
@@ -799,7 +799,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_shared_tooling
-		icon = GFX_VDN_flag
+		icon = GFX_workstation
 		x = 0
 		y = 1
 		cost = 6.5
@@ -823,7 +823,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_shared_tooling_2
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_tooling
 		x = 0
 		y = 1
 		cost = 6.5
@@ -844,7 +844,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_wooden_shacks
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_dynamo
 		x = -2
 		y = 1
 		cost = 6.5
@@ -866,7 +866,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_burgeoning_station
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_station_tent
 		x = -2
 		y = 2
 		cost = 6.5
@@ -900,7 +900,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_economy_2
-		icon = GFX_VDN_flag
+		icon = GFX_generic_bullet_cartridges
 		x = -3
 		y = 1
 		cost = 6.5
@@ -921,7 +921,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_economy_2a
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_from_the_ashes
 		x = -1
 		y = 1
 		cost = 6.5
@@ -950,7 +950,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_economy_3
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_scavenging
 		x = 3
 		y = 1
 		cost = 6.5
@@ -984,7 +984,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_economy_3a
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_dynamo
 		x = 0
 		y = 1
 		cost = 6.5
@@ -1005,7 +1005,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_economy_4
-		icon = GFX_VDN_flag
+		icon = GFX_vdn_merchant
 		x = 0
 		y = 1
 		cost = 6.5
@@ -1022,7 +1022,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_economy_5
-		icon = GFX_VDN_flag
+		icon = GFX_generic_bandit_idea
 		x = 1
 		y = 2
 		cost = 6.5
@@ -1045,7 +1045,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_economy_6
-		icon = GFX_VDN_flag
+		icon = GFX_generic_bandit_stability
 		x = -1
 		y = 2
 		cost = 6.5
@@ -1068,7 +1068,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_economy_commonwealth
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_ornate
 		x = 1
 		y = 1
 		cost = 6.5
@@ -1088,7 +1088,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_economy_7
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_technician
 		x = -1
 		y = 1
 		cost = 6.5
@@ -1112,7 +1112,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_economy_8
-		icon = GFX_VDN_flag
+		icon = GFX_generic_tools
 		x = 1
 		y = 1
 		cost = 6.5
@@ -1136,7 +1136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_economy_9
-		icon = GFX_VDN_flag
+		icon = GFX_generic_vegetables
 		x = -1
 		y = 1
 		cost = 6.5
@@ -1176,7 +1176,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_burgeoning_station0
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_workshops
 		x = 1
 		y = 1
 		cost = 6.5
@@ -1213,7 +1213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_burgeoning_station1
-		icon = GFX_VDN_flag
+		icon = GFX_scrap_metal_4
 		x = 2
 		y = 1
 		cost = 6.5
@@ -1255,7 +1255,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_burgeoning_station2
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_armory
 		x = -2
 		y = 1
 		cost = 6.5
@@ -1291,7 +1291,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_1
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_centralization
 		x = 0
 		y = 1
 		cost = 6.5
@@ -1316,7 +1316,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_soviet_ideals_path
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_socialite
 		x = -5
 		y = 1
 		cost = 6.5
@@ -1340,7 +1340,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_collective_path
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_collective
 		x = 0
 		y = 1
 		cost = 6.5
@@ -1361,7 +1361,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_capitalism_path
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_capitalists
 		x = 5
 		y = 1
 		cost = 6.5
@@ -1382,7 +1382,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_centralize_station_authority
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_politics_generic
 		x = 0
 		y = 2
 		cost = 6.5
@@ -1403,7 +1403,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_6
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_common_cause
 		x = 1
 		y = 1
 		cost = 6.5
@@ -1423,7 +1423,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_7
-		icon = GFX_VDN_flag
+		icon = GFX_generic_political_2
 		x = -1
 		y = 1
 		cost = 6.5
@@ -1455,7 +1455,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_8
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_thumbs_up
 		x = 0
 		y = 1
 		cost = 6.5
@@ -1481,7 +1481,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_9
-		icon = GFX_VDN_flag
+		icon = GFX_generic_telephone
 		x = 0
 		y = 1
 		cost = 6.5
@@ -1519,7 +1519,7 @@ focus_tree = {
 	
 	focus = {
 		id = VDN_political_9A
-		icon = GFX_VDN_flag
+		icon = GFX_generic_microphone
 		x = 0
 		y = 3
 		cost = 6.5
@@ -1537,7 +1537,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_10
-		icon = GFX_VDN_flag
+		icon = GFX_generic_medium_arms_4
 		x = -2
 		y = 3
 		cost = 6.5
@@ -1560,7 +1560,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_11
-		icon = GFX_VDN_flag
+		icon = GFX_HNZ_democracy_1
 		x = 0
 		y = 1
 		cost = 6.5
@@ -1577,7 +1577,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_12
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_freedom
 		x = 0
 		y = 1
 		cost = 6.5
@@ -1611,7 +1611,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_13
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_capitalist
 		x = -1
 		y = 1
 		cost = 6.5
@@ -1630,7 +1630,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_export_economy
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_seal_trade_routes
 		x = 1
 		y = 1
 		cost = 6.5
@@ -1667,7 +1667,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_15
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_capitalism
 		x = -1
 		y = 1
 		cost = 6.5
@@ -1696,7 +1696,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_16
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_suitcase
 		x = 0
 		y = 1
 		cost = 6.5
@@ -1730,7 +1730,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_17
-		icon = GFX_VDN_flag
+		icon = GFX_campfire_3
 		x = 2
 		y = 3
 		cost = 6.5
@@ -1748,7 +1748,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_18
-		icon = GFX_VDN_flag
+		icon = GFX_generic_kebab
 		x = 0
 		y = 1
 		cost = 6.5
@@ -1765,7 +1765,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_political_19
-		icon = GFX_VDN_flag
+		icon = GFX_generic_mushroom_soup
 		x = 1
 		y = 1
 		cost = 6.5
@@ -1802,7 +1802,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_soviet_ideals_path1
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_station_bust
 		x = 1
 		y = 1
 		cost = 6.5
@@ -1821,7 +1821,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_burgeoning_power
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_lightbulb
 		x = 0
 		y = 1
 		cost = 6.5
@@ -1844,7 +1844,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_0
-		icon = GFX_VDN_flag
+		icon = GFX_vdn_military
 		x = 23
 		y = 7
 		cost = 6.5
@@ -1877,7 +1877,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_threat_from_botanical
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_elite_soldier
 		x = 8
 		y = 1
 		cost = 3
@@ -1915,7 +1915,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_equipment_standards
-		icon = GFX_VDN_flag
+		icon = GFX_generic_webbing
 		x = 5
 		y = 1
 		cost = 6.5
@@ -1969,7 +1969,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_fortified_emplacements
-		icon = GFX_VDN_flag
+		icon = GFX_generic_defences_2
 		x = 2
 		y = 1
 		cost = 6.5
@@ -2019,7 +2019,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_5
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_reservists_2
 		x = 1
 		y = 1
 		cost = 6.5
@@ -2037,7 +2037,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_6
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_reservists
 		x = 1
 		y = 1
 		cost = 6.5
@@ -2064,7 +2064,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_5_1
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_reservists_3
 		x = 0
 		y = 1
 		cost = 6.5
@@ -2084,7 +2084,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_6_1
-		icon = GFX_VDN_flag
+		icon = GFX_generic_hanza_heavy_gunner
 		x = 0
 		y = 1
 		cost = 6.5
@@ -2110,7 +2110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_defence_beyond_thresholds
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_checkpoint
 		x = -1
 		y = 1
 		cost = 6.5
@@ -2145,7 +2145,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_safe_distance
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_running_soldier
 		x = -1
 		y = 1
 		cost = 6.5
@@ -2168,9 +2168,9 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_aggressive_containment
-		icon = GFX_VDN_flag
-		x = 31
-		y = 11
+		icon = GFX_VDN_army_marching
+		x = 1
+		y = 1
 		cost = 6.5
 		prerequisite = {
 			focus = VDN_defence_beyond_thresholds
@@ -2221,9 +2221,9 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_fighting_tooth_and_nail
-		icon = GFX_VDN_flag
-		x = 35
-		y = 13
+		icon = GFX_generic_stalker_expedition
+		x = 3
+		y = 2
 		cost = 6.5
 		prerequisite = {
 			focus = VDN_into_botanical
@@ -2245,7 +2245,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_recolonize_botanical
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_expedition
 		x = 0
 		y = 1
 		cost = 6.5
@@ -2270,7 +2270,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_hunter_arrives
-		icon = GFX_VDN_flag
+		icon = GFX_SPT_hunter
 		x = 38
 		y = 7
 		cost = 1
@@ -2300,7 +2300,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_hunter_arrives_2
-		icon = GFX_VDN_flag
+		icon = GFX_HNZ_not_another_bloodbath
 		x = 0
 		y = 1
 		cost = 1
@@ -2317,7 +2317,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_hunter_arrives_3
-		icon = GFX_VDN_flag
+		icon = GFX_SPT_rangers_4
 		x = 0
 		y = 2
 		cost = 1
@@ -2338,7 +2338,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_hunter_arrives_4
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_tooth_and_nail
 		x = 0
 		y = 2
 		cost = 1
@@ -2355,7 +2355,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_economy_1
-		icon = GFX_VDN_flag
+		icon = GFX_generic_painkillers
 		x = 1
 		y = 1
 		cost = 3
@@ -2382,7 +2382,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_economy_2
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_military_generic
 		x = -1
 		y = 1
 		cost = 3
@@ -2409,7 +2409,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_economy_3
-		icon = GFX_VDN_flag
+		icon = GFX_generic_medium_arms_2
 		x = -1
 		y = 1
 		cost = 6.5
@@ -2442,7 +2442,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_defence_1
-		icon = GFX_VDN_flag
+		icon = GFX_generic_gun_parts
 		x = 2
 		y = 1
 		cost = 6.5
@@ -2473,7 +2473,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_defence_2
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_duct_tape_AK
 		x = -1
 		y = 1
 		cost = 6.5
@@ -2496,7 +2496,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_defence_3
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_bastard_gun
 		x = 2
 		y = 0
 		cost = 6.5
@@ -2519,7 +2519,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_offence_1
-		icon = GFX_VDN_flag
+		icon = GFX_generic_stalker_4
 		x = -2
 		y = 1
 		cost = 6.5
@@ -2536,7 +2536,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_offence_2
-		icon = GFX_VDN_flag
+		icon = GFX_generic_stalker_2
 		x = -4
 		y = 1
 		cost = 6.5
@@ -2554,7 +2554,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_offence_3
-		icon = GFX_VDN_flag
+		icon = GFX_workstation_2
 		x = 1
 		y = 1
 		cost = 6.5
@@ -2572,7 +2572,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_economy_4
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_tradesoldier
 		x = 0
 		y = 2
 		cost = 6.5
@@ -2602,7 +2602,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_economy_5
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_dshk
 		x = 1
 		y = 1
 		cost = 6.5
@@ -2624,7 +2624,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_economy_6
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_draftees
 		x = -1
 		y = 1
 		cost = 6.5
@@ -2646,7 +2646,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_economy_7
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_merc
 		x = 0
 		y = 1
 		cost = 6.5
@@ -2663,7 +2663,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_economy_8
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_escortguards
 		x = 0
 		y = 1
 		cost = 6.5
@@ -2685,7 +2685,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_economy_9
-		icon = GFX_VDN_flag
+		icon = GFX_generic_gatling
 		x = 0
 		y = 1
 		cost = 6.5
@@ -2702,7 +2702,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_economy_10
-		icon = GFX_VDN_flag
+		icon = GFX_generic_gun_parts
 		x = 2
 		y = 1
 		cost = 6.5
@@ -2732,7 +2732,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_hard_line_1
-		icon = GFX_VDN_flag
+		icon = GFX_generic_winter_gear
 		x = -4
 		y = 1
 		cost = 6.5
@@ -2766,7 +2766,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_hard_line_2
-		icon = GFX_VDN_flag
+		icon = GFX_generic_armor
 		x = -1
 		y = 1
 		cost = 6.5
@@ -2789,7 +2789,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_military_hard_line_2_A
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_flashlight
 		x = 1
 		y = 1
 		cost = 6.5
@@ -2812,7 +2812,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth
-		icon = GFX_VDN_flag
+		icon = GFX_vdn_stations
 		x = 14
 		y = 7
 		cost = 12.9
@@ -2901,7 +2901,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_telecommunications
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_communication_wire
 		x = 1
 		y = 3
 		cost = 12.9
@@ -2949,7 +2949,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_humanitarian_aid
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_humanitarian
 		x = -1
 		y = 3
 		cost = 12.9
@@ -2972,7 +2972,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_mutual_defense
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_defensive_pact
 		x = 0
 		y = 2
 		cost = 12.9
@@ -3043,7 +3043,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_friendship_pact
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_ties_which_bind
 		x = 0
 		y = 2
 		cost = 12.9
@@ -3075,7 +3075,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_telecommunications_5
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_liberty
 		x = 0
 		y = 7
 		cost = 12.9
@@ -3100,8 +3100,8 @@ focus_tree = {
 	focus = {
 		id = VDN_novo_homo
 		icon = GFX_VDN_flag
-		x = 5
-		y = 14
+		x = 3
+		y = 12
 		cost = 6.5
 		available = {
 			has_country_flag = VDN_sukhoi_as_or_leader_country_flag
@@ -3208,8 +3208,8 @@ focus_tree = {
 	focus = {
 		id = VDN_homo_3
 		icon = GFX_VDN_flag
-		x = -1
-		y = 2
+		x = 0
+		y = 1
 		cost = 6.5
 		prerequisite = {
 			focus = VDN_homo_2
@@ -3276,7 +3276,7 @@ focus_tree = {
 	focus = {
 		id = VDN_macrophage
 		icon = GFX_VDN_flag
-		x = 8
+		x = 12
 		y = 0
 		cost = 6.5
 		available = {
@@ -3453,7 +3453,7 @@ focus_tree = {
 		id = VDN_eliminate_dark_ones
 		icon = GFX_VDN_flag
 		x = 1
-		y = 2
+		y = 1
 		cost = 6.5
 		prerequisite = {
 			focus = VDN_threat_of_the_dark_ones_1
@@ -3471,7 +3471,7 @@ focus_tree = {
 	focus = {
 		id = VDN_artyom
 		icon = GFX_VDN_flag
-		x = -2
+		x = -4
 		y = 2
 		cost = 6.5
 		prerequisite = {
@@ -3743,7 +3743,7 @@ focus_tree = {
 
 	focus = {
 		id = VDN_commonwealth_formed_focus_1
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_station_line_emblem
 		x = 0
 		y = 1
 		cost = 6.5
@@ -3759,6 +3759,9 @@ focus_tree = {
 		#		has_country_flag = VDNK_threat_from_botanical
 		#	}
 		#}
+		available = {
+			has_completed_focus = VDN_commonwealth_telecommunications_5
+		}
 		completion_reward = {
 			add_political_power = 150
 
@@ -3828,7 +3831,7 @@ focus_tree = {
 	#}
 	focus = {
 		id = VDN_commonwealth_formed_focus_4_economic_1
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_ties_which_bind
 		x = 0
 		y = 1
 		cost = 6.5
@@ -3878,7 +3881,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_formed_focus_4_economic_2
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_alk
 		x = -2
 		y = 1
 		cost = 6.5
@@ -3909,7 +3912,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_formed_focus_4_economic_3
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_riz
 		x = 2
 		y = 1
 		cost = 6.5
@@ -3940,7 +3943,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_formed_focus_4_economic_4
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_riz_militia
 		x = 1
 		y = 1
 		cost = 6.5
@@ -3987,7 +3990,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_formed_focus_4_economic_5
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_riz_gateway
 		x = -1
 		y = 1
 		cost = 6.5
@@ -4017,7 +4020,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_formed_focus_4_economic_6
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_alk_discipline
 		x = -1
 		y = 1
 		cost = 6.5
@@ -4064,7 +4067,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_formed_focus_4_economic_7
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_alk_mushroom
 		x = 1
 		y = 1
 		cost = 6.5
@@ -4094,7 +4097,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_formed_focus_4_economic_8
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_alk_prosperity
 		x = 0
 		y = 1
 		cost = 6.5
@@ -4117,7 +4120,7 @@ focus_tree = {
 	}
 	focus = {
 		id = VDN_commonwealth_formed_focus_4_economic_9
-		icon = GFX_VDN_flag
+		icon = GFX_VDN_relieve_tension
 		x = 0
 		y = 1
 		cost = 6.5

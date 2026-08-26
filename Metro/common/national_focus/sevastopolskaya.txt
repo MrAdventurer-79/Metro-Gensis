@@ -1309,6 +1309,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = expert_scavengers_tt
 			set_country_flag = free_scavenging_cost
+			scavenging_zero_cost_scripted_effect = yes
 		}
 	}
 	

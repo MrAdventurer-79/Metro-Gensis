@@ -27,6 +27,11 @@ scavenge_initialize_scripted_variables_effect = {
 	}
 }
 
+scavenging_zero_cost_scripted_effect = {
+	set_variable = { base_establish_stalkers_cost = 0 }
+	set_variable = { launch_scavenging_mission_cost = 0 }
+}
+
 scavenge_update_display_var_tooltips = {
 	## Tooltip display loc
 		## First flush all add_chance_var variables

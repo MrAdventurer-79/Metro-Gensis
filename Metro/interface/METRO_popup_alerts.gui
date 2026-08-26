@@ -1,0 +1,27 @@
+guiTypes = {
+	containerWindowType = {
+		name = "icon_popup_bar"
+		position = { x = 535 y = 80 }
+		size = { width = 615 height = 35 }
+		#}
+		gridboxtype = {
+			name = "METRO_topbar_icon_popup_list"
+			position = { x = 15 y = 5 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 50 height = 40 }
+			format = "UPPER_LEFT"
+		}
+	}
+	containerWindowType = {
+		name = "icon_popup_bar_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 35 height = 35 }
+		buttonType = {
+			name = "icon_popup_entry"
+			spriteType = "GFX_D6_excavation_alert"
+			position = { x = 0 y = 0 }
+			oversound = ui_menu_over
+			pdx_tooltip = "popup_hover_over_tooltip"
+		}
+	}
+}

@@ -1542,3 +1542,134 @@ country_event = {
 		name = nf_VDN_PRO.1.a
 	}
 }
+
+add_namespace = nf_VDN_neighbors
+
+## ALK 1 : Mushroom Economy Collapse
+
+country_event = { 
+    id = nf_VDN_neighbors.1
+    title = nf_VDN_neighbors.1.t
+    desc = nf_VDN_neighbors.1.d
+    picture = "GFX_event (105)"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = nf_VDN_neighbors.1.a
+
+		ALK = {
+			add_timed_idea = {
+				idea =  ALK_mushroom_economy_collapse
+				days = 480
+			}
+			capital_scope = {
+				remove_building = {
+    				type = industrial_complex
+    				level = 2
+				}
+			}
+		}
+	}
+
+	option = {
+		name = nf_VDN_neighbors.1.b
+		add_political_power = -35
+		ALK = {
+			add_timed_idea = {
+				idea =  ALK_mushroom_economy_collapse
+				days = 240
+			}
+			add_opinion_modifier = {
+    			target = VDN
+    			modifier = VDN_assistance
+			}
+		}
+	}
+}
+
+## ALK 2 : Inept Garrison
+
+country_event = { 
+    id = nf_VDN_neighbors.2
+    title = nf_VDN_neighbors.2.t
+    desc = nf_VDN_neighbors.2.d
+    picture = "GFX_event (105)"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = nf_VDN_neighbors.2.a
+
+		ALK = {
+			add_timed_idea = {
+				idea =  ALK_struggling_garrison
+				days = 360
+			}
+		}
+	}
+
+	option = {
+		name = nf_VDN_neighbors.2.b
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -20
+		}
+		ALK = {
+			add_timed_idea = {
+				idea =  ALK_struggling_garrison
+				days = 240
+			}
+			add_opinion_modifier = {
+    			target = VDN
+    			modifier = VDN_assistance_2
+			}
+		}
+	}
+}
+
+## RIZ 1 : Tension
+
+country_event = { 
+    id = nf_VDN_neighbors.3
+    title = nf_VDN_neighbors.3.t
+    desc = nf_VDN_neighbors.3.d
+    picture = "GFX_event (105)"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = nf_VDN_neighbors.3.a
+
+		RIZ = {
+			add_timed_idea = {
+				idea =  RIZ_tension_idea
+				days = 480
+			}
+			capital_scope = {
+				remove_building = {
+    				type = arms_factory
+    				level = 2
+				}
+			}
+		}
+	}
+
+	option = {
+		name = nf_VDN_neighbors.3.b
+		add_manpower = -10
+		RIZ = {
+			add_timed_idea = {
+				idea = RIZ_tension_idea
+				days = 240
+			}
+			add_opinion_modifier = {
+    			target = VDN
+    			modifier = VDN_assistance
+			}
+		}
+	}
+}
