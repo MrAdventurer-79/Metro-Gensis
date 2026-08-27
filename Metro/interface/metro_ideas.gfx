@@ -3819,4 +3819,32 @@ spriteTypes = {
 		name = "GFX_SAV_unification"
 		texturefile = "gfx/interface/ideas/SAV/SAV_unification.dds"
 	}
+	spriteType = {
+		name = "GFX_VDN_beyond_the_yard_idea"
+		texturefile = "gfx/interface/ideas/VDN/VDN_beyond_the_yard_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_VDN_commonwealth_army_idea"
+		texturefile = "gfx/interface/ideas/VDN/VDN_commonwealth_army_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_VDN_estranged_idea"
+		texturefile = "gfx/interface/ideas/VDN/VDN_estranged_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_VDN_generic_idea"
+		texturefile = "gfx/interface/ideas/VDN/VDN_generic_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_VDN_lack_of_stalkers_idea"
+		texturefile = "gfx/interface/ideas/VDN/VDN_lack_of_stalkers_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_VDN_mushroom_industry"
+		texturefile = "gfx/interface/ideas/VDN/VDN_mushroom_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_VDN_stable_society_idea"
+		texturefile = "gfx/interface/ideas/VDN/VDN_stable_society_idea.dds"
+	}
 }

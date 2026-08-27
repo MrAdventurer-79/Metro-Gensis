@@ -73,3 +73,12 @@
 
 	disable_scavenging_flag:0 "Scavenging Disabled"
 	enable_scavenging_rule:0 "£trigger_no Can Launch Scavenging Missions."
+
+	RULE_GROUP_EASTER_EGG: "Easter Eggs & Bonus Content"
+
+	MOVEMENT_SPEED_NAME:0 "Division speed"
+	MOVEMENT_SPEED_REUCTION_DISABLED: "Disabled"
+	MOVEMENT_SPEED_REUCTION_DISABLED_DESC: "All Divisions will move at the normal, intended speed between tiles."
+	MOVEMENT_SPEED_REUCTION_ENABLED: "Enabled"
+	MOVEMENT_SPEED_REUCTION_ENABLED_DESC: "All Divisions will move at a much slower speed between tiles."
+	reduce_movement_speed_idea: "MOVEMENT SPEED GAMERULE"

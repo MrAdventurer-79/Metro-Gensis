@@ -148,7 +148,7 @@ ideas = {
 			}
 		}
 		VDN_resources = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 			}
@@ -160,7 +160,7 @@ ideas = {
 	        }
 		}
 		VDN_communication_wires = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 			}
@@ -173,7 +173,7 @@ ideas = {
 	        }
 		}
 		VDN_equipment_standards  = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 			}
@@ -202,7 +202,7 @@ ideas = {
 			}
 		}
 		VDNKh_funding_expansions  = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 				NOT = { has_country_flag = VDNK_threat_from_botanical }
@@ -216,7 +216,7 @@ ideas = {
 	        }
 		}
 		VDN_botanical_scare_3  = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {}
 
@@ -228,7 +228,7 @@ ideas = {
 	        }
 		}
 		VDN_botanical_scare_2  = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {}
 
@@ -240,7 +240,7 @@ ideas = {
 	        }
 		}
 		VDN_botanical_scare_1  = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {}
 
@@ -252,7 +252,7 @@ ideas = {
 	        }
 		}
 		VDN_botanical_threat  = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {}
 
@@ -265,7 +265,7 @@ ideas = {
 		}
 
 		VDN_prioritize_internal_citizens  = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {}
 
@@ -279,7 +279,7 @@ ideas = {
 		}
 
 		VDN_economic_power  = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {}
 
@@ -301,7 +301,7 @@ ideas = {
 			}
 		}
 		VDN_peaceful_export_economy  = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 			allowed = {
 				NOT = {
 					OR = {
@@ -316,7 +316,7 @@ ideas = {
 	        }
 		}
 		VDN_nationalist_zeal = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 			}
@@ -330,7 +330,7 @@ ideas = {
 		}
 
 		VDN_lack_of_stalkers = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_lack_of_stalkers_idea
 
 			allowed = {
 			}
@@ -358,7 +358,7 @@ ideas = {
 		}
 
 		VDN_technician_support_weapons = {
-			picture = RED_revolutionist_plot
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 			}
@@ -385,7 +385,7 @@ ideas = {
 			}
 	    }
 		VDN_home_priority = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 			}
@@ -398,7 +398,7 @@ ideas = {
 	        }
 		}
 		VDN_economic_commonwealth = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 			}
@@ -410,7 +410,7 @@ ideas = {
 	        }
 		}
 		VDN_trade_commonwealth = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 			}
@@ -423,7 +423,7 @@ ideas = {
 	        }
 		}
 		VDN_military_armed_forces_1 = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 			}
@@ -437,7 +437,7 @@ ideas = {
 	        }
 		}
 		VDN_military_armed_forces_2 = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 			}
@@ -484,7 +484,7 @@ ideas = {
 		################ 
 
 		VDNK_commonwealth_formed = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 			}
@@ -513,7 +513,7 @@ ideas = {
 	        }
 	    }
 		VDN_economic_reforms_idea = {
-			picture = GFX_idea_second_five_year_plan
+			picture = GFX_VDN_generic_idea
 
 			allowed = {
 			}

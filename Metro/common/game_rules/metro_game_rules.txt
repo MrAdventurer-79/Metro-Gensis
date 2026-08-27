@@ -1,3 +1,20 @@
+## Gameplay
+
+reduce_unit_movement_speed = {
+	name = "MOVEMENT_SPEED_NAME"
+	group = "RULE_GROUP_GAMEPLAY"
+	default = {
+		name = "DISABLED"
+		text = "MOVEMENT_SPEED_REUCTION_DISABLED"
+		desc = "MOVEMENT_SPEED_REUCTION_DISABLED_DESC"
+	}
+	option = {
+		name = "ENABLED"
+		text = "MOVEMENT_SPEED_REUCTION_ENABLED"
+		desc = "MOVEMENT_SPEED_REUCTION_ENABLED_DESC"
+	}
+}
+
 random_events_good_allow = {
 	name = "RULE_RANDOM_EVENTS_GOOD"
 	group = "RULE_GROUP_GAMEPLAY"
@@ -27,21 +44,7 @@ random_events_bad_allow = {
 	}
 }
 
-april_fools_RCH_tree = {
-	name = "RCH_APRIL_FOOLS_TREE"
-	group = "RULE_GROUP_GAMEPLAY"
-	default = {
-		name = "DISABLED"
-		text = "RCH_APRIL_FOOLS_TREE_DISABLED"
-		desc = "RCH_APRIL_FOOLS_TREE_DISABLED_DESC"
-	}
-	option = {
-		name = "ENABLED"
-		text = "RCH_APRIL_FOOLS_TREE_ENABLED"
-		desc = "RCH_APRIL_FOOLS_TREE_ENABLED_DESC"
-	}
-}
-
+## AI
 
 RED_ai_behavior = {
 	name = "RED_AI_BEHAVIOR"
@@ -162,3 +165,22 @@ ARB_ai_behavior = {
 		desc = "RULE_OPTION_ARB_STALKER_DESC"
 	}
 }
+
+## Easter Eggs
+
+april_fools_RCH_tree = {
+	name = "RCH_APRIL_FOOLS_TREE"
+	group = "RULE_GROUP_EASTER_EGG"
+	default = {
+		name = "DISABLED"
+		text = "RCH_APRIL_FOOLS_TREE_DISABLED"
+		desc = "RCH_APRIL_FOOLS_TREE_DISABLED_DESC"
+	}
+	option = {
+		name = "ENABLED"
+		text = "RCH_APRIL_FOOLS_TREE_ENABLED"
+		desc = "RCH_APRIL_FOOLS_TREE_ENABLED_DESC"
+	}
+}
+
+##

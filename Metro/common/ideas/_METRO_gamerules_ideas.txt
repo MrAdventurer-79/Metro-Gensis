@@ -1,0 +1,10 @@
+ideas = {
+    hidden_ideas = {
+        reduce_movement_speed_idea = {
+            picture = GFX_idea_unknown
+            modifier = {
+                army_speed_factor = -2
+            }
+        }
+    }
+}

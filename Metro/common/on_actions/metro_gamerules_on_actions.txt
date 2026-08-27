@@ -25,6 +25,18 @@ on_actions = {
 					set_global_flag = random_events_bad_disabled
 				}
 			}
+
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = reduce_unit_movement_speed
+						option = ENABLED
+					}
+				}
+				every_country = {
+					add_ideas = reduce_movement_speed_idea 
+				}
+			}
 		}
 	}
 }
