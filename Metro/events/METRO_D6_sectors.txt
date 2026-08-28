@@ -13,7 +13,14 @@ country_event = {
 
 	option = {
 		name = metro_d6_sector.1.a
-		add_political_power = 50
+		106 = {
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+    			type = industrial_complex
+    			level = 5
+    			instant_build = yes
+			}
+		}
 	}
 }
 
@@ -27,7 +34,14 @@ country_event = {
 
 	option = {
 		name = metro_d6_sector.2.a
-		add_manpower = 25
+		106 = {
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+    			type = arms_factory
+    			level = 5
+    			instant_build = yes
+			}
+		}
 	}
 }
 
@@ -41,7 +55,12 @@ country_event = {
 
 	option = {
 		name = metro_d6_sector.3.a
-		add_command_power = 25
+		add_ideas = D6_command_post_1
+	}
+
+	option = {
+		name = metro_d6_sector.3.a
+		add_ideas = D6_command_post_2
 	}
 }
 
@@ -55,8 +74,11 @@ country_event = {
 
 	option = {
 		name = metro_d6_sector.4.a
-		add_political_power = 25
-		add_command_power = 10
+		add_ideas = D6_comms_hub_1
+	}
+	option = {
+		name = metro_d6_sector.4.a
+		add_ideas = D6_comms_hub_2
 	}
 }
 
@@ -70,7 +92,28 @@ country_event = {
 
 	option = {
 		name = metro_d6_sector.5.a
-		army_experience = 25
+		106 = {
+			add_resource = {
+				type = scrap
+				amount = 32
+			}
+			add_resource = {
+				type = electronics
+				amount = 32
+			}
+			add_resource = {
+				type = components
+				amount = 32
+			}
+			add_resource = {
+				type = chemicals
+				amount = 32
+			}
+			add_resource = {
+				type = alloys
+				amount = 32
+			}
+		}
 	}
 }
 
@@ -84,7 +127,18 @@ country_event = {
 
 	option = {
 		name = metro_d6_sector.6.a
-		army_experience = 25
+		custom_effect_tooltip = unlock_industry_future_toolkit
+		set_country_flag = unlock_industry_future_toolkit_tech
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = unlock_industry_technician_toolkit
+		set_country_flag = unlock_industry_technician_toolkit_tech
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = unlock_industry_technician_machining
+		set_country_flag = unlock_industry_technician_machining_tech
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = unlock_industry_technician_pressing
+		set_country_flag = unlock_industry_technician_pressing_tech
+		custom_effect_tooltip = generic_skip_one_line_tt
 	}
 }
 
@@ -98,8 +152,53 @@ country_event = {
 
 	option = {
 		name = metro_d6_sector.7.a
-		army_experience = 50
-		add_war_support = 0.02
+		set_temp_variable = { bullet_to_gain = 10000 }
+		add_bullet_with_tooltip_effect = yes
+		add_equipment_to_stockpile = {
+			type = conventional_infantry_equipment_3
+			amount = 100
+			producer = RUS
+		}
+		add_equipment_to_stockpile = {
+			type = conventional_infantry_equipment_4
+			amount = 75
+			producer = RUS
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_gear_equipment_3
+			amount = 50
+			producer = RUS
+		}
+		add_equipment_to_stockpile = {
+			type = special_forces_equipment_spetsnaz 
+			amount = 50
+			producer = RUS
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment 
+			amount = 50
+			producer = RUS
+		}
+		add_equipment_to_stockpile = {
+			type = flamethrower_equipment_2  
+			amount = 50
+			producer = RUS
+		}
+		add_equipment_to_stockpile = {
+			type = explosive_equipment_2   
+			amount = 50
+			producer = RUS
+		}
+		add_equipment_to_stockpile = {
+			type = gatling_equipment_2    
+			amount = 50
+			producer = RUS
+		}
+		add_equipment_to_stockpile = {
+			type = piercing_equipment_1    
+			amount = 50
+			producer = RUS
+		}
 	}
 }
 
@@ -113,7 +212,11 @@ country_event = {
 
 	option = {
 		name = metro_d6_sector.8.a
-		add_stability = 0.02
+		add_resource = {
+    		type = oil
+    		amount = 100
+    		state = 106
+		}
 	}
 }
 
@@ -127,7 +230,20 @@ country_event = {
 
 	option = {
 		name = metro_d6_sector.9.a
-		add_political_power = 100
+		add_ideas = D6_biolab_1
+	}
+
+	option = {
+		name = metro_d6_sector.9.b
+		custom_effect_tooltip = unlock_industry_refinery_3
+		set_country_flag = unlock_industry_refinery_3_tech
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = unlock_industry_refinery_4
+		set_country_flag = unlock_industry_refinery_4_tech
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = unlock_industry_refinery_5
+		set_country_flag = unlock_industry_refinery_5_tech
+		custom_effect_tooltip = generic_skip_one_line_tt
 	}
 }
 
@@ -141,8 +257,6 @@ country_event = {
 
 	option = {
 		name = metro_d6_sector.10.a
-		add_political_power = 150
-		add_command_power = 50
-		add_war_support = 0.05
+		
 	}
 }

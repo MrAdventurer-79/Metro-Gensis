@@ -1,9 +1,9 @@
 # Д-6 sector excavation effects
 # Excavation rates per level (progress out of 100):
 #   Level 1 (S1):        +2.0/day  (~50 days)
-#   Level 2 (S2-S6):     +1.0/day  (~100 days)
-#   Level 3 (S7-S9):     +0.5/day  (~200 days)
-#   Level 4 (S10):       +0.25/day (~400 days)
+#   Level 2 (S2-S6):     +2.0/day  (~50 days)
+#   Level 3 (S7-S9):     +2.0/day  (~50 days)
+#   Level 4 (S10):       +2.0/day  (~50 days)
 
 d6_start_sector_1 = {
 	custom_effect_tooltip = D6_START_SECTOR_L1_tt
@@ -132,17 +132,17 @@ d6_excavation_daily_tick = {
 				check_variable = { global.d6_active_sector > 1 }
 				check_variable = { global.d6_active_sector < 7 }
 			}
-			set_temp_variable = { d6_rate_temp = 1 }
+			set_temp_variable = { d6_rate_temp = 2 }
 		}
 		else_if = {
 			limit = {
 				check_variable = { global.d6_active_sector > 6 }
 				check_variable = { global.d6_active_sector < 10 }
 			}
-			set_temp_variable = { d6_rate_temp = 0.5 }
+			set_temp_variable = { d6_rate_temp = 2 }
 		}
 		else = {
-			set_temp_variable = { d6_rate_temp = 0.25 }
+			set_temp_variable = { d6_rate_temp = 2 }
 		}
 
 		add_to_variable = { global.d6_sector_progress = d6_rate_temp }

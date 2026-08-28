@@ -90,3 +90,11 @@
  metro_d6_sector.10.t:0 "The Deep Vault"
  metro_d6_sector.10.d:0 "At the very bottom of Д-6, past the last blast door, lies the chamber the whole complex was built to protect. Launch keys. Target ledgers. The cold arithmetic of the old world's final argument, preserved in perfect order. We descended looking for salvation. We must now decide what we have actually found."
  metro_d6_sector.10.a:0 "The Metro must never know."
+
+ D6_comms_post_1: "Comms-post Operational"
+ D6_comms_post_2: "Comms-post Operational"
+
+ D6_command_post_1: "Command Centre Online"
+ D6_command_post_2: "Command Centre Online"
+
+ D6_biolab_1: "Biolab Active"

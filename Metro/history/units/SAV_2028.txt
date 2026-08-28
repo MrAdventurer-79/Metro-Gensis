@@ -44,7 +44,7 @@ units = {
 	}
 	division = {
 		name = "4th Station Guard"
-		location = 2688
+		location = 2760
 		division_template = "Station Guard"
 		start_experience_factor = 0.3
 
@@ -52,7 +52,7 @@ units = {
 
 	division = {
 		name = "Gate Watchers"
-		location = 2688
+		location = 3738
 		division_template = "Gatekeepers"
 		start_experience_factor = 0.3
 
